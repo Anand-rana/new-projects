@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enroll-x</title>
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/icons/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-select.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <section class="main-container">
+        <div class="mainWrapperBlock">
+            <div class="verFicaion-section">
+                <div class="headerBlock">
+                    <div class="container">
+                        <h2 class="title">Household</h2>
+                        <h3>Additional Information</h3>
+
+                        <div class="dotList">
+                            <ul>
+                                <li><span class="active"></span></li>
+                                <li><span></span></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dataWrapper">
+                    <div class="sideMenuIcon">
+                        <span>Menu</span>
+                    </div>
+                    <div class="container">
+                        <div class="datawrapperRow">
+                            <div class="sidebarBox-Container">
+                                <div class="sidebarBox">
+                                    <div class="navList">
+                                        <ul>
+                                            <li><span>Get Started</span>
+
+                                                <ul class="sub-menu">
+                                                    <li class="visited"><a href="#">Privacy statement</a></li>
+                                                    <li><a href="#" class="active">Communication preferences</a></li>
+                                                    <li><a href="#">Coverage information</a></li>
+                                                    <li><a href="#">Enrollment assistance</a></li>
+                                                    <li><a href="#">Identity verification</a></li>
+                                                    <li><a href="#">Verify with Experian</a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li><span>Household</span>
+
+                                                <ul class="sub-menu">
+                                                    <li><a href="#" class="active">Household size</a></li>
+                                                    <li><a href="#">Applicant</a></li>
+                                                    <li><a href="#">Spouse</a></li>
+                                                    <li><a href="#">Dependent 1</a></li>
+                                                    <li><a href="#">Dependent 2</a></li>
+                                                    <li><a href="#">Current coverage</a></li>
+                                                    <li><a href="#">American Indians / Alaska Natives</a></li>
+                                                    <li><a href="#">Citizenship & Immigration</a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li><span>Income</span>
+
+                                                <ul class="sub-menu">
+                                                    <li><a href="#" class="active">Household income</a></li>
+                                                    <li><a href="#">Current income</a></li>
+                                                    <li><a href="#">Current deductions</a></li>
+                                                    <li><a href="#">Discrepencies</a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li><span>Aditional Questions</span>
+
+                                                <ul class="sub-menu">
+                                                    <li><a href="#" class="active">APTC</a></li>
+                                                    <li><a href="#">Medicaid & CHIP</a></li>
+                                                    <li><a href="#">Special enrollment</a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li><span>Review Application</span>
+
+                                                <ul class="sub-menu">
+                                                    <li><a href="#" class="active">Review & edit</a></li>
+                                                    <li><a href="#">Attestations</a></li>
+                                                    <li><a href="#">Sign & submit</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="side_contactBlock">
+                                        <img src="Images/user-contact.jpg" alt="img" />
+                                        <h3>Need some help?</h3>
+                                        <div class="txt">
+                                            <p>Give us a call and we'll help you warp up these last few steps</p>
+                                        </div>
+                                        <div class="phoneNo">
+                                            <span>1-800-622-8292</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="mainContent-Container">
+                                <div class="mainContent-Wrapper">
+
+                                    <div class="addtionalSection">
+                                        <h2 class="m-title">Additional Information</h2>
+                                        <div class="addtionalBlock">
+
+                                            <div class="addtional-formBlock">
+                                                <!--field-row-->
+                                                <div class="field-row">
+                                                    <h2>Current coverage </h2>
+                                                    <div class="field-group">
+                                                        <!--use checked class for success , .error class for change bullet-->
+                                                        <h4 class="sub-heading">Are any of these people currently
+                                                            enrolled in health coverage? Don’t select a person’s name
+                                                            if their coverage will end on or before [date].
+                                                            <span class="info-ico hidden-xs" data-toggle="popover"
+                                                                data-placement="bottom"><i
+                                                                    class="icon-help-round"></i></span></h4>
+                                                                    <div class="pop-over-wrapper hidden">
+                                                                        <p>Don’t select a person’s name if they currently don’t have coverage or their coverage will end on or before [date]. This helps us know if you qualify for help paying for coverage.</p>
+                                                                        <p>If you select a person’s name, we’ll ask for more information about current coverage next.</p>
+                                                                    </div>
+
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <div class="inner_opt_list">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <label class="ch-checkbox">
+                                                                                <input type="checkbox" />
+                                                                                <span class="ch-ico">[FNLNS 1]</span>
+                                                                            </label>
+                                                                        </li>
+                                                                        <li>
+                                                                            <label class="ch-checkbox">
+                                                                                <input type="checkbox" />
+                                                                                <span class="ch-ico">[FNLNS 2]</span>
+                                                                            </label>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <label class="ch-checkbox">
+                                                                                <input type="checkbox" />
+                                                                                <span class="ch-ico">[FNLNS 3]</span>
+                                                                            </label>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <label class="ch-checkbox">
+                                                                                <input type="checkbox" />
+                                                                                <span class="ch-ico">None of these
+                                                                                    people</span>
+                                                                            </label>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <h4>What type of coverage does [FNLNS] have? Select if
+                                                                    [First Name Last Name] has coverage through
+                                                                    HealthCare.gov or a state-based Marketplace.
+                                                                    <span class="info-ico hidden-xs" data-toggle="popover"
+                                                                        data-placement="bottom"><i
+                                                                            class="icon-help-round"></i></span>
+                                                                </h4>
+                                                                <div class="pop-over-wrapper hidden">
+                                                                    <p>Select the type of coverage this person is currently enrolled in:</p>
+                                                                    <p>- Marketplace coverage: Select this if they currently have coverage through a Marketplace plan. If their coverage ends before [January 1, 2018], select “Back” at the top of the screen and uncheck this person’s name.</p>
+                                                                    <p><ul>
+                                                                        <li>- Medicaid</li>
+                                                                        <li> - Children’s Health Insurance Program (CHIP)</li>
+                                                                        <li>- Medicare</li>
+                                                                        <li> - TRICARE: A health care program for uniformed services members, retirees, and their families</li>
+                                                                        <li>- Veterans Affairs (VA) Health Care Program: Health coverage for veterans (and, in certain circumstances, their dependents or survivors) who served in the active military, naval, or air service and were honorably discharged or released</li>
+                                                                        <li> - Peace Corps: Health coverage provided to Peace Corps volunteers during service</li>
+                                                                        <li> - Marketplace coverage</li>
+                                                                        <li> - Other</li>
+                                                                    </ul>
+                                                                     </p>
+                                                                    <p>A person can have more than one type of coverage, so select all that apply. People who have other coverage may not be able to get help paying for coverage through the Marketplace.</p>
+                                                                    <p>If a person is currently enrolled in a Marketplace plan with advance payments of the premium tax credit (APTC) and is found eligible for Medicaid, CHIP, or other qualifying health coverage, you should end their Marketplace coverage with APTC. Otherwise, this person (or the person who claims them on their taxes) may need to pay back the APTC they got for the months this person had other qualifying health coverage.</p>
+                                                                </div>
+
+                                                                <div class="inner-field-row_field-group padding-top-2x">
+                                                                    <div class="inner_opt_list">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">[State
+                                                                                        Medicaid program name]</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">[State CHIP
+                                                                                        program name]</span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Medicare</span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">TRICARE</span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Veterans
+                                                                                        Affairs (VA) Health Care
+                                                                                        Program</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Peace Corps</span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">COBRA
+                                                                                    </span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Retiree Health
+                                                                                        Benefits
+                                                                                    </span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Coverage
+                                                                                        through a job <em>(or another
+                                                                                            person's job, like a spouse
+                                                                                            or parent)
+                                                                                        </em></span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Medicare
+                                                                                        </em></span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Other coverage
+                                                                                        </em></span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <h4>Are any of these people also enrolled in this
+                                                                    coverage? <span class="opt-txt">(optional)</span></h4>
+                                                                <div class="inner-field-row_field-group">
+                                                                    <div class="inner_opt_list">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">[FNLNS 1]</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">[FNLNS 2]</span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">[FNLNS 3]</span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">None of these
+                                                                                        people</span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <h4>Tell us about [FNLNS]'s Medicare coverage
+                                                                    <span class="info-ico hidden-xs" data-toggle="popover"
+                                                                        data-placement="bottom"><i
+                                                                            class="icon-help-round"></i></span> <span
+                                                                        class="opt-txt">(optional)</span></h4>
+
+                                                                        <div class="pop-over-wrapper hidden">
+                                                                            <p>You can find this person’s Medicare Number by looking at their red, white, 
+                                                                                and blue Medicare card. If this person already has Medicare coverage, 
+                                                                                they can’t enroll in a Marketplace health plan instead.</p> 
+                                                                            <p><a href="https://www.healthcare.gov/help/information-on-medicare" target="_blank"> [Learn more about how Medicare works with the Marketplace] </a></p>
+                                                                        </div>
+
+                                                                <div class="inner-field-row_field-group">
+                                                                    <div class="row gutter-10">
+
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-none">
+                                                                                <label>Medicare Number</label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Medicare Number">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <h4>Tell us about [FNLNS]'s TRICARE coverage
+                                                                    <span class="opt-txt">(optional)</span></h4>
+
+                                                                <div class="inner-field-row_field-group">
+                                                                    <div class="row gutter-10">
+
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-none">
+                                                                                <label>Policy Number <span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Policy Number">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-none">
+                                                                                <label>Member ID <span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Member ID">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <h4>Tell us about [FNLNS]'s VA Health Care Program
+                                                                    coverage.
+                                                                    <span class="opt-txt">(optional)</span></h4>
+
+                                                                <div class="inner-field-row_field-group">
+                                                                    <div class="row gutter-10">
+
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-none">
+                                                                                <label>Plan ID <span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Plan ID">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-none">
+                                                                                <label>Member ID <span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Member ID">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <h4>Tell us about [FNLNS]'s full benefit coverage.
+                                                                    <span class="info-ico hidden-xs" data-toggle="popover"
+                                                                        data-placement="bottom" data-content="This information is usually on this person’s insurance card."><i
+                                                                            class="icon-help-round"></i></span>
+                                                                    <span class="opt-txt">(optional)</span></h4>
+
+                                                                <div class="inner-field-row_field-group">
+                                                                    <div class="row gutter-10">
+
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-md">
+                                                                                <label>Name of health plan <span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Health plan">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-md">
+                                                                                <label>Policy Number<span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Policy Number">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-12">
+                                                                            <div class="c-field c-none">
+                                                                                <label>Member ID<span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Member ID">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <h4>Tell us about [FNLNS]'s limited benefit coverage.
+
+                                                                    <span class="info-ico hidden-xs" data-toggle="popover"
+                                                                        data-placement="bottom" data-content="This information is usually on this person’s insurance card."><i
+                                                                            class="icon-help-round"></i></span>
+                                                                    <span class="opt-txt">(optional)</span></h4>
+
+                                                                <div class="inner-field-row_field-group">
+                                                                    <div class="row gutter-10">
+
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-md">
+                                                                                <label>Name of health plan <span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Health plan">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-md">
+                                                                                <label>Policy Number<span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Policy Number">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-12">
+                                                                            <div class="c-field c-none">
+                                                                                <label>Member ID<span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Member ID">
+                                                                                </div>
+                                                                                
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <h4>Tell us about [FNLNS]'s coverage. <span class="info-ico hidden-xs"
+                                                                        data-toggle="popover" data-placement="bottom"
+                                                                        data-content="This information is usually on this person’s insurance card."><i
+                                                                            class="icon-help-round"></i></span>
+                                                                    <span class="opt-txt">(optional)</span></h4>
+
+                                                                <div class="inner-field-row_field-group">
+                                                                    <div class="row gutter-10">
+
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-md">
+                                                                                <label>Name of health plan <span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                          placeholder="Health plan">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-md">
+                                                                                <label>Policy Number<span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Policy Number">
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-12">
+                                                                            <div class="c-field c-md">
+                                                                                <label>Member ID<span class="opt-txt">(optional)</span></label>
+                                                                                <div class="data-field">
+                                                                                    <input type="text" class="c-field-control"
+                                                                                        placeholder="Member ID">
+                                                                     
+                                                                                    </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                    <label class="ch-checkbox">
+                                                                        <input type="checkbox" />
+                                                                        <span class="ch-ico">This is limited benefits
+                                                                            coverage (like a school accident policy).</span>
+                                                                    </label>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="field-row">
+                                                    <h2>QHP</h2>
+                                                    <div class="field-group">
+                                                        <h4 class="sub-heading">What is the relationship between
+                                                            [FNLNS] and [FNLNS]</h4>
+                                                        <div class="margin-top-3x">
+                                                            <div class="row gutter-10">
+                                                                <div class="col-md-6 col-sm-6">
+                                                                    <div class="c-field c-none">
+                                                                        <div class="select-control data-field">
+                                                                            <select class="selectpicker" data-style="c-field-control"
+                                                                                title="Select">
+                                                                                <option selected>Select</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <h4>You selected [""Other relative""/""Other
+                                                                    unrelated"" (Selected Family Relationship)] for the
+                                                                    relationship of [Name 1-FNLNS] to [Name 2-FNLNS].</h4>
+                                                                <div class="inner-field-row_field-group">
+                                                                    <div class="row gutter-10">
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-none">
+                                                                                <div class="select-control data-field">
+                                                                                    <select class="selectpicker"
+                                                                                        data-style="c-field-control"
+                                                                                        title="Select">
+                                                                                        <option selected>Select</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <h4>You told us that [Name 1-FNLNS] is the [Selected
+                                                                    Family relationship - see rules ] of [Name
+                                                                    2-FNLNS].</h4>
+                                                                <div class="inner-field-row_field-group">
+                                                                    <div class="row gutter-10">
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-none">
+                                                                                <div class="select-control data-field">
+                                                                                    <select class="selectpicker"
+                                                                                        data-style="c-field-control"
+                                                                                        title="Select">
+                                                                                        <option selected>Select</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <h4>Is the relationship between [FNLNS, applicant] and
+                                                                    [Tax Filer Claiming FNLNS] also any of these?
+                                                                </h4>
+                                                                <div class="inner-field-row_field-group">
+                                                                    <div class="row gutter-10">
+                                                                        <div class="col-md-6 col-sm-6">
+                                                                            <div class="c-field c-none">
+                                                                                <div class="select-control data-field">
+                                                                                    <select class="selectpicker"
+                                                                                        data-style="c-field-control"
+                                                                                        title="Select">
+                                                                                        <option selected>Select</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="field-row">
+                                                    <h2>MAGI Questions</h2>
+                                                    <div class="field-group">
+                                                        <h4 class="sub-heading">Do any of these children live with more
+                                                            than one parent, through birth or adoption?
+                                                            <span class="info-ico hidden-xs" data-toggle="popover"
+                                                                data-placement="bottom"><i
+                                                                    class="icon-help-round"></i></span> <span class="opt-txt">(optional)</span>
+                                                        </h4>
+
+                                                        <div class="pop-over-wrapper hidden">
+                                                            <p>Select a person’s name if one or more of these applies (even if you’re not sure these conditions will qualify them for health coverage based on their disability):</p>
+                                                            <p>
+                                                            <ul>
+                                                                <li>
+                                                                - They’re blind, deaf, or hard of hearing.</li>
+                                                                <li>- They get Social Security Disability Insurance (SSDI) or Supplemental Security Insurance (SSI).</li>
+                                                                <li>- They have a physical, cognitive, intellectual, or mental health condition, which may include one of more of these:</li>
+                                                                <li>- Difficulty doing errands, like visiting a doctor’s office or shopping</li>
+                                                                <li>- Serious difficulty concentrating, remembering, or making decisions</li>
+                                                                <li>- Difficulty climbing or walking stairs</li>
+                                                            </ul>
+                                                        </p>
+                                                            <p>If a person needs help only because they’re too young to do these things for themselves, don’t select their name. Select a child’s name only if one or more of these applies:</p>
+                                                           <p>
+                                                            <ul>
+                                                                <li>- They have limited ability to do things most children of the same age can do</li>
+                                                                <li>- They need or use more health care than most children of the same age</li>
+                                                                <li>- They get special education services or services under a Section 504 plan</li>
+                                                            </ul></p>
+                                                            <p>If you select at least one person’s name, we’ll send your Marketplace application to your state Medicaid office. Your state office will determine if a person qualifies for Medicaid based on the disability. Your state Medicaid office will contact you for more information. </p>
+                                                            <p>If a person doesn’t qualify for Medicaid based on a disability, they may still be eligible for Medicaid based on their income, or they may qualify for a Marketplace plan with a premium tax credit. Plans can’t deny a person coverage based on a disability. If we think a person is eligible for Medicaid based on their income (which you’ll enter later), we’ll send their information to the state Medicaid agency later in the process.</p>
+                                                        </div>
+
+                                                        <div class="inner-field-row">
+                                                            <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                <div class="inner_opt_list">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <label class="ch-checkbox">
+                                                                                <input type="checkbox" />
+                                                                                <span class="ch-ico">[FNLNS 1]</span>
+                                                                            </label>
+                                                                        </li>
+                                                                        <li>
+                                                                            <label class="ch-checkbox">
+                                                                                <input type="checkbox" />
+                                                                                <span class="ch-ico">[FNLNS 2]</span>
+                                                                            </label>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <label class="ch-checkbox">
+                                                                                <input type="checkbox" />
+                                                                                <span class="ch-ico">[FNLNS 3]</span>
+                                                                            </label>
+                                                                        </li>
+
+                                                                        <li>
+                                                                            <label class="ch-checkbox">
+                                                                                <input type="checkbox" />
+                                                                                <span class="ch-ico">None of these
+                                                                                    people</span>
+                                                                            </label>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="margin-top-6x">
+                                                            <h4 class="sub-heading">Do any of these people need help
+                                                                with daily activities like dressing or using the
+                                                                bathroom, or live in a medical facility or nursing
+                                                                home?
+                                                                <span class="info-ico hidden-xs" data-toggle="popover"
+                                                                    data-placement="bottom" ><i
+                                                                        class="icon-help-round"></i></span> <span class="opt-txt">(optional)</span>
+                                                            </h4>
+
+                                                            <div class="pop-over-wrapper hidden">
+                                                                <p>Select a person’s name if they need help with daily activities, including seeing, hearing, walking, eating, sleeping, standing, lifting, bending, breathing, learning, reading, communicating, thinking, and working. Select a person’s name if they have a cognitive or mental health condition, and need help with these activities through coaching or instruction.</p>
+                                                                <p>If a person needs help only because they’re too young to do these things for themselves, don’t select their name.</p>
+                                                            </div>
+
+                                                            <div class="inner-field-row">
+                                                                <div class="inner-field-group padding-top-2x padding-bottom-2x">
+                                                                    <div class="inner_opt_list">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">[FNLNS 1]</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">[FNLNS 2]</span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">[FNLNS 3]</span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">None of these
+                                                                                        people</span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="btn-field">
+                                                <div class="row gutter-10">
+                                                    <div class="col-md-6 col-sm-6">
+                                                        <button class="button margin-bottom-2x button-font-uppercase button-shadow button-block  button-font-large button-grey button-font-bold button-height-large">BACK</button>
+                                                    </div>
+                                                    <div class="col-md-6 col-sm-6">
+                                                        <button class="button margin-bottom-2x button-font-uppercase button-shadow button-block  button-font-large button-green button-font-bold button-height-large">CONTINUE</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advBlock">
+                                <div class="adv-panelBox">
+                                    <div class="adv_titleInfo">
+                                        <img src="Images/adv-1.jpg" alt="img" />
+                                        <h3>Molina Marketplace Choice <br /> Bronze Plan</h3>
+                                    </div>
+                                    <div class="adv_plandtl">
+
+                                        <div class="_planType">
+                                            <span class="_label">View Plan Details</span>
+                                            <span class="_type">Bronze</span>
+                                        </div>
+
+                                        <div class="_planDate">
+                                            <h3>Effective date: <span class="_date">01/01/2017</span>
+                                                <span class="info-ico"><i class="icon-help-round"></i></span>
+                                            </h3>
+                                        </div>
+
+                                        <div class="_priceRate">
+                                            <h4>Monthly Payment</h4>
+                                            <h3>$97</h3>
+                                            <span class="_prev">was $180</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="adv-panelBox">
+                                    <div class="adv_titleInfo">
+                                        <img src="Images/adv-2.jpg" alt="img" />
+                                        <h3>DentaQuest Choice <br /> Bronze Plan</h3>
+                                    </div>
+                                    <div class="adv_plandtl">
+
+                                        <div class="_planType">
+                                            <span class="_label">View Plan Details</span>
+                                            <span class="_type">Bronze</span>
+                                        </div>
+
+                                        <div class="_planDate">
+                                            <h3>Effective date: <span class="_date">01/01/2017</span>
+                                                <span class="info-ico"><i class="icon-help-round"></i></span>
+                                            </h3>
+                                        </div>
+
+                                        <div class="_priceRate">
+                                            <h4>Monthly Payment</h4>
+                                            <h3>$24</h3>
+                                            <span class="_prev">was $65</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="oInfoBlock">
+                                    <h3>Need more <br /> time?</h3>
+                                    <p>You can save the application at any point and return to it at a later time.</p>
+                                    <button class="button button-font-uppercase button-shadow button-min-230  button-font-small button-grey">Save
+                                        APPLICATION & EXIT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function () {
+            $('.sub-menu').hide();
+            $('.navList > ul > li > span').click(function (e) {
+                $('.sub-menu').stop().slideUp();
+                $('.navList > ul > li > span').removeClass('active');
+                $(this).addClass('active');
+                $(this).next('.sub-menu').stop().slideToggle();
+            });
+            $('.sideMenuIcon').click(function () {
+                $('.sidebarBox-Container .sidebarBox').toggleClass('sideOpen');
+                $(this).toggleClass('isActive');
+                if ($(this).hasClass("isActive")) {
+                    console.log("sdfsd");
+                    $(this).find('span').text("Close");
+                } else {
+                    $(this).find('span').text("Menu");
+                }
+            });
+
+
+            $('.exapand-data').hide();
+            $('.ex-list-conainer').click(function () {
+                $(this).next().stop().slideToggle("fast", "swing");
+                $(this).parent().toggleClass('active');
+                $(this).find('span.exp-ico').find('i').toggleClass('icon-plus');
+                $(this).find('span.exp-ico').find('i').toggleClass('icon-minus');
+            });
+        });
+
+        $(function () {
+            var clicked = false;
+            var onLeave = function () {
+                if (!clicked) {
+                    $(this).popover('hide');
+                }
+
+            };
+            var onEnter = function (event) {
+                clicked = false;
+                if (!clicked) {
+                    $(this).popover('show');
+                }
+            };
+            var onclick = function (event) {
+                $('[data-toggle="popover"]').not(this).popover('hide');
+                $(this).toggleClass('openInfo');
+                if (clicked) {
+                    $(this).popover('hide');
+                }
+                else if (!clicked) {
+                    $(this).popover('show');
+                }
+                clicked = !clicked;
+                event.stopPropagation();
+            }
+
+
+
+            $('[data-toggle="popover"]').popover({
+                content: function () {
+                    return $(this).parent().next('.pop-over-wrapper').html();
+                },
+                html: true,
+                trigger: 'manual'
+            }).on('mouseenter', onEnter)
+                .on('mouseleave', onLeave)
+                .on('click', onclick)
+                .on("shown.bs.popover", function () {
+                    //
+                    if ($(this).parent().next().hasClass("pop-over-wrapper")) {
+                        $(this).next(".popover").addClass("popover-lg pop-wrapper-content");
+                    }
+
+                });
+
+
+            $(document).click(function (event) {
+                if (event.target.className != 'icon-help-round') {
+                    $('[data-toggle="popover"]').popover('hide');
+                    $('[data-toggle="popover"]').removeClass('openInfo');
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

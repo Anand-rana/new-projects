@@ -1,0 +1,6770 @@
+/* --------------------< media Queries >-------------------- */
+
+.hold-income .dropdown-backdrop {
+    z-index: -1;
+}
+
+.sing-dropdown .return-btn.media-save,
+.plan-enrol-outer,
+.plan-filter-data {
+    display: none;
+}
+
+.help-line,
+.hide-big {
+    display: none !important;
+}
+
+.hide-media-big {
+    display: block;
+}
+
+.plan-qouting .left-nav-bar {
+    width: 32%;
+}
+
+.footer-links {
+    display: none;
+}
+
+.mobile-filter {
+    display: none;
+}
+
+.edit-save {
+    display: none;
+}
+
+.respo-img {
+    display: none;
+}
+
+.houseselect .bootstrap-select.btn-group .dropdown-menu {
+    z-index: 999;
+}
+
+.newselectpicker {
+    display: none;
+    background-color: #fff;
+    z-index: 98;
+    border: 1px solid #909090;
+    border-radius: 10px;
+    box-shadow: none;
+    white-space: nowrap;
+    color: #303130;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: none;
+    min-height: 45px;
+    padding: 7px 20px 6px;
+    width: 100%;
+}
+
+.newselectpicker:after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px dashed #000;
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    content: "";
+}
+
+.newselectpicker:focus {
+    border-color: #1686ba;
+}
+
+@media screen and (min-width: 768px) {
+    .table-responsive.household-coverage {
+        overflow: visible;
+    }
+    .new-table {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width:1360px) {
+    .custom-zip {
+        padding: 100px 15px 0;
+    }
+    .monthaly-sav-ing {
+        margin-top: 20px
+    }
+}
+
+@media only screen and (max-width:1239px) {
+    .container {
+        width: 100%;
+    }
+    /*.main-plan-qoute {padding-top: 39px;}*/
+}
+
+@media only screen and (max-width:1230px) {
+    /*.sticky-enroll .hmo{ width: 38%; }*/
+    /*.plan-enrol-top.sticky-enroll .main-enroll div.call-action-enroll { width: 42%; }*/
+    /*.plan-enrol-top .main-enroll div.call-action-enroll{ width:40%; }*/
+    .hmo {
+        width: 40%;
+    }
+    .container {
+        width: 1024px;
+    }
+    .right-nav ul li.need-help {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .left-nav-bar .navbar-brand {
+        position: absolute;
+    }
+    .header .nav.navbar-nav {
+        float: left;
+        padding: 30px 0 0 80px;
+    }
+    .header .nav.navbar-nav li a {
+        padding: 2px 15px;
+    }
+    .navbar-nav>li.language-part span {
+        padding: 2px 0 0;
+    }
+    .navbar-nav>li.language-part {
+        padding-left: 50px;
+        padding-top: 0;
+    }
+    .partner ul li {
+        padding-left: 8.8%;
+    }
+    .call-section .title-main {
+        font-size: 30px;
+    }
+    .call-section span {
+        font-size: 50px;
+    }
+    .call-action-enroll {
+        padding-left: 25px;
+    }
+    .main-plan-coverage {
+        padding: 50px 0;
+    }
+    .sticky-enroll .call-action-enroll {
+        width: 33%;
+    }
+    .household-edit-page .house-text {
+        padding: 0px;
+    }
+    .household-edit-page .house-text p {
+        font-size: 24px;
+    }
+    .edithouse .edit-house-hold {
+        bottom: inherit;
+        padding: 0 0 20px;
+        height: auto;
+    }
+    .who-needs-insurence {
+        width: 31%;
+        padding-right: 20px;
+    }
+    .who-needs-insurence.last-insu {
+        padding: 25px 20px 0;
+    }
+    .hold-income label {
+        font-size: 17px;
+    }
+    .dollar-price h3 {
+        font-size: 55px;
+    }
+    .my-age>label {
+        font-size: 17px;
+    }
+    .my-age img {
+        width: 16px;
+    }
+    .person-main,
+    .me {
+        font-size: 17px;
+    }
+    .sort-by .detail-household {
+        width: 100%;
+    }
+    .boot-pagination {
+        clear: both;
+        margin: 0 0 30px;
+    }
+    .description-box {
+        float: left;
+        width: 100%;
+    }
+    .left-section>span {
+        font-size: 18px;
+    }
+    .detuctable span {
+        font-size: 34px;
+    }
+    .detuctable.service ul li {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .monthly-pay h1 {
+        font-size: 70px;
+        line-height: 68px;
+    }
+    .monthly-pay h3 {
+        font-size: 22px;
+    }
+    .description-box .bottom-center {
+        margin-top: 10px;
+    }
+    .call-section .title-main {
+        font-size: 30px;
+        padding-left: 46px;
+    }
+    .sign-in .left-nav-bar .navbar-brand {
+        left: auto;
+        top: 0;
+    }
+    .plan-qouting .left-nav-bar .navbar-brand {
+        position: static;
+    }
+    .monthly-pay h1 {
+        font-size: 60px;
+    }
+    .house-text {
+        width: auto;
+    }
+    .household-edit-page .house-text {
+        width: 60%;
+    }
+    .household-edit-page .house-text p {
+        font-size: 22px;
+    }
+    .edit-house-hold .hold-income {
+        margin: 0 0 10px;
+        width: 100%;
+    }
+    .hold-income label {
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .edit-house-hold .houseselect .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        width: 100%
+    }
+    .edit-house-hold .hold-income .field-in input {
+        width: 100%;
+    }
+    .edit-house-hold .house-income>p {
+        padding-top: 10px;
+    }
+    .plan-enrol-top .main-enroll .call-action-enroll {
+        width: 44%;
+        padding-left: 0;
+    }
+    .plan-qouting .sticky-enroll .call-action-enroll {
+        float: right;
+        padding-left: 0;
+        /*width: 34%;*/
+    }
+    .sticky-enroll .price-enroll.monthly-pay {
+        width: auto;
+    }
+    .insurance-company ul li span {
+        width: 80%;
+    }
+    .btn-cancel-add button.close-btn {
+        float: left;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .market-place .market-box .box {
+        min-height: 502px;
+    }
+    .health-insurance .special-enroll.next-open.savings {
+        margin-bottom: 66px;
+    }
+    .price-enroll.monthly-pay h3 {
+        margin: 0 auto;
+    }
+    .top-call .enroll-in-plan {
+        margin-left: 6px;
+    }
+    .ask-hazel-area a {
+        font-size: 18px;
+        padding: 8px 10px;
+    }
+    .header.sticky-header .navbar-brand img {
+        width: auto;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+    .header.sticky-header a.navbar-brand {
+        width: 25%;
+        display: block;
+        padding-top: 0px;
+    }
+    .header .nav.navbar-nav {
+        float: left;
+        padding: 20px 0 0 205px;
+    }
+    .plan-qouting .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        width: 100%;
+    }
+    .plan-qouting .left-nav-bar {
+        width: 28%;
+    }
+    /*.plan-qouting  .navbar-header {width:60%;}*/
+    .right-nav .return-btn.main-save a {
+        font-size: 12px;
+        padding: 0 10px;
+        margin: -10px 0 0 10px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .plan-qouting .save-exit.main-save a {
+        font-size: 12px;
+        padding: 0 10px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .all-btn-call {
+        padding-bottom: 40px;
+        padding-top: 0;
+    }
+    .sign-in .navbar-brand>img {
+        margin: 8px auto 0;
+        text-align: center;
+    }
+    .home .left-nav-bar .navbar-brand {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .plan-enrol-top.sticky-enroll .main-enroll div.call-action-enroll {
+        max-width: 46%;
+    }
+    .plan-qouting .stickey-update .hmo {
+        max-width: 34%;
+    }
+    .plan-qouting .stickey-update .price-enroll.monthly-pay {
+        max-width: 20%;
+    }
+    .compare-box {
+        max-width: 706px !important;
+        width: 100%;
+         !important;
+    }
+    .riight-side .sticky-enroll-head>tr {
+        width: auto;
+    }
+    .component thead th {
+        width: auto !important;
+        height: auto !important;
+        padding: 10px 8px !important;
+    }
+    .blue-baar-compare {
+        height: auto !important;
+    }
+    .sticky-enroll-head .bottom-print {
+        float: left;
+        padding: 13px 0 0 33px;
+        margin: 0;
+    }
+    .component thead.sticky-enroll-head th {
+        padding: 10px 8px !important;
+    }
+    .component .riight-side .sticky-enroll-head>tr {
+        width: 994px;
+    }
+    .header.sticky-header,
+    .header.sticky-header.sticky-header-new {
+        height: 52px;
+    }
+    .home .header.sticky-header {
+        padding: 0;
+    }
+    body.home {
+        padding-top: 52px !important;
+    }
+    .plan-enrol-top.sticky-enroll {
+        top: 52px;
+    }
+    .sticky-enroll-head {
+        top: 52px !important;
+    }
+    .container.component-outer {
+        margin-bottom: 95px;
+    }
+    .new-one .header.sticky-header .save-exit {
+        margin-top: -10px;
+    }
+    .component tbody.new-iNFO td {
+        width: auto !important;
+    }
+    .plan-qouting .right-nav ul li.help-center,
+    .plan-qouting .right-nav ul li.live-chat,
+    .screen-one.plan-qouting .right-nav ul li.sign-in {
+        padding-top: 0;
+    }
+    .component .riight-side .new-iNFO {
+        top: 100px;
+    }
+    .component-outer .component-third thead th {
+        width: 277px !important;
+    }
+    .component-outer .component-second th.part-main {
+        width: 280px !important;
+    }
+    .component-second tbody.new-iNFO td {
+        width: 460px !important;
+    }
+    /*.borderd_list .payment-first:hover .hover-info{ left: ;}*/
+    .component-third tbody.new-iNFO td {
+        width: 237px !important;
+    }
+    .house-income .hold-income label:hover .hover-info {
+        display: block;
+        left: 50%;
+        margin-left: -240px;
+        position: absolute;
+    }
+    .hold-income label i {
+        position: relative !important;
+    }
+    .monthly-hover i {
+        position: relative;
+        right: auto;
+        bottom: auto;
+    }
+    .plan-qouting .component-outer .component tbody th {
+        padding: 32px 16px 32px 32px;
+    }
+    .component .pop-hover .main-padding span {
+        font-size: 19px;
+    }
+    .center-btn {
+        padding: 64px 0 64px;
+    }
+    .plan-qouting .custom-zip {
+        padding: 82px 15px 96px;
+    }
+    .plan-qouting .btn-part>span {
+        margin-top: 25px;
+    }
+    .btn-part.special-enrollment {
+        margin: 64px auto 95px;
+    }
+    .center-btn.parishes-county {
+        padding: 64px 0 95px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    div.shopping_cart_screen .plan_box .plan_heading {
+        font-size: 18px;
+    }
+    div.shopping_cart_screen .market-health-plan .plan_center p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    div.shopping_cart_screen .market-health-plan .plan_center p.cost {
+        font-size: 44px;
+        line-height: 24px;
+    }
+    div.cart_list .cart_heading h4,
+    div.add_plan_select select,
+    div.cart_outer .cart_inner .cart_text,
+    div.cart_button .btn,
+    .view_all_plan .btn {
+        font-size: 18px;
+    }
+    .cart_inner .cost_text {
+        font-size: 48px;
+        line-height: 40px;
+    }
+    .hold-income label {
+        margin: 0px;
+    }
+    .email.compare-email .filed-set {
+        width: 76%;
+    }
+    .link .modal-dialog .modal-content {
+        width: 100%;
+    }
+    .email.compare-email .modal-dialog .modal-content {
+        width: 100%;
+    }
+    .market-health-plan-outer {
+        padding: 0 20px 0 15px;
+    }
+    .market-place.fifth-wizard .market-box .box p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    body .tabacco-user p {
+        font-size: 18px;
+    }
+    .form-tag {
+        font-size: 18px;
+    }
+    .market-help p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .market-place .market-box .box h3 {
+        font-size: 20px;
+    }
+    .market-place .market-box .box p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header.sticky-header .right-nav {
+        padding-top: 8px;
+    }
+    .resources.resources-hover span {
+        font-size: 34px;
+    }
+    body .bbox_right_content .list-inline.link_list li {
+        padding: 0 20px 0 0;
+    }
+    .dependent-spouse.div-width {
+        width: 100%;
+    }
+    .my_account_container .blue_box_panel {
+        margin-bottom: 20px;
+    }
+    .my_account_section {
+        margin-top: 15px;
+    }
+    .create-account {
+        margin: 20px 0px;
+    }
+    .pop-row-age {
+        width: 100%;
+    }
+    .btn-cancel-add button.close-btn {
+        float: right;
+        margin-top: 8px;
+    }
+    .btn-cancel-add {
+        margin: -60px 0 0;
+        width: 30%;
+    }
+    .plan-enrol-top.sticky-enroll .main-enroll div.call-action-enroll {
+        width: 50%;
+    }
+    .sticky-enroll .price-enroll.monthly-pay {
+        width: auto;
+    }
+    /*.plan-enrol-top.sticky-enroll .hmo{ width: 35%; }*/
+    .plan-enrol-top.sticky-enroll .hmo p {
+        font-size: 15px
+    }
+    .top-call .back-enroll {
+        font-size: 16px;
+    }
+    .plan-enrol-top..sticky-enroll .hmo p {
+        font-size: 15px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        padding: 15px 12px;
+    }
+    .right-nav ul li.need-help {
+        font-size: 20px;
+        padding-left: 25px;
+    }
+    .partner ul li {
+        float: left;
+        padding-left: 9.1%;
+    }
+    .navbar-nav>li.language-part a {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .screens-footer .col-lg-3.col-md-3 img {
+        position: relative;
+        top: 96px;
+        width: 100%;
+    }
+    body.screen-one {
+        padding: 0;
+    }
+    .screen-one footer {
+        bottom: 0;
+        position: static;
+        width: 100%;
+    }
+    .header .nav.navbar-nav {
+        margin: 0px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        line-height: 16px;
+    }
+    .navbar-nav>li.language-part span {
+        line-height: 16px;
+    }
+    .nav>li.sign-in>a>img {
+        position: absolute;
+    }
+    .right-nav ul {
+        margin-top: 0;
+    }
+    .info-part .hover-info::after {
+        left: 151px;
+    }
+    .info-part .hover-info {
+        left: 0px;
+        max-width: 100%;
+    }
+    .plans h1.page-header {
+        display: inline-block;
+    }
+    .home .right-nav {
+        padding-top: 27px;
+    }
+    .home .left-nav-bar {
+        padding-top: 0px;
+    }
+    .home .header {
+        padding: 15px 0;
+    }
+    .description-box .enroll-btn {
+        margin: 10px 0 0;
+    }
+    .header.sticky-header .navbar-inverse .navbar-nav>li>a {
+        padding-top: 3px;
+    }
+    .container {
+        width: 960px;
+    }
+    .partner ul li {
+        padding-left: 5.8%;
+    }
+    .services-part .text-center img {
+        width: 175px;
+    }
+    .services-part p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: 14px;
+    }
+    .navbar-nav>li.language-part span {
+        font-size: 14px;
+    }
+    .header .nav.navbar-nav li a {
+        margin: 0;
+    }
+    .right-nav ul li.need-help {
+        font-size: 18px;
+        padding-top: 4px;
+    }
+    .right-nav ul li a {
+        font-size: 14px;
+    }
+    .affodable-section h1 {
+        font-size: 34px;
+    }
+    .affodable-section .input-form input[type="text"],
+    .affodable-section .input-form input[type="button"] {
+        font-size: 24px;
+        height: 58px;
+    }
+    .plans p {
+        font-size: 20px;
+    }
+    .plans h1.page-header {
+        font-size: 36px;
+    }
+    .plans {
+        margin-top: 30px;
+    }
+    .partner {
+        margin: 50px 0 20px;
+    }
+    .enroll-equity {
+        padding: 0 0 50px;
+    }
+    .sign-in-screen {
+        margin: 50px auto;
+    }
+    .affodable-section h4 {
+        font-size: 30px;
+    }
+    .first-footer.social ul li a {
+        height: 60px;
+        width: 60px;
+    }
+    .first-footer.social ul li a .fa {
+        font-size: 35px;
+        line-height: 32px;
+    }
+    .left-nav-bar {
+        width: 35%;
+        position: relative;
+    }
+    .left-nav-bar .navbar-brand {
+        left: 0px;
+        top: 0px;
+    }
+    .price-enroll.monthly-pay {
+        padding-left: 20px;
+    }
+    .call-action-enroll {
+        padding-left: 10px;
+    }
+    .heading-plan h3 {
+        font-size: 34px;
+    }
+    .plan-coverage-box {
+        padding: 15px 0 55px;
+    }
+    .main-plan-coverage h2 {
+        font-size: 36px;
+    }
+    .bottom-coverage-part .all-btn-call {
+        display: block;
+        text-align: center;
+    }
+    .bottom-coverage-part .all-btn-call a {
+        float: none;
+        display: inline-block;
+        margin: 0 10px 20px;
+    }
+    .plan-qouting .right-nav .sign-in {
+        display: block;
+    }
+    .plan-qouting .right-nav {
+        position: relative;
+        right: 0px;
+        margin: 0 0 20px;
+        padding: 0;
+        top: 0;
+    }
+    .plan-qouting .left-nav-bar {
+        position: absolute;
+    }
+    .plan-qouting .right-nav ul li a {
+        font-size: 16px;
+    }
+    .plan-enrol-top .hmo p {
+        font-size: 24px;
+    }
+    .price-enroll.monthly-pay h3 {
+        width: 100%;
+    }
+    .call-action-enroll {
+        width: 44%;
+    }
+    .plan-qoute,
+    .plan-enrol-top {
+        min-height: inherit;
+    }
+    .household-edit-page .right-btn-house a {
+        width: auto;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .who-needs-insurence.center-insurance {
+        padding: 25px 10px 0;
+    }
+    .plan-qoute .top-links ul li:first-child a {
+        padding: 10px 5px;
+    }
+    .plan-qoute .top-links ul li:nth-child(2) a {
+        padding: 10px 5px;
+    }
+    .monthly-pay h3 {
+        font-size: 20px;
+    }
+    .plan-qouting .right-nav {
+        padding-top: 20px;
+    }
+    .call-section .title-main {
+        font-size: 28px;
+    }
+    .component thead.sticky-enroll th {
+        width: 274px;
+        padding-top: 18px;
+        /*float: left;*/
+    }
+    .detail-household .dropdown-menu>li>a {
+        white-space: normal;
+    }
+    .main-sign-data {
+        width: 100%;
+    }
+    .main-sign-data .sign-layout .center-btn-house {
+        left: 18px;
+    }
+    .top-list-view-compare .component .sticky-wrap {
+        overflow-x: auto;
+    }
+    .heading-plan .info-part .hover-info::after {
+        left: 0;
+    }
+    .heading-plan .info-part .hover-info {
+        margin-left: -232px;
+    }
+    .ask-hazel-area {
+        padding: 20px 0 20px 95px;
+    }
+    .monthly-pay .payment-dolor-hover h1 {
+        font-size: 48px;
+        line-height: 46px;
+    }
+    .header.sticky-header a.navbar-brand {
+        width: 90%;
+        display: block;
+        padding-top: 0px;
+    }
+    .header .nav.navbar-nav {
+        float: left;
+        padding: 20px 0 0 154px;
+    }
+    .plan-qouting .left-nav-bar {
+        width: 22%;
+    }
+    .all-btn-call {
+        display: table;
+        float: left;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .all-btn-call a {
+        margin: 0 auto 20px;
+        text-align: center;
+        display: inline-block;
+        float: none;
+    }
+    .compare-box {
+        max-width: 662px !important;
+        width: 100%;
+         !important;
+    }
+    .component thead th {
+        /*width: 240px !important;*/
+        height: auto !important;
+        padding: 8px !important;
+    }
+    .blue-baar-compare {
+        height: auto !important;
+    }
+    .component .riight-side .sticky-enroll-head>tr {
+        width: 930px;
+    }
+    .container.component-outer {
+        margin-bottom: 63px;
+    }
+    .component-outer .component-third thead th {
+        width: 240px !important;
+    }
+    .component-outer .component-second th.part-main {
+        width: 315px !important;
+    }
+    .monthly-pay span {
+        font-size: 14px
+    }
+    .center-btn {
+        padding: 64px 0 28px;
+    }
+    .btn-part.special-enrollment {
+        margin: 64px auto 60px;
+    }
+    .center-btn.parishes-county {
+        padding: 64px 0 60px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .top-list-view-compare .resources-copare a,
+    .top-list-view-compare .very-small {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .monthaly-sav-ing .top-price-saving h4 {
+        font-size: 74px;
+        line-height: 70px;
+    }
+    .main-container .call-section::before {
+        max-width: 152px;
+    }
+    .home .left-nav-bar .navbar-brand {
+        float: left;
+        left: 8px;
+        position: absolute;
+        display: block;
+    }
+    .plan-qouting .left-nav-bar .sing-dropdown {
+        float: left;
+        padding-left: 109px;
+        padding-top: 0px;
+    }
+    .sigin-response .header {
+        height: 120px;
+    }
+    .sigin-response .left-nav-bar .navbar-brand {
+        position: static;
+        float: none;
+    }
+    /*thead.info-box.sticky-enroll{position: static;display: none;}*/
+    .component td,
+    .component th {
+        padding: 32px 10px !important;
+    }
+    .component thead th {
+        font-size: 16px;
+    }
+    .blue-baar-compare {
+        height: 133px;
+    }
+    .blue_box_panel .bbox_content .montly-cost-ac .monthly_cost {
+        min-height: 482px !important;
+        vertical-align: middle;
+        width: 100%;
+    }
+    .plan-qouting .header.sticky-header a.navbar-brand {
+        padding-top: 5px;
+        width: 65%;
+    }
+    .plan-qouting .left-nav-bar {
+        width: 32%;
+    }
+    .plan-qouting .left-nav-bar .sing-dropdown {
+        padding-left: 0;
+        float: right !important;
+    }
+    .price-enroll.monthly-pay h1 {
+        font-size: 50px;
+    }
+    /*.sticky-enroll .main-enroll { padding: 14px 0 0;}*/
+    .confirm-submit .bbox_content .monthly-display .monthly_cost {
+        min-height: 408px !important;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    /*.screen-one .left-nav-bar { width: auto; }*/
+    .left-nav-bar {
+        float: left;
+        width: 66%;
+        padding: 0;
+    }
+    .right-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        padding-top: 11px;
+    }
+    .header .nav.navbar-nav {
+        display: block;
+        float: none;
+        margin: 9px auto 0;
+    }
+    .screens-footer .col-lg-3.col-md-3 img {
+        display: table;
+        margin: 0 auto;
+        position: relative;
+        top: 54px;
+    }
+    .navbar-header {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+        width: auto;
+    }
+    .partner ul li {
+        padding-left: 3.5%;
+    }
+    .call-section {
+        padding: 46px 0 0;
+    }
+    .affodable-section h4 {
+        font-size: 29px;
+    }
+    .call-section span {
+        font-size: 35px;
+    }
+    .call-section .title-main {
+        font-size: 27px;
+    }
+    .call-area {
+        min-height: 167px;
+    }
+    .services-part p {
+        padding: 0;
+    }
+    .plans {
+        margin-top: 30px;
+    }
+    .affodable-section {
+        width: 700px;
+    }
+    .partner {
+        margin: 50px 0 30px;
+    }
+    .screens-footer .col-lg-3.col-md-3 img {
+        position: relative;
+        top: 96px;
+        width: auto;
+    }
+    .header .nav.navbar-nav {
+        padding: 12px 0 0 154px;
+    }
+    .left-nav-bar {
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .left-bottom-center.provider-info p {
+        font-size: 13px;
+    }
+    .left-bottom-center.provider-info .enhance_hover img {
+        width: 30px;
+        position: relative;
+        top: 10px;
+    }
+    .left-bottom-center.provider-info a {
+        display: inline-block;
+        width: 216px;
+    }
+    .shopping_cart_screen.web_list {
+        display: none;
+    }
+    .shopping_cart_screen.mobile_list {
+        display: block;
+    }
+    .header .navbar-collapse.sing-dropdown ul li.cart_icon {
+        display: block;
+        width: 100%;
+        padding: 0px !important;
+    }
+    div.sing-dropdown .cart_icon a {
+        background: rgba(0, 0, 0, 0) url("../../Images/shopping_cart_icon_white.png") no-repeat scroll center center / 30px auto;
+        display: inline-block;
+        float: none !important;
+        height: 30px;
+        margin: auto;
+        width: 40px !important;
+    }
+    div.sing-dropdown .cart_icon a label {
+        display: none;
+    }
+    div.sing-dropdown .cart_icon a:hover,
+    div.sing-dropdown .cart_icon a:focus {
+        background: rgba(0, 0, 0, 0) url("../../Images/shopping_cart_icon_white.png") no-repeat scroll center center / 30px auto !important;
+    }
+    div.sing-dropdown .cart_icon img {
+        display: none;
+    }
+    div.shopping_cart_screen .plan_box.health-inner {
+        width: 100%;
+    }
+    div.shopping_cart_screen .plan_box {
+        width: 100%;
+        position: relative;
+        margin: 15px 0px;
+    }
+    div.shopping_cart_screen .plan_box .plan_heading {
+        border: 0 none;
+        font-size: 18px;
+        left: 25px;
+        padding: 0;
+        position: absolute;
+        top: 5px;
+    }
+    div.shopping_cart_screen .plan_inner_box {
+        display: block;
+        height: auto;
+        min-height: auto;
+        padding: 5px 25px 5px 180px;
+        position: relative;
+    }
+    div.shopping_cart_screen .plan_inner_box:before {
+        background: #007eb7 none repeat scroll 0 0;
+        content: "";
+        height: 100%;
+        left: 150px;
+        position: absolute;
+        top: 0px;
+        width: 4px;
+        z-index: 1;
+    }
+    .select_plan h5 {
+        background: #00aced;
+        color: #fff;
+    }
+    .cart_outer.cart_info {
+        width: 100%;
+    }
+    div.cart_outer .cart_inner .cart_img {
+        padding: 0;
+        width: 100%;
+    }
+    .cart_outer .cart_inner .cart_text {
+        padding: 0;
+        width: 100%;
+        border-left: 0 none
+    }
+    div.cart_outer.cart_info {
+        height: auto;
+        min-height: inherit;
+        padding: 15px 25px;
+    }
+    .cart_outer {
+        width: 50%;
+    }
+    div.view_all_plan {
+        text-align: center;
+    }
+    .top-coverge .enrollment .did-anyone div.left-lost.right ul {
+        margin-top: 0px;
+    }
+    .did-anyone {
+        width: 100%;
+    }
+    .new-one .top-coverge .health-insurance .enrollment .did-anyone p:before {
+        top: 4px;
+    }
+    .new-one .top-coverge .health-insurance .enrollment .did-anyone p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .top-coverge div.left-lost.right ul {
+        margin-top: 30px;
+    }
+    .new-one .top-coverge .health-insurance .enrollment .lost-rejected li span {
+        font-size: 18px;
+    }
+    .new-one .lost-rejected .left-lost p:before {
+        top: 4px;
+    }
+    .new-one .lost-rejected .left-lost p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .enrollment .lost-rejected {
+        padding-top: 15px;
+    }
+    .enrollment p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .help-line span b {
+        color: #fff;
+    }
+    .navbar-inverse .left-nav-bar .navbar-toggle.open {
+        color: #fff;
+    }
+    .navbar-inverse .left-nav-bar .navbar-toggle.open span {
+        background: #fff;
+    }
+    .app-hover-text .hover-info::before,
+    .app-hover-text .hover-info::after {
+        display: none;
+    }
+    .market-health-plan .market-health-info p {
+        width: 90%;
+        margin: 5px 5% 0;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .market-health-plan .market-health-info {
+        margin: 0;
+        padding: 25px 0;
+    }
+    .market-health-plan-outer {
+        padding: 0 15px 0 5px;
+    }
+    .market-health-plan .health-inner p {
+        font-size: 18px;
+    }
+    .app-payment .market-place.fifth-wizard .market-box .box {
+        height: 760px !important;
+    }
+    body .tabacco-user span {
+        font-size: 30px;
+    }
+    body.plan-qouting .tabacco-user {
+        margin: 30px auto;
+    }
+    div.tabacco-user .health-insurance {
+        margin-top: 10px;
+    }
+    .market-place {
+        margin: 20px 0;
+    }
+    .btn-part.text-outer>span {
+        padding-bottom: 20px;
+    }
+    .resources.resources-hover span {
+        font-size: 30px;
+    }
+    div.borderd_list .plan-ac .bl_item .value {
+        float: right;
+        text-align: right;
+        width: 50%;
+    }
+    .btn-cancel-add {
+        width: 100%;
+        margin: 8px 0px 0;
+    }
+    .pop-click-part .btn-cancel-add button {
+        float: left;
+    }
+    .btn-cancel-add button.close-btn {
+        margin: 0 0 0 6px;
+    }
+    li.sign-in.dropdown .caret {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .wizard-cover .health-insurance {
+        padding-top: 14px;
+    }
+    .plan-qouting .all-btn-call a {
+        margin: 0 10px 20px;
+    }
+    .plan-qouting .resources.resources-hover {
+        font-size: 32px;
+    }
+    .plan-qouting .bottom-coverage-part {
+        clear: both;
+        padding: 20px 0px 30px 0px;
+    }
+    .plan-qouting .heading-plan .info-part .hover-info {
+        margin-left: -145px;
+    }
+    .plan-qouting .info-part .hover-info {
+        top: 24px;
+    }
+    .plan-qouting .info-part i {
+        top: 12px;
+        font-size: 16px;
+    }
+    .plan-qouting .heading-plan h3 {
+        font-size: 30px;
+    }
+    .plan-qouting .heading-plan {
+        padding-bottom: 2px;
+        padding-top: 15px;
+    }
+    .plan-qouting .plan-coverage-box {
+        float: left;
+        width: 100%;
+        padding: 0 0 35px;
+    }
+    .plan-qouting .main-plan-coverage h2 {
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .plan-qouting .update-enroll-top .main-plan-coverage {
+        padding-top: 96px;
+    }
+    .who-needs-insurence.last-insu {
+        padding: 25px 0 0 20px;
+    }
+    .plan-qouting div.custom-zip {
+        padding: 42px 15px 62px;
+    }
+    .plan-qouting .custom-zip {
+        padding: 82px 15px 96px;
+    }
+    .change-password .col-md-12 {
+        clear: both;
+    }
+    .header .navbar-collapse.in {
+        overflow: visible;
+    }
+    /*.header.sticky-header.sticky-header-new{ height:auto; }*/
+    .header .navbar-inverse .navbar-collapse ul.nav ul {
+        left: 0 !important;
+        margin: 0 auto;
+        right: 0 !important;
+        top: 33px !important;
+        padding: 0 !important;
+        position: absolute !important;
+        width: 200px;
+        background: #fff;
+    }
+    .header .navbar-inverse .navbar-collapse ul.nav ul li a {
+        border: 0px;
+        color: #00aced !important;
+    }
+    .header .navbar-inverse .navbar-collapse ul.nav ul li a:hover {
+        color: #026c9d !important;
+    }
+    .header .left-nav-bar .nav.navbar-nav {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .nav>li.sign-in>a>img {
+        top: -1px;
+        position: relative;
+    }
+    .header.sticky-header .navbar-nav>li.language-part {
+        padding: 0px 0px 5px 0px;
+    }
+    .header.sticky-header .navbar-nav>li.language-part a {
+        border: 0px;
+    }
+    .header.sticky-header .navbar-nav>li a:hover {
+        color: #fff !important;
+    }
+    .header.sticky-header .navbar-nav>li a,
+    .header .navbar-nav>li.language-part span {
+        color: #fff;
+        color: #fff;
+        font-family: "Karla", sans-serif;
+        font-size: 22px;
+        font-weight: 600 !important;
+    }
+    /*.header.sticky-header .navbar-nav > li.sign-in,.help-line {padding-top: 15px !important;}*/
+    .screen-one.plan-qouting .header .left-nav-bar .navbar-collapse.right-nav ul ul {
+        left: 0 !important;
+        margin: 0 auto;
+        right: 0 !important;
+        top: 45px !important;
+        position: absolute !important;
+        width: 200px !important;
+        background: #fff;
+    }
+    .screen-one.plan-qouting .header .left-nav-bar .navbar-collapse.right-nav ul ul li {
+        border: 0px;
+    }
+    .screen-one.plan-qouting .header .left-nav-bar .navbar-collapse.right-nav ul ul li a {
+        border: 0px;
+        color: #157fb9 !important;
+        font-size: 22px !important;
+        line-height: 24px;
+        font-weight: normal !important;
+    }
+    .screen-one.plan-qouting .header .left-nav-bar .navbar-collapse.right-nav ul ul li a:hover {
+        color: #00aced !important;
+    }
+    .household-size .modal-footer .modal-btn button {
+        margin: 10px 10px 0px 10px;
+        clear: both;
+        display: inline-block;
+    }
+    .household-size .modal-footer .continue-to-plan {
+        margin-left: 0px;
+    }
+    .household-size .modal-footer .modal-btn {
+        text-align: center;
+    }
+    .household-size .modal-dialog {
+        width: 96%;
+    }
+    .plan-qouting .top-coverge .health-insurance li {
+        max-width: 100%;
+    }
+    .plan-qouting .left-lost p {
+        min-height: inherit;
+    }
+    .plan-qouting .left-lost {
+        width: 100%;
+        padding: 0px;
+    }
+    .screen-one.plan-qouting .header .left-nav-bar .navbar-collapse.right-nav {
+        right: 0px;
+    }
+    .screen-one.plan-qouting .header .left-nav-bar .navbar-collapse.right-nav ul {
+        width: 100% !important;
+        text-align: center;
+    }
+    /*.screen-one.plan-qouting .header .left-nav-bar .navbar-collapse.right-nav ul li img{     top: -2px; }*/
+    .screen-one.plan-qouting .left-nav-bar .right-nav {
+        clear: both;
+        width: 100%;
+        position: relative;
+    }
+    .screen-one.plan-qouting .header .right-nav ul {
+        margin-top: 0px;
+    }
+    .plan-qouting.home .right-nav {
+        position: absolute;
+        right: 60px;
+    }
+    .screen-one.plan-qouting .header .right-nav ul {
+        float: right;
+    }
+    .home .left-nav-bar {
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+    .right-nav ul li.live-chat {
+        margin: 0 25px;
+    }
+    .sigin-response .left-nav-bar .navbar-brand img {
+        width: auto;
+    }
+    .special-enroll.next-open.savings {
+        width: 100%;
+    }
+    .svg-icon-loader img {
+        width: 100%;
+    }
+    .left-footer-plan>p {
+        padding-bottom: 10px;
+    }
+    .left-footer-plan>p,
+    .left-footer-plan>span {
+        font-size: 15px !important;
+    }
+    .description-box .center-content .detuctable.full {
+        display: none;
+    }
+    span.part-add-child {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .edit-house-hold .dependent-spouse>a {
+        margin: 10px 10px 0 0 !important;
+        width: auto !important;
+    }
+    /* footer::after{ background-image: url("../dist/img/mobile-footer-bg.png") !important } */
+    /*/*.home-price .credit-amount{ padding: 40px 1% 40px 0; }*/
+    */ .home .header {
+        padding: 20px 0 0;
+    }
+    .home .right-nav {
+        padding-top: 0;
+        width: 300px;
+    }
+    .more-detail.form-detail .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+        text-align: left;
+    }
+    .coverage-part.wizard-cover .more-detail.form-detail {
+        padding: 0px 10px;
+    }
+    .coverage-part.wizard-cover .top-coverge .nav-top {
+        margin-bottom: 0px;
+    }
+    .coverage-part.wizard-cover .top-coverge .nav-top li {
+        margin: 0 18px 5px 0;
+    }
+    .agree {
+        width: 100%;
+    }
+    .plan-qouting footer::after {
+        display: none;
+    }
+    .home footer::after {
+        z-index: 9;
+    }
+    .header.sticky-header .right-nav {
+        padding-top: 10px;
+    }
+    .header.sticky-header .left-nav-bar .navbar-brand {
+        top: 0;
+    }
+    .header.sticky-header .navbar-header {
+        margin: 14px 0px 0px 0px;
+    }
+    .home-price .aca {
+        font-size: 20px;
+    }
+    /*.home-price .credit-info{ padding: 31px 40px 10px 150px; }*/
+    .home-price .average-credit span {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .home-price .average-credit {
+        font-size: 80px;
+    }
+    .home-price {
+        margin: 30px 0;
+    }
+    .header {
+        height: auto;
+    }
+    .navbar-nav>li.language-part a.english-language {
+        padding: 0 2px !important;
+    }
+    .container {
+        width: 750px;
+        position: relative;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-inverse .navbar-toggle {
+        border: 0px;
+        margin: 0px;
+        padding: 5px;
+    }
+    .left-nav-bar {
+        width: 100%;
+    }
+    .navbar-header {
+        float: right;
+        margin: 0px 0px 20px 0px;
+    }
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #00aced;
+        border-radius: 3px;
+        height: 6px;
+        width: 35px;
+    }
+    .right-nav .sign-in {
+        display: none;
+    }
+    .navbar-inverse .navbar-toggle:focus,
+    .navbar-inverse .navbar-toggle:hover {
+        background: none;
+    }
+    .header .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .header .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .right-nav {
+        padding: 0;
+        position: absolute;
+        right: 70px;
+        top: 0;
+    }
+    .header .navbar {
+        min-height: inherit;
+    }
+    .header {
+        padding: 20px 0 0px;
+    }
+    .left-nav-bar .navbar-brand {
+        top: -12px;
+    }
+    .left-nav-bar .navbar-brand img {
+        width: 58px;
+    }
+    .header .navbar-collapse {
+        float: left;
+        width: 100%;
+    }
+    .header .navbar-collapse ul {
+        text-align: center;
+        padding: 10px 0px 0px !important;
+        width: 100%;
+    }
+    .header .navbar-collapse ul li {
+        width: 100%;
+        padding: 0px;
+    }
+    .header .navbar-collapse ul li a {
+        /*border-top:1px solid #333;*/
+        width: 100%;
+        float: left;
+        padding: 0px !important;
+    }
+    .header .navbar-nav>li.language-part a {
+        display: inline;
+        float: none;
+    }
+    .header .navbar-nav>li.language-part span {
+        display: inline;
+        float: none;
+    }
+    .affodable-section {
+        position: relative;
+    }
+    .affodable-section h1 {
+        color: #00aced;
+        text-shadow: none;
+        margin: 20px 0 0;
+        text-align: center;
+    }
+    .affodable-section .input-form input[type="text"] {
+        border: 1px solid #ccc;
+    }
+    .plans h1.page-header {
+        font-size: 32px;
+    }
+    .partner>ul {
+        text-align: center;
+    }
+    .partner>ul li {
+        display: inline-block;
+        padding: 10px 3%;
+        float: none;
+    }
+    .plans p {
+        font-size: 18px;
+    }
+    .partner {
+        margin: 20px 0 0;
+    }
+    .services-part {
+        padding: 10px 0;
+    }
+    .services-part>div {
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+    }
+    .services-part h3 {
+        padding: 28px 0 17px;
+    }
+    .call-section {
+        padding: 20px 0;
+    }
+    .call-section span {
+        font-size: 42px;
+    }
+    .call-section .title-main {
+        font-size: 24px;
+    }
+    .call-area {
+        min-height: inherit;
+        margin: 20px 0;
+    }
+    .affodable-section h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+    footer {
+        position: relative;
+    }
+    footer .main-footer {
+        padding: 70px 0 10px;
+        background: #006991;
+    }
+    footer .firm-info {
+        padding: 0px 0px 20px 0px
+    }
+    footer:after {
+        background-image: url('../../Images/mobile-footer-bg.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+        content: "";
+        position: relative;
+        width: 100%;
+        height: 350px;
+        background-size: auto 100%;
+        z-index: 9999;
+        float: left;
+        background-color: #006991;
+    }
+    .plan-coverage-box ul li {
+        font-size: 18px;
+    }
+    .compare-box span {
+        font-size: 18px;
+    }
+    .plan-qoute .top-links ul li a {
+        white-space: inherit;
+    }
+    label.left-baar-title {
+        font-size: 18px;
+    }
+    .networks ul li span {
+        font-size: 14px;
+    }
+    .left-section>span {
+        font-size: 16px;
+    }
+    .description-box .center-content .detuctable.service {
+        display: none;
+    }
+    .description-box .monthly-pay {
+        width: 48%;
+    }
+    .description-box .detuctable {
+        float: left;
+        padding-left: 20px;
+        padding-right: 10px;
+        width: 48%;
+    }
+    /*.compare .compare-btn{ display:none; }*/
+    .description-box .enroll-btn>a::first-word {
+        font-size: 200%;
+        color: #8A2BE2;
+    }
+    .personal-plan .modal-header h4 {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .question-area h3 {
+        font-size: 16px;
+        margin: 5px 0 10px;
+    }
+    .personal-plan .modal-body {
+        padding: 0 20px;
+    }
+    .question-area span {
+        font-size: 14px;
+        margin: 3px 0 0;
+    }
+    .question-area {
+        padding: 10px 0 5px !important;
+    }
+    .question-area .col-sm-3,
+    .question-area .col-sm-12,
+    .question-area .col-sm-4 {
+        width: 100%;
+        float: left;
+        margin: 0 0 10px;
+    }
+    .personal-plan .modal-footer .btn {
+        white-space: inherit;
+    }
+    .call-section .title-main {
+        padding-left: 0;
+    }
+    .main-container .call-section::before {
+        max-width: 90px;
+        top: 8px;
+    }
+    .sign-layout .center-btn-house {
+        left: 10px;
+    }
+    .plan-qouting .left-nav-bar .sing-dropdown {
+        padding-top: 0px !important;
+    }
+    .edit-house-hold .dependent-spouse>a {
+        margin: 0 0 10px;
+        clear: both;
+        text-align: center;
+        width: 100%;
+    }
+    .who-needs-insurence .div-width {
+        width: 100%;
+    }
+    .who-needs-insurence span.part-add-child {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+        text-align: center;
+    }
+    .edit-house-hold .dependent-spouse>a {
+        margin: 0 auto 10px auto !important;
+        text-align: center;
+        width: 100%;
+    }
+    .who-needs-insurence span.part-add-child {
+        margin-top: 0;
+    }
+    .top-call .back-enroll,
+    .top-call .enroll-in-plan {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .sticky-enroll .price-enroll.monthly-pay {
+        width: auto;
+    }
+    .plan-qouting .sticky-enroll .call-action-enroll {
+        float: left;
+        margin-top: 0px;
+        padding-left: 0;
+        width: 56%;
+    }
+    .are-you-top .right-house-part .ifo-check {
+        width: 58%;
+    }
+    .main-plan-qoute .left-baar .left-baar-title i {
+        position: absolute;
+        right: -18px;
+        top: 3px;
+    }
+    .right-compare p {
+        padding-left: 0;
+    }
+    .account-ifnfor .are-you-part-new {
+        position: relative;
+        z-index: 99;
+    }
+    .screen-one .sign-in .left-nav-bar {
+        width: 96%;
+    }
+    .person span {
+        font-size: 13px;
+    }
+    .plan-qouting .save-exit,
+    .screen-one.plan-qouting .header .right-nav ul {
+        float: right;
+    }
+    .screen-one.plan-qouting .header .right-nav ul {
+        margin-bottom: 10px;
+    }
+    .market-place .btn-part {
+        display: block;
+    }
+    .market-place .video-area {
+        width: 100%;
+    }
+    .main-save {
+        display: none;
+    }
+    .media-save {
+        display: block;
+    }
+    .plan-qouting .save-exit a {
+        color: #fff;
+    }
+    .new-one .header.sticky-header .save-exit {
+        margin-bottom: 1px !important;
+        margin-top: 5px !important;
+    }
+    .market-place .market-box .box {
+        min-height: 557px;
+        margin: 0 1.5% 25px
+    }
+    .market-place .market-box {
+        display: block;
+    }
+    .plan-qouting .save-exit.media-save {
+        float: none;
+    }
+    .plan-qouting .save-exit.media-save a {
+        margin: 0 auto !important;
+        width: 200px;
+        float: none;
+        padding: 0 17px !important;
+        border: 0;
+        font-size: 22px !important;
+    }
+    .plan-qouting .media-save a:focus {
+        background: #00aced !important;
+        color: #fff !important;
+    }
+    .price-enroll .main-monthly {
+        width: auto;
+    }
+    .resources>p {
+        padding: 0 10%;
+    }
+    .plan-enrol-top .main-enroll div.call-action-enroll {
+        width: 38%;
+        padding-left: 20px;
+    }
+    .plan-enrol-top.sticky-enroll .main-enroll div.call-action-enroll {
+        width: 46%;
+        float: right;
+        padding-right: 0px;
+        padding-left: 0;
+    }
+    .ask-hazel-area {
+        padding: 20px 10px 20px 75px;
+        background-position: 8px center;
+    }
+    .ask-hazel-area a {
+        font-size: 15px;
+        padding: 8px;
+    }
+    .sticky-enroll .top-call .back-enroll {
+        font-size: 13px;
+    }
+    .plan-enrol-top.sticky-enroll {
+        top: 66px;
+    }
+    .plan-enrol-top.sticky-enroll .container {
+        width: 100%;
+    }
+    .top-call {
+        float: right;
+    }
+    .top-call .back-enroll,
+    .top-call .enroll-in-plan {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 5px;
+    }
+    .bottom-print {
+        padding: 13px 0 0 84px;
+    }
+    .sticky-enroll .top-call .back-enroll,
+    .sticky-enroll .top-call .enroll-in-plan {
+        width: auto;
+        margin: 0px 0px 0px 5px;
+    }
+    .sticky-enroll .bottom-print {
+        padding: 0px;
+        float: left;
+    }
+    .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        width: 40%;
+    }
+    .home .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        width: 35%;
+    }
+    body.home {
+        padding-top: 50px !important;
+    }
+    .plan-enrol-top.sticky-enroll .hmo {
+        width: auto;
+    }
+    .return-btn.main-save {
+        display: none;
+    }
+    .home .navbar-header {
+        padding-right: 0 !important;
+    }
+    .sing-dropdown .return-btn.media-save {
+        display: table;
+        float: none;
+        margin: 4px auto 0;
+    }
+    .sing-dropdown .return-btn.media-save a {
+        color: #fff;
+        float: none;
+        padding: 0 15px !important;
+        margin: 0;
+        border: 0;
+    }
+    .plan-qouting .left-nav-bar .sing-dropdown {
+        margin-bottom: 0;
+    }
+    .plan-qouting .header.sticky-header .right-nav {
+        margin-right: 15px;
+    }
+    .bottom-center .enroll-btn>a {
+        width: 180px;
+        padding: 10px 8px;
+        font-size: 18px;
+    }
+    .bottom-center .compare>a {
+        margin-right: 25px;
+    }
+    .sticky-enroll .hmo .metal-plan-top {
+        padding-right: 10px;
+        border-right: 1px solid #fff;
+    }
+    .sigin-response .left-nav-bar .navbar-brand {
+        float: none;
+    }
+    .sticky-enroll .hmo {
+        border-right: none;
+    }
+    /*.plan-enrol-top.sticky-enroll {height: 90px;}*/
+    .navbar-inverse .left-nav-bar .navbar-toggle {
+        position: relative;
+        z-index: 99;
+        padding-top: 0;
+    }
+    .left-nav-bar .nav.navbar-nav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background: #157fb9;
+        z-index: 9;
+        padding-top: 90px !important;
+    }
+    .navbar-toggle {
+        width: 33px;
+        height: 32px;
+        position: relative;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        margin-top: 14px;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        position: absolute;
+        height: 6px;
+        width: 100%;
+        background: #00aced;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+    .sidebar-toggle.open#nav-icon1 {
+        left: 0px;
+    }
+    .navbar-toggle .icon-bar:nth-child(1) {
+        top: 0px;
+    }
+    .navbar-toggle .icon-bar:nth-child(2) {
+        top: 0px;
+    }
+    .navbar-toggle .icon-bar:nth-child(3) {
+        top: 6px;
+    }
+    .navbar-toggle .icon-bar:nth-child(4) {
+        top: 16px;
+    }
+    .navbar-toggle.open .icon-bar:first-child {
+        top: 18px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+    .navbar-toggle.open .icon-bar:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+    }
+    .navbar-toggle.open .icon-bar:nth-child(3) {
+        top: 4px;
+        -webkit-transform: rotate(-230deg);
+        -moz-transform: rotate(-230deg);
+        -o-transform: rotate(-230deg);
+        transform: rotate(-230deg);
+        background-color: #91cbe3;
+    }
+    .navbar-toggle.open .icon-bar:nth-child(4) {
+        top: 4px;
+        -webkit-transform: rotate(-131deg);
+        -moz-transform: rotate(-131deg);
+        -o-transform: rotate(-131deg);
+        transform: rotate(-131deg);
+        background-color: #91cbe3;
+    }
+    .help-line {
+        display: block !important;
+        color: #fff;
+        font-size: 30px !important;
+        font-family: "Karla", sans-serif;
+    }
+    .help-line>span {
+        display: block;
+        font-size: 18px;
+        font-family: "Karla", sans-serif;
+        color: #bbbfbb;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+    /*.plan-qouting .nav > li.sign-in > a > img{position:static;}*/
+    .plan-qouting .sign-in a:focus,
+    .plan-qouting .open a:focus,
+    .plan-qouting .sign-in a,
+    .plan-qouting .open a {
+        color: #fff !important;
+    }
+    .left-nav-bar .navbar-brand {
+        z-index: 9 !important;
+    }
+    .help-center {
+        float: right !important;
+        padding-right: 7px;
+    }
+    .plan-qouting .sign-in.open .dropdown-menu li a {
+        padding: 0 !important;
+    }
+    .plan-qouting .sign-in.open .dropdown-menu li:first-child a {
+        margin-top: 10px !important;
+    }
+    .plan-qouting .sign-in.open .dropdown-menu li:last-child a {
+        margin-bottom: 10px !important;
+        margin-top: 4px;
+    }
+    .plan-qouting .sign-in.open .dropdown-menu {
+        margin-top: 5px !important;
+    }
+    .bootstrap-select.btn-group .dropdown-menu li a {
+        color: #757575 !important;
+    }
+    .bootstrap-select.btn-group .dropdown-menu li a:hover {
+        color: #fff !important;
+    }
+    .account-ifnfor .modal-body input.form-control {
+        position: relative;
+        z-index: 9;
+    }
+    .hide-scroll {
+        overflow: hidden;
+    }
+    .compare-box {
+        max-width: 510px !important;
+        width: 100%;
+         !important;
+    }
+    .top-list-view-compare .component {
+        overflow-x: auto;
+        z-index: 9
+    }
+    .riight-side .resources-copare a {
+        white-space: nowrap;
+    }
+    .choose-plan a {
+        font-size: 13px;
+        height: auto;
+        width: 145px;
+    }
+    th .small-text {
+        font-size: 14px;
+    }
+    .sticky-enroll-head .back-to-list a {
+        width: auto;
+    }
+    /*.component thead th,.component thead.sticky-enroll th{ width: 178px !important;}*/
+    .left-copare-top {
+        float: none;
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    /*.component-outer .component th.part-main,.component thead.sticky-enroll th:first-child{width: 188px !important;}*/
+    /*.component-outer .component thead.sticky-enroll th.part-main {height: 116px !important;padding-top: 19px !important;}*/
+    .component thead th {
+        height: auto !important;
+        padding: 10px 8px !important;
+        width: auto !important;
+    }
+    .component .riight-side .sticky-enroll-head>tr {
+        width: 720px;
+    }
+    .hide-media-big {
+        display: none;
+    }
+    .hide-big {
+        display: block !important;
+    }
+    .header .navbar-collapse ul li,
+    .header.sticky-header .navbar-nav>li.language-part {
+        padding: 20px 0 !important;
+        clear: both;
+        margin: 0 !important;
+    }
+    .help-line>span {
+        margin-top: 0;
+    }
+    .right-nav ul li.live-chat a::after {
+        top: 0;
+    }
+    .header.sticky-header .left-nav-bar .navbar-brand {
+        top: -4px;
+    }
+    .right-nav ul li.live-chat:hover .current-live,
+    .right-nav ul li.help-center i,
+    .right-nav ul li.help-center:hover .current-live {
+        display: none;
+    }
+    .screen-one.plan-qouting .right-nav ul li.sign-in {
+        padding-right: 28px !important;
+    }
+    .home .left-nav-bar ul li.sign-in.hide-big {
+        padding-right: 28px !important;
+    }
+    .plan-enrol-top.sticky-enroll {
+        top: 52px;
+    }
+    .main-container .compare-main-outer {
+        margin-bottom: 0 !important;
+    }
+    .container.component-outer {
+        margin-bottom: 0;
+    }
+    .component-outer .component th.part-main {
+        width: 198px !important;
+    }
+    .add_plan_box .form-control {
+        width: 50%;
+    }
+    .component-outer .component-third thead th {
+        width: 174px !important;
+    }
+    .component-outer .component-second th.part-main {
+        width: 410px !important;
+    }
+    .sign-layout .back-continue a.grey {
+        color: #007eb7 !important;
+    }
+    .payment-first {
+        position: relative;
+        z-index: 9;
+    }
+    .payment-first i {
+        position: relative;
+    }
+    .payment-outer .margin-top-10 {
+        clear: both;
+    }
+    .borderd_list .payment-first:hover .hover-info {
+        left: -142px;
+        margin: 0;
+        right: auto;
+    }
+    li.sign-in .caret {
+        margin-left: 5px;
+        margin-right: 0;
+    }
+    .hide-scroll .sign-in .dropdown-menu>li {
+        padding: 5px 0 !important;
+        margin: 0 !important;
+    }
+    .hide-scroll .sign-in .dropdown-menu>li a {
+        font-size: 15px !important;
+    }
+    .plan-qouting .component-outer .component-third tbody.new-iNFO td {
+        float: left;
+        width: 173px !important;
+    }
+    .plan-qouting .component-outer .component-third tbody th {
+        max-width: 198px !important;
+    }
+    .insurance-company ul li span {
+        width: 85%;
+    }
+    .hide-big a .fa-question-circle {
+        display: none;
+    }
+    .top-coverge .left-lost ul {
+        margin-bottom: 0px;
+    }
+    .top-coverge .left-lost.right ul {
+        margin-top: 0px;
+    }
+    .component .riight-side .new-iNFO {
+        top: 122px;
+    }
+    .smoker-age.bottom-area-s {
+        margin-top: 20px;
+    }
+    .top-coverge .insurance-health .how-many-children {
+        margin-top: 25px;
+        float: left;
+        margin-bottom: 0;
+    }
+    .top-list-view-compare .component .riight-side .new-iNFO .pop-hover {
+        padding: 0 6px 0 0;
+    }
+    .header .navbar-collapse ul li a {
+        padding: 0 !important;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        line-height: inherit;
+    }
+    .right-nav ul li img {
+        right: auto;
+    }
+    .sign-in a {
+        font-size: 22px !important;
+    }
+    .respo-img {
+        display: block;
+    }
+    .live-chat.hide-big>a::after {
+        top: 2px;
+        background: #b0d235 none repeat scroll 0 0;
+        border-radius: 50%;
+        content: "";
+        display: inline-block;
+        height: 13px;
+        margin: 4px 0 0 6px;
+        position: relative;
+        width: 13px;
+    }
+    .help-center.hide-big span {
+        color: #fff;
+    }
+    .help-line b {
+        color: #91cbe3;
+    }
+    .spanish-language {
+        font-size: 22px !important;
+    }
+    .all-form-outer .inner-layout {
+        padding-bottom: 0;
+    }
+    .plan-qouting .btn-part>span {
+        margin-top: 10px;
+    }
+    .btn-part.special-enrollment {
+        margin: 34px auto;
+    }
+    .btn-part.special-enrollment>span {
+        line-height: 36px;
+    }
+    .center-btn.parishes-county {
+        padding: 34px 0 55px;
+    }
+}
+
+@media only screen and (max-width:980px) {
+    .check-box-info2 .error-message {
+        display: block;
+        float: none;
+        left: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hover-info {
+        width: 300px !important;
+    }
+    .heading-plan .info-part .hover-info {
+        margin-left: -142px;
+    }
+    .new-one .find-health .special-enrollment .insurance-health .next-open .hover-info,
+    .new-one .find-health .next-open .insurence-activity .right-act-in .hover-info,
+    .new-one .find-health .next-open .these-people-part .table-responsive .hover-info,
+    .new_hmo .hover-info,
+    .monthly-hover .hover-info {
+        left: -143px !important;
+        top: 27px !important;
+    }
+    .maxout_hover .hover-info,
+    .plan-coverage-hover .hover-info {
+        left: -143px;
+    }
+    .enhance_hover .hover-info {
+        left: -17px;
+    }
+    /*.plan-qouting .header.sticky-header .right-nav {z-index: 9999;}*/
+    /*.plan-enrol-top.sticky-enroll .hmo {width: 21%;}*/
+    .enchanced_benefit .hover-info {
+        margin-left: 90px;
+    }
+    .ac-month-hover .hover-info {
+        left: 50%;
+        top: 32px;
+        margin-left: -150px;
+    }
+    .house-income .hold-income label:hover .hover-info {
+        margin-left: -150px;
+    }
+    .montly-cost-hover:hover .hover-info,
+    .deduct_hover .hover-info {
+        left: 50%;
+        margin-left: -150px;
+    }
+    .plan_detail_hmo:hover .hover-info {
+        left: 50%;
+        margin-left: -152px;
+    }
+    .edithouse .main-bottom-p .cost .enchanced_benefit:hover .hover-info {
+        margin-left: -160px;
+    }
+}
+
+@media only screen and (max-width:930px) {
+    /*.plan-enrol-top.sticky-enroll{height:90px;}*/
+    .plan-enrol-top.sticky-enroll .hmo {
+        width: 31%;
+    }
+    .plan-enrol-top.sticky-enroll .main-enroll div.call-action-enroll {
+        padding-top: 6px;
+    }
+    .plan-enrol-top.sticky-enroll .bottom-print {
+        float: right;
+        margin-right: 18px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .sticky-enroll .bottom-print a.mail-btn {
+        margin-left: 8px;
+    }
+    .plan-enrol-top.sticky-enroll .main-enroll div.call-action-enroll {
+        width: 49%;
+        max-width: 55%;
+    }
+    .plan-qouting .plan-enrol-top.sticky-enroll .bottom-print {
+        margin: 5px 5px 0px 0px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .back-continue.btn_plan {
+        margin: 15px auto !important;
+        position: relative;
+        top: -15px !important;
+    }
+    .back-continue.btn_plan input.blue {
+        width: 220px;
+    }
+    .back-continue.btn_plan .grey.dental-btn {
+        position: absolute;
+        bottom: -59px;
+        width: 220px;
+        font-size: 18px !important;
+    }
+    .back-continue.btn_plan input.grey {
+        width: 220px;
+        bottom: 22px;
+        margin: 0px auto !important;
+    }
+    .top_f_btn {
+        padding-top: 108px !important;
+    }
+    .main-plan-qoute .left-baar-side.active .slider-price .tooltip.tooltip-main {
+        left: 0% !important;
+        right: 0px !important;
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .main-plan-qoute .left-baar-side.active .slider-price .tooltip.tooltip-max {
+        left: 0% !important;
+    }
+    .left-bottom-center.provider-info {
+        width: 500px !important;
+        position: relative !important;
+        left: 0px;
+        float: left !important;
+        margin: 10px 0px !important;
+    }
+    .left-bottom-center.provider-info .enhance_hover img {
+        width: 40px;
+    }
+    .plan-qouting.screen-one {
+        display: block;
+    }
+    div.market-health-plan-outer.shopping_cart_screen {
+        padding: 0px 15px;
+    }
+    div.shopping_cart_screen .market-health-plan .health-name h4 {
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+    div.select_plan h5 {
+        font-size: 16px;
+        padding: 14px 15px;
+    }
+    div.shopping_cart_screen .plan_box .plan_heading {
+        font-size: 16px;
+        left: 15px;
+    }
+    div.shopping_cart_screen .plan_inner_box::before {
+        left: 130px;
+    }
+    div.shopping_cart_screen .plan_inner_box {
+        padding: 5px 25px 5px 150px;
+    }
+    div.shopping_cart_screen .market-health-plan .plan_center p,
+    div.shopping_cart_screen .efftive-d,
+    div.shopping_cart_screen .plan_total label,
+    div.shopping_cart_screen .market-health-plan .plan_center p.cost span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    div.shopping_cart_screen .market-health-plan .plan_center p.cost {
+        font-size: 40px;
+        line-height: 24px;
+    }
+    div.shopping_cart_screen .plan_total span {
+        font-size: 24px;
+    }
+    div.cart_list .cart_heading h4,
+    div.add_plan_select select,
+    div.cart_outer .cart_inner .cart_text,
+    div.cart_button .btn,
+    .view_all_plan .btn {
+        font-size: 16px;
+    }
+    div.cart_list .cart_heading {
+        position: relative;
+    }
+    div.cart_list .cart_heading img {
+        margin: auto;
+        bottom: 0;
+        top: 0;
+        height: 80px;
+        width: 80px;
+    }
+    div.cart_inner .cost_text {
+        font-size: 44px;
+        line-height: 38px;
+    }
+    div.cart_inner .price {
+        line-height: 26px;
+        font-size: 18px;
+    }
+    div.cart_outer {
+        padding: 5px 15px;
+    }
+    div.cart_list {
+        padding: 0 15px;
+    }
+    div.market-health-plan-outer.shopping_cart_screen {
+        border-radius: 0px;
+    }
+    div.shopping_cart_screen .plan_total {
+        background: #007eb7;
+        padding: 5px 0 10px;
+    }
+    div.shopping_cart_screen .plan_total label {
+        color: #fff;
+        padding: 0 15px 0px 15px;
+        width: auto;
+        margin: 0px !important;
+    }
+    div.shopping_cart_screen .plan_total span {
+        color: #fff;
+        padding: 0 0px;
+        width: auto;
+    }
+    .left-household .detail-household .dropdown-menu.open {
+        z-index: 999;
+    }
+    .home .left-nav-bar ul li.sign-in.hide-big {
+        padding-right: 0px !important;
+    }
+    .monthly-pay span {
+        z-index: 1;
+    }
+    .app-plan-show .table-responsive {
+        overflow-x: auto;
+        overflow-y: hidden;
+        wdith: 100%;
+    }
+    .app-plan-show {
+        width: 600px;
+    }
+    .app-plan-show table {
+        width: 100%;
+    }
+    .app-plan-show table thead th {
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+    .app-plan-show table tbody td {
+        font-size: 13px;
+    }
+    .app-hover-text .hover-info {
+        display: none !important;
+    }
+    .app-hover-text span {
+        border: 0px;
+    }
+    .main-input .affodable-section .error-text {
+        font-size: 16px;
+        color: #ff0000 !important;
+    }
+    .enroll-equity .affodable-section .error-text {
+        bottom: 6px;
+        font-size: 16px;
+        left: 0;
+        margin: 0 auto !important;
+        position: absolute;
+        right: 0;
+    }
+    .special-enroll .these-people-part .table-responsive td:nth-child(2n) {
+        width: 5%;
+    }
+    .find-health .btn-part.tabacco-user>span {
+        font-size: 28px;
+        padding-bottom: 20px;
+        line-height: 30px;
+    }
+    .household-size .modal-footer {
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .household-size .modal-footer .modal-btn {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        padding: 80px 0px 0px 0px;
+    }
+    .household-size .modal-footer .modal-btn .continue-to-plan {
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+    .household-size .modal-title {
+        font-size: 22px;
+    }
+    .household-size .modal-body>.house-hold-pp b {
+        display: none !important;
+    }
+    .household-size .border-bottom-cursor {
+        border-bottom: 0 none;
+    }
+    .household-size .modal-body>.house-hold-pp {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .privacy-policy {
+        margin: 20px 0;
+    }
+    .privacy-policy h3.blue-text {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 10px 0 0;
+    }
+    .top-text {
+        margin: 10px 0;
+    }
+    .top-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .top-text h4 {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 0 0 10px;
+        border-left: 2px solid #007eb7;
+    }
+    .privacy-policy h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .insurance-licenses .main-heading h2 {
+        padding: 20px 0;
+        font-size: 28px;
+    }
+    .language-resources h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .language-resources {
+        margin: 20px 0 0;
+    }
+    .language-resources table td.description,
+    .language-resources table td.name {
+        font-size: 16px;
+    }
+    .language-resources .table-responsive {
+        border: 0px;
+        padding: 0;
+    }
+    .language-resources table td {
+        white-space: inherit !important;
+    }
+    .my_account_container strong.semi {
+        font-size: 16px;
+    }
+    .market-health-plan-outer {
+        padding: 0 0px 0 0px;
+    }
+    .top-call .enroll-in-plan:focus {
+        background: #d8e734 none repeat scroll 0 0;
+    }
+    .plan-enrol .back-enroll:focus,
+    .plan-enrol .back-enroll:hover {
+        background: #00aced !important;
+    }
+    .app-payment .market-place.fifth-wizard .market-box {
+        padding: 0 0;
+    }
+    .app-payment div.market-btn .back-continue {
+        padding: 0 0 5px;
+    }
+    .app-payment .market-place.fifth-wizard .market-box .box {
+        height: auto !important;
+        width: 100%;
+        margin: 0 0 20px !important;
+    }
+    body .tabacco-user span {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .market-place .btn-part.text-outer>span {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    div.market-place .market-box .box {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+        min-height: inherit;
+        padding: 15px;
+    }
+    .form-tag {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .header.sticky-header .navbar-header {
+        margin: 10px 0 0;
+    }
+    span.Tabaco {
+        padding-left: 17px;
+    }
+    .pagination>li>a,
+    .pagination>li>span {
+        line-height: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .btn-cancel-add {
+        margin: 10px 0 0;
+    }
+    .question-area .col-sm-3,
+    .question-area .col-sm-12 {
+        margin-bottom: 5px;
+    }
+    .question-area h3 {
+        font-size: 14px;
+    }
+    .main-plan-qoute .selection-detail .center-content {
+        padding-bottom: 0px;
+    }
+    .monthly-pay h3 {
+        font-size: 18px;
+    }
+    .description-box .monthly-pay .payment-dolor-hover h1 {
+        font-size: 44px;
+        line-height: 34px;
+    }
+    .description-box .monthly-pay span {
+        float: left;
+        width: 100%;
+    }
+    .container.my_account_section {
+        padding: 0 10px;
+    }
+    .enhance_hover:hover .hover-info {
+        display: none;
+    }
+    .description-box .compare>a.enhance-logo span u {
+        border: 0px;
+    }
+    .description-box .compare>a.enhance-logo i {
+        display: none;
+    }
+    .description-box .compare>a.enhance-logo {
+        bottom: -70px;
+        display: block;
+        margin: 0;
+        right: 0px;
+        position: absolute;
+    }
+    .live-chat.hide-big>a::after {
+        top: -1px;
+    }
+    .coverage-part.wizard-cover .create-account .more-detail.form-detail {
+        padding: 0px;
+    }
+    .create-account .back-continue {
+        margin: 30px auto;
+    }
+    .create-account .privacy_policy_txt {
+        margin: 5px 0;
+    }
+    .create-account h2 {
+        font-size: 28px;
+        margin: 10px 0 20px;
+        line-height: 30px;
+    }
+    .create-account {
+        margin: 4px 0 0px;
+    }
+    .plan-enrol-outer .main-monthly h3 {
+        display: none;
+    }
+    .boot-pagination {
+        padding: 0px;
+        margin: 0;
+    }
+    .main-plan-qoute div.selection-detail {
+        padding: 15px 0;
+    }
+    .main-plan-qoute .left-baar-side {
+        padding: 0px;
+    }
+    .dollar-input-part {
+        position: relative;
+    }
+    .plan-qouting.new-one .top-coverge .next-open .requirements-fill .dollar-input-part>strong {
+        top: 10px;
+    }
+    .btn-part.special-enrollment>span {
+        font-size: 28px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    .plan-qouting div.custom-zip .input-find {
+        margin-top: 20px;
+    }
+    .plan-qouting div.custom-zip .btn-part span {
+        padding-bottom: 20px;
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .plan-qouting div.custom-zip {
+        padding: 18px 15px 28px;
+    }
+    .plan-qouting .parishes-county span {
+        font-size: 28px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    .sticky-enroll .bottom-print {
+        padding: 13px 0 0 84px;
+        text-align: center;
+    }
+    .container.my_account_section>.row {
+        margin: 0px;
+    }
+    .edithouse.active .edit-house-hold {
+        padding: 0px !important;
+    }
+    .my_account_container .document-status {
+        margin: 0 0 10px;
+    }
+    .my_account_container .market-eligibility {
+        margin: 0 0 10px;
+    }
+    .my_account_container .life-change1 {
+        margin: 0 0 10px;
+    }
+    .pop-click-part .btn-cancel-add button.close-btn {
+        margin: 0 0 0 5px;
+    }
+    .who-needs-insurence span.part-add-child {
+        margin-top: 0;
+    }
+    .blue_box_panel .bbox_content .bbox_right_content {
+        padding: 0 10px;
+    }
+    .blue_box_panel .bbox_content {
+        padding: 20px;
+    }
+    .blue_box_panel .bbox_content .montly-cost-ac .monthly_cost {
+        min-height: initial !important;
+        padding: 40px 0 !important;
+    }
+    .main-plan-qoute .selection-detail .compare .detail-classs {
+        padding: 10px 20px 10px 40px;
+    }
+    .top-list-view-compare .contact-section {
+        padding: 0px !important;
+    }
+    .header.sticky-header .left-nav-bar .navbar-brand {
+        top: -6px;
+    }
+    .plan-qouting .main-sign-data .left-nav-bar .navbar-brand {
+        top: 0;
+    }
+    .plan-qouting .left-nav-bar .navbar-brand {
+        top: -14px;
+    }
+    .plan-qouting .left-nav-bar .sing-dropdown {
+        padding-left: 0;
+        top: 0px;
+    }
+    .home nav {
+        top: 5px;
+    }
+    .sigin-response .enroll-equity .affodable-section .error-text {
+        margin-left: 0 !important;
+    }
+    .call-area .call-section {
+        padding-left: 110px !important
+    }
+    .first-footer.contact-section {
+        margin: 30px 0;
+    }
+    .left-act-insurence {
+        padding: 0;
+    }
+    .insurence-activity {
+        float: left;
+        margin: 20px 0;
+        min-height: inherit;
+    }
+    .right-act-in {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .top-coverge .health-insurance .next-open .requirements-fill ul li .right-se span {
+        margin-left: 5px;
+    }
+    .new-one .health-insurance .left-age-se.right-se .check-box-part {
+        padding-top: 10px;
+    }
+    .new-one .health-insurance .age-place-size .left-age-se.right-se .check-box-part {
+        padding-top: 20px;
+        margin-right: 2px;
+    }
+    .left-age-se.right-se {
+        position: relative;
+    }
+    .new-one .top-coverge .who-needs-part .left-lost ul li {
+        width: 29.4%;
+    }
+    .top-coverge .health-insurance .requirements-fill ul.right-enroll {
+        padding-left: 0;
+    }
+    .top-coverge .health-insurance .next-open .requirements-fill ul {
+        width: 50%;
+        padding-right: 0;
+    }
+    .top-coverge .health-insurance .requirements-fill ul.right-enroll .hover-info::after {
+        left: 151px;
+    }
+    .special-enrollment .left-lost.right p {
+        margin: 0px 0px 20px 0px;
+    }
+    .special-enrollment .back-continue.center-btn-house {
+        text-align: center;
+    }
+    .special-enrollment .back-continue.center-btn-house input {
+        float: none;
+        margin: 10px 0 10px 20px;
+    }
+    .special-enrollment .left-lost.right ul {
+        margin-top: 0;
+    }
+    .left-lost.right p::before {
+        height: 100%;
+    }
+    .left-lost p {
+        min-height: inherit;
+    }
+    .special-enrollment .left-lost.right {
+        padding-left: 0;
+    }
+    .btn-part.special-enrollment {
+        margin: 18px auto 20px;
+        padding: 0 15px;
+    }
+    .plan-qouting.new-one .health-insurance .next-open .left-lost .check-box-part label {
+        padding-bottom: 14px !important;
+    }
+    .plan-qouting.new-one .health-insurance .next-open .check-box-part label {
+        padding-bottom: 18px !important;
+    }
+    .find-health .special-enrollment p {
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: 10px;
+    }
+    .top-coverge .insurance-health .how-many-children {
+        margin-left: 0px;
+    }
+    .plan-qouting.new-one .health-insurance .next-open label {
+        padding-left: 0;
+        padding-bottom: 10px !important;
+    }
+    .special-enrollment .left-lost {
+        padding-right: 0;
+        width: 100%;
+    }
+    .main-plan-qoute .riight-side .compare-box {
+        display: none;
+    }
+    .main-footer.screens-footer {
+        padding: 0 15px;
+    }
+    .main-plan-qoute div.selection-detail {
+        padding: 15px 0 0;
+    }
+    .plan-qouting .header.sticky-header .right-nav {
+        margin: 0 !important;
+        padding: 10px 10px 10px 0 !important;
+    }
+    .plan-qouting .right-nav .save-exit {
+        margin: 5px 0 0 5px !important;
+    }
+    .plan-qouting .right-nav ul {
+        width: auto !important;
+    }
+    /*	.plan-qouting .right-nav ul .live-chat{ display:none; }
+    .plan-qouting .right-nav ul .help-center{ display:none; }*/
+    .screen-one.plan-qouting .right-nav ul {
+        margin: 0px;
+    }
+    .plan-qouting .right-nav ul li a {
+        font-size: 14px;
+    }
+    .edit-house-hold .dependent-spouse>a {
+        margin: 0 10px 0 0 !important;
+    }
+    .first-info .who-needs-insurence.last-insu.cover-btn .showup {
+        right: 0;
+    }
+    .who-needs-insurence.last-insu.cover-btn {
+        width: 100%;
+        max-width: 250px;
+        padding: 0 0 30px;
+    }
+    .right-depnt {
+        left: 105px;
+        top: 17px;
+    }
+    .plan-qouting footer {
+        padding-bottom: 50px;
+    }
+    .call-section .title-main {
+        padding: 0px 10px;
+    }
+    .home-price .aca {
+        font-size: 18px;
+    }
+    .home-price .credit-info {
+        padding: 83px 10px 10px 150px;
+    }
+    .home-price .average-credit {
+        font-size: 70px;
+    }
+    .email .modal-content {
+        padding: 20px 5% 30px;
+    }
+    .link .modal-dialog {
+        left: 0;
+        margin: 0 auto;
+        max-width: 95%;
+        right: 0;
+    }
+    .link .modal-dialog .modal-content,
+    .email .modal-content {
+        width: 100%;
+    }
+    /*	body{ overflow-x: hidden; }	*/
+    .container {
+        width: 100%;
+        /*padding: 0;*/
+    }
+    .header .nav.navbar-nav {
+        border: 0 none;
+        margin: 0;
+    }
+    .header .navbar-collapse {
+        border: 0px;
+    }
+    .left-nav-bar .navbar-brand {
+        left: 10px;
+    }
+    .banner img {
+        left: -25%;
+        max-width: inherit;
+        position: relative;
+        width: 150%;
+    }
+    .affodable-section .input-form input[type="text"],
+    .affodable-section .input-form input[type="button"] {
+        float: none;
+        font-size: 22px;
+        height: 54px;
+        margin-bottom: 15px;
+    }
+    .affodable-section {
+        width: 100%;
+        text-align: center;
+        float: left;
+        padding: 0 10px;
+    }
+    .affodable-section .input-form input[type="button"] {
+        max-width: 312px;
+    }
+    .plans {
+        padding: 0px 10px;
+    }
+    .partner {
+        padding: 0px 10px;
+    }
+    .services-part {
+        padding: 0px 10px;
+    }
+    .call-section {
+        padding: 15px 10px;
+    }
+    .imagebanner {
+        overflow: hidden;
+    }
+    .partner>ul li {
+        padding: 10px 5%;
+    }
+    .services-part .text-center img {
+        width: 158px;
+    }
+    .services-part p {
+        padding: 0px 5%;
+    }
+    .affodable-section h4 {
+        font-size: 26px;
+    }
+    .enroll-equity {
+        padding: 20px 0 0;
+    }
+    footer .main-footer {
+        padding: 40px 30px 10px;
+    }
+    footer .firm-info {
+        padding: 30px 0 20px 0px;
+    }
+    footer::after {
+        height: 260px;
+    }
+    .enroll-equity .input-form {
+        width: 100%;
+    }
+    .plan-qouting .save-exit a {
+        margin-left: 18px;
+    }
+    .home .left-nav-bar {
+        z-index: 999;
+    }
+    .plan-qouting .right-nav {
+        padding: 0 0px 0 0;
+        /*width: 100%;*/
+    }
+    .hmo {
+        border-right: 0 none;
+        text-align: center;
+        width: 100% !important;
+        padding: 0 0 20px !important;
+    }
+    .price-enroll.monthly-pay {
+        border-right: 1px solid #fff;
+        padding: 0 20px 0 0 !important;
+        width: 50% !important;
+    }
+    .main-monthly {
+        float: right !important;
+    }
+    .call-action-enroll {
+        width: 50% !important;
+    }
+    .top-call .back-enroll,
+    .top-call .enroll-in-plan {
+        clear: both;
+        line-height: 20px !important;
+        font-size: 16px !important;
+        height: 40px !important;
+        padding: 10px !important;
+        margin: 0px 0px 10px 0px;
+    }
+    .bottom-print {
+        display: block;
+    }
+    .price-enroll.monthly-pay h1 {
+        float: right !important;
+        text-align: right;
+        width: 100% !important;
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .price-enroll.monthly-pay .main-monthly span {
+        clear: both;
+        font-size: 14px;
+        padding-right: 0;
+        text-align: right;
+        width: 100% !important;
+    }
+    .price-enroll.monthly-pay h3 {
+        font-size: 18px;
+        text-decoration: line-through;
+        text-align: right;
+        width: 100% !important;
+    }
+    .monthly-pay h3::before {
+        display: none;
+    }
+    .call-action-enroll {
+        padding: 0px 10px 0px 20px !important;
+    }
+    .pan-coverage {
+        padding: 0px 15px;
+    }
+    .heading-plan h3 {
+        font-size: 30px;
+    }
+    .heading-plan {
+        padding-bottom: 18px;
+        padding-top: 25px;
+    }
+    .plan-coverage-box .left-individual {
+        width: 50%;
+    }
+    .plan-coverage-box .right-individual {
+        width: 50%;
+    }
+    .plan-coverage-box ul li {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .plan-qouting .right-nav ul {
+        text-align: right;
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .plan-qouting .right-nav .sign-in,
+    .plan-qouting .right-nav ul li.need-help {
+        display: inline-block;
+        float: none;
+    }
+    .plan-qouting footer::after {
+        display: none;
+    }
+    .plan-qoute-footer {
+        padding: 0px 15px;
+    }
+    .plan-qoute-footer p {
+        padding: 0px 0px 0px 0px;
+    }
+    .right-plan-qoute-footer {
+        margin: 20px 0px 0px;
+    }
+    .right-plan-qoute-footer img {
+        width: 100%;
+    }
+    .left-footer-plan {
+        padding: 20px 0px;
+    }
+    .edithouse {
+        display: none;
+    }
+    .footer-links {
+        display: block !important;
+        left: 0px;
+        position: fixed;
+        bottom: 0px;
+        background: red;
+        width: 100%;
+        box-shadow: 0px -5px 5px #a9a9a9;
+        z-index: 1;
+    }
+    .footer-links a {
+        float: left;
+        width: 50%;
+        padding: 12px 5px;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: open sans;
+    }
+    .footer-links a.filter-link {
+        background: #b0d235;
+    }
+    .footer-links a.edit-detail-link {
+        background: #016b9d;
+    }
+    .main-plan-qoute {
+        padding-top: 0px;
+    }
+    .main-plan-qoute .right-baar {
+        width: 100% !important;
+    }
+    .main-plan-qoute .selection-detail {
+        clear: both;
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+    .main-plan-qoute .riight-side .compare-box {
+        height: auto;
+        left: 0;
+        top: 0;
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+    .main-plan-qoute .left-baar-side {
+        width: 100% !important;
+        float: left;
+        max-width: inherit;
+    }
+    .main-plan-qoute .left-baar {
+        max-width: inherit;
+    }
+    .main-plan-qoute .left-baar .sort-by {
+        padding: 15px 20px 15px 105px;
+        background: #00acee;
+        position: relative;
+        margin-top: 15px;
+    }
+    .main-plan-qoute .left-baar .sort-by label {
+        position: absolute;
+        top: 25px;
+        color: #fff;
+        left: 20px;
+    }
+    .main-plan-qoute .left-baar .sort-by .detail-household {
+        padding: 0px 0px 0px 0px;
+    }
+    .main-plan-qoute .left-baar-side .top-links,
+    .main-plan-qoute .left-baar-side hr,
+    .main-plan-qoute .left-baar-side .monthly-cost,
+    .main-plan-qoute .left-baar-side .monthly-cost,
+    .main-plan-qoute .left-baar-side .networks,
+    .main-plan-qoute .left-baar-side .mobile-filter,
+    .main-plan-qoute .left-baar-side .ask-hazel-area {
+        display: none !important;
+    }
+    .main-plan-qoute .selection-detail .description-box .main-monthly {
+        float: left !important;
+    }
+    .monthly-pay h3::before {
+        display: none;
+    }
+    .main-plan-qoute .selection-detail .description-box .monthly-pay h3 {
+        text-decoration: line-through;
+    }
+    .main-plan-qoute .selection-detail .description-box .monthly-pay {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+    .main-plan-qoute .selection-detail .description-box .detuctable {
+        padding: 0px;
+        width: 100%;
+    }
+    .single-person.family-person {
+        padding-top: 10px;
+    }
+    .main-plan-qoute .selection-detail .center-content {
+        width: 50%;
+    }
+    .main-plan-qoute .selection-detail .bottom-center {
+        clear: inherit;
+        width: 50%;
+        text-align: center;
+        position: relative;
+        padding: 20px 20px 90px 0px;
+    }
+    .main-plan-qoute .selection-detail .enroll-btn {
+        clear: both;
+    }
+    .main-plan-qoute .selection-detail .left-bottom-center {
+        float: right;
+        padding: 0px;
+        margin: 0px 0px 15px 0px;
+        position: absolute;
+        bottom: 0px;
+        right: 20px;
+    }
+    .main-plan-qoute .selection-detail .compare .detail-classs {
+        margin: 0px;
+        padding: 10px 30px;
+        background: rgba(0, 0, 0, 0) url("/Images/add-icon.png") no-repeat scroll 13px 15px;
+        border: 2px solid #1285bb;
+        width: auto;
+        border-radius: 10px;
+        float: left;
+        display: block;
+    }
+    .main-plan-qoute .selection-detail .compare .detail-classs:hover,
+    .main-plan-qoute .selection-detail .compare .detail-classs:focus {
+        background-position: 13px -17px;
+    }
+    .description-box .compare>a {
+        display: none;
+    }
+    .main-plan-qoute .selection-detail .description-box {
+        margin-bottom: 20px;
+        padding: 0 0 20px;
+        min-height: inherit;
+        position: relative;
+    }
+    .main-plan-qoute .selection-detail .detuctable span {
+        line-height: 24px;
+    }
+    .main-plan-qoute .left-baar-side.active .sort-by {
+        display: none;
+    }
+    .house-income .houseselect,
+    .house-income .field-in {
+        margin: 5px 0px 0px;
+    }
+    .plan-filter-data h2 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .main-plan-qoute .left-baar-side.active .slider-price {
+        position: relative;
+        top: -10px;
+    }
+    .main-plan-qoute .left-baar-side.active .top-links,
+    .main-plan-qoute .left-baar-side.active hr,
+    .main-plan-qoute .left-baar-side.active .monthly-cost,
+    .main-plan-qoute .left-baar-side.active .monthly-cost,
+    .main-plan-qoute .left-baar-side.active .networks,
+    .main-plan-qoute .left-baar-side.active .mobile-filter,
+    .main-plan-qoute .left-baar-side.active .ask-hazel-area {
+        display: block !important;
+        padding: 0px 0px;
+        clear: both;
+    }
+    .main-plan-qoute .left-baar-side.active {
+        background: #f1f2f2;
+        position: absolute;
+        z-index: 9;
+        padding-bottom: 50px;
+    }
+    .main-plan-qoute .left-baar-side.active .left-side-baar {
+        float: left;
+        padding-bottom: 20px;
+        width: 100%;
+        position: relative;
+        z-index: 0;
+    }
+    .main-plan-qoute .left-baar-side.active .mobile-filter {
+        background: #007eb8;
+        position: relative;
+        float: left;
+        margin: 0 0 20px;
+        width: 100%;
+    }
+    .main-plan-qoute .left-baar-side .mobile-filter label {
+        margin: 4px 0px 0px;
+        float: left;
+        font-size: 20px;
+        padding: 10px 0px;
+        font-weight: 600;
+        font-family: open sans;
+        color: #fff;
+    }
+    .main-plan-qoute .left-baar-side .mobile-filter .btn {
+        background: #00aced none repeat scroll 0 0;
+        border-radius: 7px;
+        box-shadow: 0 2px 1px #505050;
+        color: #ffffff;
+        display: block;
+        float: right;
+        font-family: open sans;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 36px;
+        padding: 0 15px;
+        text-align: center;
+        width: auto;
+        margin: 10px 0px;
+    }
+    .main-plan-qoute .active .left-side-baar hr {
+        float: left;
+        width: 100%;
+        margin: 25px 0px;
+    }
+    .edithouse.active {
+        display: block;
+        background: #007eb8;
+    }
+    .edithouse.active .edit-save {
+        display: block;
+        padding: 0 20px;
+        background: #016b9d;
+        position: relative;
+        float: left;
+        margin: 0 0 0px;
+        width: 100%;
+        border-bottom: 1px solid #fff;
+    }
+    .edithouse.active .edit-save label {
+        margin: 4px 0px 0px;
+        float: left;
+        font-size: 16px;
+        padding: 10px 0px;
+        text-align: center;
+        width: 60%;
+        font-weight: 600;
+        font-family: open sans;
+        color: #fff;
+    }
+    .edithouse.active .edit-save .btn {
+        background: #00aced none repeat scroll 0 0;
+        border-radius: 7px;
+        box-shadow: 0 2px 1px #505050;
+        color: #ffffff;
+        display: block;
+        float: right;
+        font-family: open sans;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 36px;
+        padding: 0 15px;
+        text-align: center;
+        width: auto;
+        margin: 10px 0px;
+    }
+    .edithouse.active .container {
+        float: lef;
+        width: 100%;
+        clear: both;
+    }
+    .edithouse.active .household-edit-page {
+        display: none !important;
+    }
+    .edithouse.active .edit-house-hold {
+        display: block !important;
+        float: left;
+        position: absolute;
+        top: 15px;
+        width: 100%;
+        padding: 0px 20px;
+        z-index: 9;
+    }
+    .edithouse.active .who-needs-insurence {
+        margin: 0 0 10px;
+        padding: 0px 0px 0px 0px;
+        border: 0px;
+        width: 100%;
+    }
+    .edithouse.active .my-age>a {
+        float: left;
+        margin: -6px 0 0 15px;
+    }
+    .edithouse.active .edit-house-hold .dependent-spouse>a {
+        clear: initial;
+        margin: 0 10px 10px 0 !important;
+        width: auto;
+    }
+    .edithouse.active .main-section-part-overlay {
+        padding: 15px 0;
+        position: relative;
+    }
+    .edithouse.active .title-overlay {
+        padding-bottom: 5px;
+    }
+    .edithouse.active .edit-house-hold .hold-income {
+        width: 48%;
+    }
+    .edithouse.active .dollar-price,
+    .edithouse.active .bottom-des-text,
+    .edithouse.active .cost {
+        width: 100%;
+        padding: 0;
+        margin: 0px 0px 20px 0px;
+    }
+    .edithouse.active .dollar-price h3 {
+        font-size: 40px;
+        line-height: 34px;
+        margin: 0 0 0px;
+    }
+    .edithouse.active .cost {
+        margin: 20px 0 30px !important;
+    }
+    .edithouse.active .price-main {
+        font-size: 44px;
+        padding-bottom: 20px;
+        line-height: 26px;
+    }
+    .call-section .title-main {
+        padding: 5px 0px 5px 0px;
+    }
+    .main-container .call-section::before {
+        left: 15px;
+    }
+    .plan-qouting .special-enroll.next-open {
+        max-width: 721px;
+        width: 100%;
+    }
+    .health-insurance.insurance-health {
+        width: 100%;
+    }
+    .new-one .top-coverge .health-insurance .next-open .requirements-fill ul li {
+        width: 100%;
+    }
+    .new-one .inner-layout .top-coverge .who-needs-part .left-lost ul li:nth-child(2) {
+        margin: 0 3.5% !important;
+    }
+    .new-one .inner-layout .top-coverge .who-needs-part .left-lost ul li {
+        padding: 7px 5px;
+    }
+    .plan-qouting .header.sticky-header .right-nav {
+        padding: 10px 0px 10px 0px !important;
+    }
+    .plan-qouting .header.sticky-header {
+        padding: 0;
+    }
+    .plan-enrol-top.sticky-enroll {
+        height: 0;
+        min-height: 0;
+        position: relative;
+        background: #026c9d;
+        height: auto;
+    }
+    .plan-enrol-top .price-enroll.monthly-pay h1 {
+        font-size: 60px;
+        line-height: 62px;
+    }
+    .top-call .enroll-in-plan {
+        clear: none;
+    }
+    .personal-plan .modal-header h4 {
+        font-size: 18px;
+    }
+    .top-list-view-compare .component {
+        max-width: 650px;
+    }
+    .account-ifnfor .modal-dialog,
+    .change-password .modal-dialog,
+    .modal.comp-plan .modal-dialog,
+    .save-exit-modal .modal-dialog,
+    .personal-plan .modal-dialog,
+    .compare-email .modal-dialog,
+    .email.link .modal-dialog {
+        padding: 0 15px;
+    }
+    .save-exit-modal .sign-in-screen {
+        display: block !important;
+    }
+    .screen-one.plan-qouting .header .right-nav ul {
+        float: left;
+        margin-bottom: 8px;
+    }
+    .plan-qouting .save-exit {
+        float: right
+    }
+    .new-one .back-continue input {
+        font-size: 18px;
+    }
+    .market-place .market-box .box h4 {
+        font-size: 20px;
+    }
+    .market-place .market-box .box {
+        min-height: 584px;
+    }
+    .monthly-display {
+        display: block;
+    }
+    .blue_box_panel .bbox_content .monthly-display .montly-cost-ac .monthly_cost {
+        height: auto;
+        left: 14px;
+        min-height: 450px;
+        padding: 164px 0 0;
+        position: static;
+        vertical-align: middle;
+        width: 100%;
+    }
+    .health-insurance .special-enroll.next-open.savings {
+        margin-bottom: 48px;
+    }
+    .will-call .btn-part.special-enrollment {
+        padding: 0;
+    }
+    .will-call .top-coverge .health-insurance .requirements-fill ul {
+        width: 100%
+    }
+    .will-call .top-coverge .health-insurance .next-open .requirements-fill ul li {
+        width: 100%;
+    }
+    .plan-qouting .sticky-enroll .call-action-enroll {
+        float: right;
+    }
+    .heading-plan .info-part .hover-info {
+        left: 40px;
+    }
+    .ask-hazel-area {
+        background-position: center center;
+        padding: 20px 10px 20px 225px;
+    }
+    .monthly-pay .payment-dolor-hover h1 {
+        font-size: 60px;
+    }
+    /* css for display none for mobiel start */
+    .new_hmo i,
+    .deduct_hover i,
+    .maxout_hover i,
+    .monthly-hover i,
+    .deduct_hover:hover .hover-info,
+    .new-one .find-health .health-insurance .next-open label>span,
+    .top-coverge .health-insurance .next-open .requirements-fill ul li .right-se span b,
+    .these-people-part .table-responsive td span b,
+    .insurance-health .seation-anyone .left-lost ul li:last-child span b,
+    .fine-amount a b,
+    .right-act-in a b,
+    .right-act-in.fine-amount b,
+    .pop-hover span.main-padding i,
+    .plan_detail_hmo i,
+    .montly-cost-hover i,
+    .plan-coverage-hover i,
+    .info-part i,
+    .plan-coverage-box .left-individual ul li:hover .hover-info,
+    .hold-income label i,
+    .person-me span.cover-detail i,
+    span.dollar-main i,
+    .enchanced_benefit span i,
+    span.price-main:hover .hover-info,
+    .house-income .hold-income label:hover .hover-info,
+    .dollar-main:hover .hover-info,
+    .main-plan-qoute .left-baar .left-baar-title i {
+        display: none;
+    }
+    .top-coverge .insurance-health .seation-anyone .left-lost li:last-child span,
+    .health-insurance label,
+    .top-coverge .health-insurance .next-open .requirements-fill ul li .right-se span,
+    .new_hmo span,
+    .monthly-hover,
+    .deduct_hover p,
+    .maxout_hover p,
+    .pop-hover span,
+    .top-list-view-compare .component .riight-side .new-iNFO .pop-hover,
+    .plan_detail_hmo span,
+    .montly-cost-hover,
+    .info-part,
+    .plan-coverage-box .left-individual ul li,
+    .house-income span.price-main,
+    .person-me span.cover-detail span.hover-price-edit,
+    .networks ul li span {
+        cursor: inherit;
+    }
+    .right-act-in.fine-amount span,
+    .these-people-part .table span i,
+    .right-act-in.enhanced-bene span {
+        border-bottom: medium none;
+    }
+    .new-one .find-health .insurance-health .next-open .first-name-row label b,
+    .new-one .find-health .insurance-health .next-open .right-enroll label b,
+    .new-one .find-health .insurance-health .how-many-children label b,
+    .top-coverge .insurance-health .seation-anyone .left-lost li:last-child span span,
+    .border-bot,
+    .new_hmo span,
+    .monthly-hover span,
+    .deduct_hover p,
+    .maxout_hover p,
+    .component .pop-hover .main-padding span .last-word,
+    .plan_detail_hmo span,
+    .montly-cost-hover b,
+    .heading-plan h3,
+    .plan-coverage-box .left-individual ul li,
+    span.price-main span,
+    .person-me span.cover-detail span.questio-m,
+    .hold-income label span,
+    span.dollar-main span,
+    .enchanced_benefit span,
+    span.Tabaco i,
+    .child-hover h4,
+    .networks ul li span span,
+    .left-baar label.left-baar-title span,
+    strong.semi b {
+        border: none !important;
+    }
+    .person-me span.cover-detail span.hover-price-edit,
+    .hold-income label span,
+    span.dollar-main span,
+    .enchanced_benefit span,
+    .left-baar label.left-baar-title {
+        cursor: inherit !important;
+    }
+    .main-bottom-p .cost .enchanced_benefit:hover .hover-info,
+    span.Tabaco:hover .hover-info,
+    .child-hover i,
+    .child-hover:hover .hover-info,
+    .networks ul li span i,
+    strong.semi i {
+        display: none !important;
+    }
+    /* css for display none for mobiel close */
+    body.home {
+        padding-top: 65px !important;
+    }
+    .main-plan-qoute .active .left-side-baar hr {
+        width: 100%;
+    }
+    .main-plan-qoute .left-baar-side.active .left-side-baar {
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+    }
+    .ask-hazel-area {
+        margin-top: 36px;
+    }
+    .plan-test-data .plan-enrol-top,
+    .plan-test-data .plan-enrol-top.sticky-enroll,
+    .plan-enrol .bottom-print {
+        display: none;
+    }
+    .plan-enrol {
+        background: #026c9d;
+        position: fixed;
+        /*height:210px;*/
+        top: 78px;
+        z-index: 9;
+        width: 100%;
+        box-shadow: 0 8px 8px #a9a9a9;
+    }
+    .plan-qouting .plan-coverage-box {
+        padding: 0 0 5px;
+    }
+    .plan-qouting .plan-coverage-box ul li {
+        font-size: 14px;
+        margin: 2px 0;
+    }
+    .plan-qouting .resources.resources-hover i {
+        display: none;
+    }
+    .plan-qouting .resources.resources-hover span {
+        border: 0px;
+    }
+    .plan-enrol .main-enroll {
+        padding-top: 8px;
+        padding-bottom: 0px;
+        position: relative;
+    }
+    .plan-enrol .hmo {
+        width: 45% !important;
+    }
+    .plan-enrol .call-action-enroll {
+        width: 100% !important;
+        padding: 0 !important;
+        border-top: 3px solid #fff;
+    }
+    .plan-enrol .price-enroll.monthly-pay {
+        border: none;
+    }
+    .plan-enrol .top-call {
+        float: left;
+        width: 100%;
+    }
+    .plan-enrol .price-enroll.monthly-pay {
+        padding: 0 0px 8px 0 !important;
+        width: 50% !important;
+    }
+    .plan-enrol .top-call .back-enroll,
+    .plan-enrol .top-call .enroll-in-plan {
+        border-radius: 0;
+        float: left;
+        font-size: 22px !important;
+        font-weight: bold;
+        height: 50px !important;
+        line-height: 28px !important;
+        margin: 0 !important;
+        text-align: center;
+        width: 50% !important;
+    }
+    .plan-enrol .back-enroll {
+        border-top: 0;
+        border-left: 0;
+        border-bottom: 0;
+        border-right: 2px solid rgba(0, 0, 0, 0.3);
+        border-radius: 0;
+    }
+    .plan-enrol .enroll-in-plan {
+        box-shadow: none;
+    }
+    .plan-enrol .back-enroll:hover {
+        background: none;
+    }
+    .plan-enrol-outer {
+        display: block;
+    }
+    .plan-new-cover {
+        padding-top: 160px !important;
+    }
+    .pan-coverage {
+        padding: 0;
+    }
+    .plan-qouting .all-btn-call a {
+        display: inline-block;
+        margin: 0 10px 15px;
+        min-width: 150px;
+    }
+    .plan-enrol .top-call .enroll-in-plan {
+        border-left: 2px solid #d8e734;
+    }
+    .right-nav ul li.help-center i,
+    .right-nav ul li.help-center:hover .current-live {
+        display: none;
+    }
+    .all-btn-call a {
+        display: table;
+    }
+    .plan-enrol .hmo p {
+        font-size: 20px;
+    }
+    /*.help-line{display:none !important;}*/
+    .ask-hazel-area a {
+        margin-left: 180px;
+        padding: 8px;
+        top: 20px;
+    }
+    .image-filter {
+        background: url(../images/menu-filter.png)no-repeat;
+        width: 60px;
+        height: 32px;
+        margin: 0 auto;
+        display: block;
+    }
+    .main-plan-qoute .left-baar-side.active .plan-filter-data {
+        display: block;
+        background: #007EB8;
+        padding: 15px 15px;
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        position: fixed;
+        left: 0;
+        z-index: 9;
+        top: 28px;
+    }
+    .plan-filter-data h2 {
+        float: left;
+        color: #fff;
+    }
+    .plan-filter-data a {
+        background: #00acee none repeat scroll 0 0;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+        color: #fff;
+        float: right;
+        display: table;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 22px;
+        text-transform: uppercase;
+    }
+    .ask-hazel-area {
+        margin-top: 98px;
+    }
+    .heading-outer,
+    .image-outer,
+    .done-outer {
+        width: 33.33%;
+        float: left;
+    }
+    .image-outer {
+        padding-top: 12px;
+    }
+    .heading-outer {
+        padding-top: 10px;
+    }
+    .top-overlay .plan-filter-data {
+        display: block;
+        background: #007eb7;
+        padding: 15px 15px;
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        position: fixed;
+        left: 0;
+        z-index: 9;
+        top: 28px;
+        border-bottom: 2px solid #fff;
+    }
+    .who-needs-insurence.who-needs-top {
+        margin-top: 65px !important;
+    }
+    /*.edit-house-hold {background: #007eb7 ;}*/
+    .edit-house-hold .dependent-spouse>a,
+    .dependent-spouse a {
+        background: #00aced;
+    }
+    .pop-click-part {
+        background: #006b9c;
+    }
+    .my-age>label {
+        font-size: 14px;
+    }
+    .pop-click-part h4 {
+        font-size: 14px;
+    }
+    .pop-row-age {
+        width: 40%;
+        max-width: 200px;
+        min-width: 180px;
+    }
+    .btn-cancel-add {
+        width: 50%;
+        float: left;
+    }
+    .pop-click-part {
+        padding: 5px 0;
+    }
+    .edithouse.active .price-main {
+        margin: 0px;
+        padding: 0px;
+    }
+    .hold-income label {
+        margin: 0;
+        font-size: 14px;
+    }
+    .edit-house-hold .hold-income {
+        margin: 0;
+    }
+    .edit-house-hold .hold-income label {
+        padding: 0px;
+    }
+    .bottom-house-hold {
+        width: 100%;
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+    .link.fade,
+    .email.fade {
+        top: 25px;
+    }
+    .my-age>a {
+        top: 0;
+    }
+    .main-plan-qoute .selection-detail .bottom-center .enroll-btn a::before {
+        position: relative;
+        content: "Enroll";
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .main-plan-qoute .selection-detail .bottom-center .enroll-btn a {
+        font-size: 0;
+        padding: 12px 10px;
+        width: 132px;
+    }
+    .hide-media {
+        display: none;
+    }
+    .bottom-update-btn {
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+    .main-bottom-p .bottom-update-btn a {
+        max-width: 100%;
+    }
+    .plan_detail_hmo span {
+        font-size: 20px;
+    }
+    .plan-qouting .personal-plan .modal-header h4 {
+        padding: 13px 10px 10px 80px !important;
+    }
+    .pagination .active .page_linkD {
+        z-index: 0;
+    }
+    .image-outer,
+    .payment-first i,
+    .payment-first:hover .hover-info {
+        display: none;
+    }
+    .done-outer {
+        float: right;
+        width: 45%;
+    }
+    body.home {
+        padding-top: 54px !important;
+    }
+    .header.sticky-header.sticky-header-new {
+        height: 54px;
+    }
+    .header.sticky-header,
+    .header.sticky-header.sticky-header-new {
+        height: 54px;
+    }
+    .sign-in.hide-big,
+    .live-chat.hide-big,
+    .header.sticky-header .navbar-nav>li.sign-in,
+    .help-line {
+        float: left;
+    }
+    .plan-enrol {
+        top: 54px;
+    }
+    .sticky-enroll-head {
+        top: 54px !important;
+    }
+    .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        width: 45%;
+    }
+    .add_plan_box .form-control {
+        width: 70%;
+    }
+    .payment-first {
+        margin-bottom: 10px;
+    }
+    .payment-first .blue-text {
+        border-bottom: none !important;
+    }
+    .bottom-house-hold .main-bottom-p {
+        float: left;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    .ac-month-hover span {
+        border-bottom: none;
+    }
+    .ac-month-hover:hover .hover-info,
+    .ac-month-hover i {
+        display: none;
+    }
+    .conf_questions .cquestion .check-box-part {
+        cursor: pointer;
+    }
+    .enroll-equity {
+        padding: 14px 0 0;
+    }
+    .main-input .affodable-section .input-form input[type="text"],
+    .affodable-section .input-form input[type="button"] {
+        margin-bottom: 4px;
+    }
+    .main-input {
+        float: left;
+        padding: 10px 0 5px;
+        width: 100%;
+    }
+    .affodable-section .input-form input[type="text"] {
+        margin-right: 5px;
+    }
+    .plans h1.page-header {
+        margin-top: 10px;
+    }
+    .services-part>div {
+        margin: 0 0 22px;
+    }
+    footer .main-footer {
+        padding: 15px 0px 10px;
+    }
+    .plan-qouting footer {
+        padding-bottom: 0;
+    }
+    .left-footer-plan>span {
+        display: block;
+        padding-top: 4px;
+    }
+    .plan-qouting .main-footer.screens-footer {
+        padding: 0;
+    }
+    .center-btn {
+        padding: 50px 0 16px;
+    }
+    .plan-qouting .custom-zip {
+        padding: 30px 15px 58px;
+    }
+    .center-btn.parishes-county {
+        padding: 18px 0 26px;
+    }
+    .health-insurance .special-enroll.next-open.savings {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    .top-call .back-enroll,
+    .top-call .enroll-in-plan {
+        width: 100% !important;
+        text-align: center;
+    }
+    .right-act-in {
+        width: 84%;
+    }
+    .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        width: 50%;
+    }
+    .email.compare-email .filed-set {
+        width: 100%;
+        margin: 5px 0px 0px;
+    }
+    .compare-email .form-input .form-row {
+        margin-bottom: 0px;
+    }
+    .compare-email .modal-body p {
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:670px) {
+    .right-nav ul li.live-chat {
+        margin: 0 15px;
+    }
+    .personal-plan .modal-header h4 {
+        text-align: left;
+    }
+    .top-list-view-compare .component {
+        max-width: 600px;
+    }
+    .home .right-nav {
+        width: 252px;
+    }
+    .plan-qouting .main-sign-data .left-nav-bar .navbar-brand {
+        display: block;
+        float: left;
+        left: 28%;
+        position: absolute;
+        margin-left: -50px;
+        margin-top: 10px;
+    }
+    .resources>p {
+        padding: 0;
+    }
+    .sigin-response .left-nav-bar .navbar-brand img {
+        width: 80%;
+    }
+    .plan-filter-data a {
+        font-size: 18px;
+    }
+    .affodable-section .input-form input[type="text"] {
+        margin-right: 0px;
+    }
+    .main-input .affodable-section .input-form input[type="text"],
+    .affodable-section .input-form input[type="button"] {
+        margin-bottom: 10px;
+    }
+    .sign-in-screen {
+        margin: 30px auto;
+    }
+    .sign-in-screen {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .enrollment p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        line-height: 26px;
+    }
+    .new-one .next-open div.left-household .bootstrap-select.btn-group .dropdown-toggle.btn-default {
+        z-index: 9999 !important;
+    }
+    .new-one .next-open div.left-household .bootstrap-select.btn-group .dropdown-menu.open {
+        z-index: 999 !important;
+    }
+    /*.left-household .detail-household .bootstrap-select{ display:none !important; }
+    .left-household .detail-household .newselectpicker{ display:block; }*/
+    .house-income .houseselect .bootstrap-select.btn-group .dropdown-menu {
+        max-height: 200px !important;
+    }
+    .app-plan-show {
+        width: 560px;
+    }
+    .parishes-county .back-continue {
+        max-width: 100% !important;
+        float: left;
+        padding: 0 0 75px;
+        position: relative;
+        height: auto !important;
+        text-align: center;
+        width: 100% !important;
+        margin: 10px 0 40px;
+    }
+    .parishes-county .back-continue .new-apply-btn {
+        float: none;
+        margin: 0;
+    }
+    .parishes-county .back-continue .grey {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        margin: 0 auto;
+    }
+    .market-health-plan .health-inner img {
+        max-width: 100%;
+        width: auto;
+    }
+    .language-resources table tr {
+        margin: 0 0 30px;
+    }
+    .language-resources table td {
+        float: left;
+        width: 100% !important;
+    }
+    .language-resources table td.name {
+        padding-bottom: 20px !important;
+    }
+    .language-resources table td.name br {
+        display: none;
+    }
+    div.market-btn {
+        margin: 20px 0 30px;
+    }
+    div.market-btn .back-continue {
+        margin: 0;
+        padding: 0 0 0px;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    div.market-btn .back-continue .watch {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        right: 0px;
+        margin: 0px auto;
+    }
+    div.market-place .back-continue .continue {
+        margin: 0;
+        float: none;
+    }
+    .email.compare-email .modal-body {
+        padding: 20px 15px 21px;
+    }
+    .header .navbar-collapse ul li.save_exit {
+        padding: 15px 0 !important;
+    }
+    .header .navbar-collapse ul li.help-line {
+        padding-bottom: 0 !important;
+    }
+    .plan-qouting .save-exit-modal .modal-header h3 {
+        font-size: 32px;
+    }
+    .main-plan-qoute .left-baar-side.active .slider-price {
+        padding: 0 10px 0 0;
+    }
+    .plan-filter-data h2 {
+        font-size: 20px;
+        margin: 3px 0 0;
+    }
+    .my_account_section .blue_box_panel.acc_info p {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .my_account_section .household-ac tbody tr td {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .my_account_section .household-ac thead th {
+        padding: 8px;
+        font-size: 14px;
+    }
+    .confirm-submit .household-ac tbody tr td {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .confirm-submit .household-ac thead th {
+        padding: 8px;
+        font-size: 14px;
+    }
+    .confirm-submit div.borderd_list .bl_item {
+        font-size: 14px;
+    }
+    .confirm-submit .blue_box_panel.acc_info p {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .confirm-submit .bbox_right_content .list-inline.link_list li {
+        margin: 0 0 10px;
+        font-size: 14px;
+        padding: 0 10px 0 0;
+    }
+    .my_account_section div.borderd_list .bl_item {
+        font-size: 14px;
+    }
+    .my_account_section .bbox_right_content .list-inline.link_list li {
+        font-size: 14px;
+    }
+    .my_account_section .bbox_content .borderd_list .bl_item p {
+        font-size: 16px;
+    }
+    .bl_item .btn.green.shadow {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .blue_box_panel .bbox_heading {
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .new-one .health-insurance .left-age-se.right-se .check-box-part {
+        padding-top: 20px;
+    }
+    .new-one .top-coverge .health-insurance .next-open .requirements-fill ul li {
+        width: 100%;
+        max-width: 100%;
+    }
+    .new-one .top-coverge .who-needs-part .left-lost ul li {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .form-tag {
+        padding: 0px 10px;
+        font-size: 18px;
+    }
+    .affodable-section .input-form input[type="text"],
+    .affodable-section .input-form input[type="button"] {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .plan-coverage-box ul li {
+        min-height: 50px;
+    }
+    .call-section::before {
+        left: 5px;
+        max-width: 80px;
+    }
+    .call-section .title-main {
+        padding: 10px 0px 10px 0px;
+        font-size: 20px;
+    }
+    .sign-in-screen h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .sign-in-screen h4 {
+        font-size: 18px !important;
+    }
+    .plan-qouting .left-nav-bar .sing-dropdown {
+        padding-left: 0px !important;
+    }
+    .bottom-coverage-part .all-btn-call a {
+        display: table;
+        float: none;
+        margin: 0 auto 36px;
+    }
+    .plan-qouting .header.sticky-header .right-nav {
+        padding: 10px 0px 10px 0px !important;
+    }
+    .email .modal-content {
+        max-width: 630px;
+        width: 100%;
+    }
+    .top-list-view-compare .component {
+        max-width: 550px;
+    }
+    .personal-plan .modal-header {
+        padding: 15px 25px;
+    }
+    .personal-plan .modal-header .close {
+        right: 8px;
+    }
+    .personal-plan .modal-header h4 {
+        font-size: 17px;
+    }
+    .market-place .market-box .box h4 {
+        font-size: 16px;
+    }
+    .sign-layout .back-continue a.grey i {
+        font-size: 27px;
+    }
+    .sign-layout .back-continue a.grey {
+        font-size: 20px;
+    }
+    .ask-hazel-area {
+        background-position: 45% center;
+    }
+    .ask-hazel-area a {
+        margin-left: 130px;
+    }
+    .header.sticky-header .left-nav-bar .navbar-brand {
+        top: -4px;
+    }
+    .add_plan_box .form-control {
+        width: 100%;
+    }
+    .app-payment .market-btn .green {
+        margin-left: auto !important;
+        clear: both;
+    }
+    .app-payment .market-btn .back-continue input {
+        clear: none;
+        display: block;
+        float: none;
+        margin: 18px auto 22px;
+        text-align: center;
+    }
+    .app-payment .market-place.fifth-wizard .market-box .box {
+        margin: 0 1% 35px;
+        width: 100%;
+    }
+    .app-payment .health-insurance .market-btn {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .app-payment .health-insurance .market-btn .back-continue {
+        margin: 0 auto;
+    }
+    .market-place.fifth-wizard .market-box {
+        padding: 0 2%;
+    }
+    .plan-qouting .tabacco-user table th,
+    .plan-qouting .tabacco-user table td {
+        width: auto;
+        white-space: normal !important;
+        /*float:left;*/
+    }
+    .plan-qouting .tabacco-user {
+        margin: 0 auto;
+        padding: 0 15px;
+        width: 100%;
+    }
+    .plan-qouting .household-ac thead th {
+        padding: 8px;
+    }
+    .left-nav-bar .nav.navbar-nav {
+        padding-top: 56px !important;
+    }
+    .header .navbar-collapse ul li,
+    .header.sticky-header .navbar-nav>li.language-part {
+        padding: 10px 0 !important;
+    }
+    .sign-logo {
+        top: 0px;
+    }
+    .sigin-response .header {
+        height: 74px;
+    }
+    .sign-layout .center-btn-house {
+        top: 0;
+    }
+}
+
+@media only screen and (max-width:614px) {
+    .new-one .inner-layout .top-coverge .who-needs-part .left-lost ul li {
+        padding: 7px 15px;
+    }
+    .new-one .inner-layout .top-coverge .who-needs-part .left-lost ul li {
+        width: 100%;
+    }
+    .new-one .top-coverge .who-needs-part .left-lost ul li:first-child {
+        margin-right: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .new-one .inner-layout .top-coverge .who-needs-part .left-lost ul li:nth-child(2) {
+        margin: 0 !important;
+    }
+    .new-one .inner-layout .top-coverge .who-needs-part .left-lost ul li:last-child {
+        margin-top: 10px !important;
+    }
+    .new-one .inner-layout .insurance-health .next-open label {
+        padding-left: 0;
+    }
+    .home .left-nav-bar {
+        position: static;
+    }
+    .are-you-top .right-house-part .ifo-check {
+        width: 75%;
+    }
+    .are-you-top .right-house-part .ifo-check:first-child {
+        width: 25%;
+    }
+    .right-house-part .ifo-check {
+        padding-left: 50px;
+    }
+    .email.compare-email .modal-footer button {
+        float: none !important;
+        margin: 4px 10px !important;
+    }
+    .comp-plan .modal-content {
+        max-width: 500px;
+        width: 100% !important;
+    }
+    .plan-filter-data a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .left-bottom-center.provider-info {
+        width: 100% !important;
+    }
+    .left-bottom-center.provider-info a {
+        width: 100%;
+    }
+    .left-bottom-center.provider-info .first-class.enhance_hover {
+        margin: 0px 0px 10px 0px;
+    }
+    .app-plan-show {
+        width: 520px;
+    }
+    .csr-act .right-act-in {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+    .change-password .modal-body .popup_btns a.btn {
+        margin: 0px 0px 10px 0px;
+    }
+    .new-one .top-coverge .health-insurance .next-open .bottom-area-s .requirements-fill ul li {
+        width: 100% !important;
+    }
+    .market-place .back-continue .market_btn {
+        float: none;
+        margin: 0 auto 14px 10px;
+        text-align: center;
+        width: auto;
+    }
+    .market-btn .back-continue {
+        clear: both;
+        display: block;
+        float: left;
+        margin: 20px auto 25px;
+        text-align: center;
+        width: 100%;
+    }
+    .market-place .market-box .box h3 {
+        font-size: 20px;
+    }
+    .account-ifnfor .popup_btns a.btn.grey,
+    .account-ifnfor .popup_btns a.btn.blue.shadow {
+        margin-bottom: 15px;
+    }
+    .csr-act .left-act-insurence {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+    .right-act-in {
+        width: 100%;
+    }
+    .left-act-insurence {
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    .header.sticky-header .left-nav-bar .navbar-brand {
+        top: -2px;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .top-list-view-compare .component {
+        max-width: 500px;
+    }
+    .account-ifnfor .are-you-top .ifo-check>span {
+        font-size: 16px;
+    }
+    .account-ifnfor .are-you-top .right-house-part .ifo-check {
+        width: 60%;
+    }
+    .networks .pull-right:last-child {
+        width: 100%;
+        display: block;
+    }
+    .account-ifnfor .top-question-box .right-house-part {
+        padding-right: 0;
+    }
+    .top-coverge .health-insurance .requirements-fill ul.right-enroll {
+        padding-left: 0 !important;
+    }
+    .personal-plan .modal-header {
+        padding: 15px 25px;
+    }
+    .text-outer .form-tag {
+        width: 100%;
+        padding: 0;
+    }
+    .market-place .market-box {
+        display: block
+    }
+    .market-help {
+        float: left;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .market-place .market-box .box {
+        width: 100%;
+        margin: 0 auto 20px;
+        padding: 30px 15px;
+    }
+    .email.link .modal-footer .btn-default {
+        margin-right: 7px;
+    }
+    .email.link .modal-footer .send,
+    .email.link .modal-footer .btn-default {
+        margin-bottom: 15px;
+    }
+    .market-place .market-box .box {
+        min-height: 366px;
+    }
+    .home-price .credit-amount {
+        padding: 72px 1% 40px 10px;
+    }
+    .home-price .credit-info {
+        padding: 45px 10px 10px 150px;
+    }
+    .top-coverge.find-health .health-insurance .requirements-fill ul.right-enroll {
+        padding-left: 10px !important;
+    }
+    .plan-filter-data h2 {
+        font-size: 20px;
+    }
+    .save-exit-part .are-you-top .right-house-part .ifo-check span {
+        font-size: 16px;
+        vertical-align: middle;
+    }
+    .personal-plan .modal-header h4 {
+        background-position: 10px 10px;
+    }
+    .home .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        width: 45%;
+    }
+    .header.sticky-header .left-nav-bar .navbar-brand {
+        top: 0;
+    }
+    .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .app-plan-show {
+        width: 480px;
+    }
+    .main-plan-qoute .left-baar-side.active .slider-price {
+        padding: 0px 10px;
+    }
+    .top-list-view-compare .component {
+        max-width: 400px;
+    }
+    .email.compare-email .filed-set {
+        width: 100%;
+    }
+    .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        width: 35%;
+        top: 0;
+    }
+    .home .right-nav {
+        width: 140px;
+        top: -11px;
+        right: 70px;
+    }
+    .right-nav ul li.live-chat {
+        float: right;
+        margin-right: 5px;
+    }
+    .right-plan-qoute-footer>a {
+        right: 10px;
+    }
+    .special-enroll .these-people-part .table-responsive td,
+    .special-enroll .these-people-part .table-responsive th {
+        font-size: 14px;
+        padding: 10px 5px;
+        white-space: inherit;
+    }
+    .right-house-part .ifo-check {
+        padding-left: 30px;
+    }
+    .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        width: 55%;
+    }
+    .main-footer .col-lg-2.col-sm-3.col-xs-3 {
+        display: none;
+    }
+    .main-footer.screens-footer .col-xs-9 {
+        width: 100%;
+        padding-right: 15px !important;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .app-plan-show {
+        width: 440px;
+    }
+    .confirm-submit div.back-continue {
+        float: left;
+        margin: 20px 0 10px 0px;
+    }
+    .add_plan_cont .add_plan_box .bottom-error {
+        font-size: 16px;
+        margin: 22px 0 0 10px;
+    }
+    .add_plan_cont .add_plan_box span.redFontColor {
+        bottom: -45px;
+        font-size: 16px !important;
+    }
+    body.plan-qouting .tabacco-user {
+        margin: 30px auto 0;
+    }
+    .market-place.wizard-cover .health-insurance {
+        clear: both;
+    }
+    .new-one .tabacco-user .back-continue.center-btn-house {
+        clear: both;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin: 30px 0 0;
+    }
+    .tabacco-user .back-continue input.grey {
+        margin: 0 auto;
+    }
+    .tabacco-user .back-continue input.calculate-saving {
+        margin: 0 auto;
+        float: none;
+    }
+    .tabacco-user .back-continue.center-btn-house {
+        height: 130px;
+    }
+    body .special-enrollment .back-continue.center-btn-house {
+        margin: 30px auto 5px;
+    }
+    .confirm-submit {
+        padding: 0px 10px;
+    }
+    .Guidance.confirm-submit .btn-part>span {
+        font-size: 28px;
+        line-height: 30px;
+        padding: 0px 0px 20px 0px;
+    }
+    .Guidance.confirm-submit .conf_questions .cquestion .check-box-part {
+        margin-right: 0;
+    }
+    .Guidance.confirm-submit .conf_questions .cquestion span {
+        font-size: 16px;
+        margin-left: 34px;
+    }
+    .Guidance.confirm-submit .add_plan_cont .add_plan_box {
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 30px;
+        margin-top: 22px;
+    }
+    .Guidance.confirm-submit .health-insurance.Guidance-info {
+        padding: 20px 0 30px 0px;
+    }
+    .confirm-submit .add_plan_cont {
+        margin-bottom: 20px;
+    }
+    .confirm-submit .back-continue {
+        position: relative;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        padding: 0px 0px 75px 0px;
+    }
+    .confirm-submit .back-continue input.grey {
+        margin: 0px auto;
+    }
+    .confirm-submit .back-continue input.submit_changes {
+        float: none;
+        margin: 0px;
+    }
+    .email.link .modal-footer {
+        padding-bottom: 20px;
+        width: 100%;
+        padding-top: 100px;
+        position: relative;
+    }
+    .email.link .modal-footer .send {
+        position: absolute;
+        top: 25px;
+        margin: 0 auto !important;
+        left: 0px;
+        right: 0px;
+    }
+    .email.compare-email .modal-footer {
+        padding-bottom: 20px;
+        width: 100%;
+        padding-top: 100px;
+        position: relative;
+    }
+    .email.compare-email .modal-footer .send {
+        position: absolute;
+        top: 25px;
+        margin: 0 auto !important;
+        left: 0px;
+        right: 0px;
+    }
+    .new-one .create-acc .back-continue input {
+        min-width: 200px;
+    }
+    .create-account .back-continue input.blue {
+        margin-left: 0;
+        float: none;
+    }
+    .create-account .back-continue input.grey {
+        margin: 0px auto;
+    }
+    .create-account .back-continue {
+        position: relative;
+        height: 125px;
+        text-align: center;
+        width: 100%;
+    }
+    .back-continue.center-btn-house {
+        height: 146px;
+    }
+    .back-continue input.grey {
+        bottom: 0px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+    }
+    .special-enrollment .back-continue.center-btn-house {
+        width: 100%;
+        position: relative;
+        margin: 10px auto;
+    }
+    .special-enrollment .back-continue.center-btn-house input {
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    div.shopping_cart_screen .market-health-plan .health-name h4 {
+        padding: 0 15px;
+    }
+    div.shopping_cart_screen .plan_box .plan_heading {
+        font-size: 14px;
+    }
+    div.shopping_cart_screen .market-health-plan .plan_center p,
+    div.shopping_cart_screen .efftive-d,
+    div.shopping_cart_screen .plan_total label,
+    div.shopping_cart_screen .market-health-plan .plan_center p.cost span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    div.shopping_cart_screen .plan_inner_box::before {
+        left: 115px;
+        width: 3px;
+    }
+    div.shopping_cart_screen .plan_inner_box {
+        padding: 5px 25px 5px 135px;
+    }
+    .shopping_cart_screen .plan_total label {
+        width: 72%;
+        margin: 0 !important;
+    }
+    div.cart_list .cart_heading img {
+        width: 60px;
+        height: 60px;
+        left: 10px;
+    }
+    div.cart_list .cart_heading {
+        padding: 10px 0 10px 75px;
+    }
+    div.cart_list .cart_heading h4,
+    div.add_plan_select select,
+    div.cart_outer .cart_inner .cart_text,
+    div.cart_button .btn,
+    .view_all_plan .btn {
+        font-size: 14px;
+    }
+    .new-one .top-coverge .health-insurance .enrollment li.bg-white .check-box-part label {
+        position: absolute;
+    }
+    .new-one .top-coverge .health-insurance .enrollment li.bg-white .check-box-part label::before {
+        top: 0px;
+        bottom: 0px;
+        height: 20px;
+        margin: 0px;
+        width: 20px;
+    }
+    .new-one .top-coverge .health-insurance .enrollment li.bg-white span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .new-one .top-coverge .health-insurance .enrollment li.bg-white {
+        min-height: 44px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .new-one .health-insurance .enrollment .check-box-part {
+        padding: 0px;
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        height: 21px;
+        width: 21px;
+    }
+    .app-plan-show {
+        width: 400px;
+    }
+    .market-place.wizard-cover .text-outer {
+        padding-bottom: 0;
+    }
+    div.email.link .modal-dialog .form-row .filed-set.copy-link {
+        height: auto;
+        padding: 5px 10px 20px 5px;
+    }
+    .privacy-policy h3 {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0 0 20px;
+    }
+    .new-one .top-coverge .health-insurance .next-open .requirements-fill ul li input {
+        height: 46px;
+        line-height: 46px;
+    }
+    .pagination>li:first-child {
+        margin-left: -1px;
+    }
+    .main-section-part-overlay .top-overlay .plan-filter-data .done-outer {
+        width: 50%;
+    }
+    .main-section-part-overlay .top-overlay .plan-filter-data .heading-outer {
+        width: 50%;
+    }
+    .confirm-submit .add_plan_box p {
+        font-size: 18px;
+    }
+    .main-bottom-p .cost img {
+        margin: 8px 0 0 58px;
+    }
+    .main-plan-qoute .selection-detail .top-description .right-section label {
+        padding-top: 4px;
+    }
+    .who-needs-insurence.who-needs-top {
+        margin-top: 55px !important;
+    }
+    .plan-enrol .price-enroll.monthly-pay {
+        padding: 0 0 2px !important;
+    }
+    .plan-enrol .main-enroll {
+        padding-top: 2px;
+    }
+    .plan-enrol .hmo {
+        padding: 0 !important;
+    }
+    .single-person.family-person {
+        padding-bottom: 15px;
+    }
+    .main-plan-qoute .selection-detail .compare .detail-classs:hover,
+    .main-plan-qoute .selection-detail .compare .detail-classs:focus {
+        background-position: 12px -21px;
+    }
+    .my_account_section .life-change2 {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+    .borderd_list.large.table-responsive {
+        max-width: 460px;
+        overflow-y: hidden;
+    }
+    body .bbox_right_content .list-inline.link_list li {
+        padding: 0 10px 0 0;
+    }
+    .household-ac th {
+        white-space: nowrap;
+    }
+    .sign-in-screen h4 {
+        font-size: 16px !important;
+    }
+    .save-exit-modal .btn-sign input[type="button"] {
+        font-size: 18px;
+    }
+    .all-btn-call {
+        padding-bottom: 20px;
+    }
+    .plan-qouting .resources.resources-hover span {
+        width: 100%;
+        float: left;
+        font-size: 26px;
+        line-height: 28px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+    .plan-qouting .all-btn-call a {
+        margin: 0 auto 15px;
+        max-width: 250px;
+        display: block;
+        font-size: 16px;
+        min-width: 170px;
+    }
+    .plan-qouting .heading-plan h3 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .plan-qouting .main-plan-coverage h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .plan-new-cover {
+        padding-top: 145px !important;
+    }
+    .plan-enrol .top-call .back-enroll,
+    .plan-enrol .top-call .enroll-in-plan {
+        height: 40px !important;
+        font-size: 18px !important;
+        line-height: 18px !important;
+    }
+    .plan_detail_hmo span {
+        font-size: 16px;
+    }
+    .price-enroll.monthly-pay h1 {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .price-enroll.monthly-pay .main-monthly span {
+        font-size: 12px;
+    }
+    .plan-enrol .hmo {
+        width: 60% !important;
+        min-height: 50px;
+        float: none;
+        margin: 0;
+        text-align: left;
+        vertical-align: middle;
+        display: table-cell;
+    }
+    .plan-enrol .hmo p {
+        font-size: 16px;
+        text-align: left;
+        line-height: 14px;
+    }
+    .plan-enrol .price-enroll.monthly-pay {
+        display: table-cell;
+        float: right;
+    }
+    .main-plan-qoute div.selection-detail {
+        padding: 15px 0 0;
+    }
+    .description-box .top-description .left-section .new_hmo::before {
+        line-height: 16px;
+    }
+    .top-description {
+        padding: 20px 15px 10px;
+    }
+    .right-section {
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+    }
+    .center-content {
+        padding: 15px;
+    }
+    .main-plan-qoute .selection-detail .bottom-center {
+        padding: 0px 20px 75px 0;
+    }
+    .plan-filter-data h2 {
+        margin: 0px;
+    }
+    .top-list-view-compare .component {
+        max-width: 320px;
+    }
+    .modal.blue .modal-header .modal-title {
+        font-size: 22px;
+    }
+    .my_account_section .borderd_list.no_margin {
+        margin-top: 0;
+    }
+    .my_account_section .bbox_right_content .list-inline.link_list {
+        margin: 20px 0 0;
+    }
+    .my_account_section .bbox_right_content .list-inline.link_list li {
+        margin: 0px 0px 10px 0px;
+    }
+    .bl_item .btn.green.shadow {
+        margin-top: 10px;
+    }
+    .home .left-nav-bar {
+        float: left;
+        width: 100%;
+    }
+    .plan-qouting .right-nav {
+        padding-top: 28px;
+        width: 100%;
+    }
+    .right-nav ul li.need-help {
+        padding-left: 0;
+        width: 80%;
+    }
+    .plan-qouting .save-exit {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    .plan-qouting .save-exit a {
+        margin-left: 0;
+    }
+    .house-text.col-sm-7 {
+        margin-bottom: 18px;
+    }
+    .right-btn-house a {
+        max-width: 346px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .col-xs-6.col-sm-6.col-md-6 {
+        width: 100%;
+    }
+    .col-xs-3.col-sm-3.col-md-3 {
+        width: 100%;
+    }
+    .form-detail .col-sm-12>span {
+        font-size: 15px;
+    }
+    .back-continue input.grey {
+        margin-bottom: 20px;
+        margin-left: 23px;
+        text-align: center;
+    }
+    .Recipients .top-coverge ul li {
+        float: left;
+        margin-bottom: 10px;
+        margin-left: 0;
+        position: relative;
+        width: 100%;
+    }
+    .Recipients .top-coverge ul li a.active::after {
+        background: transparent none repeat scroll 0 0;
+    }
+    .Recipients .top-coverge ul li.green-part.skye-blue::after {
+        background: transparent none repeat scroll 0 0;
+    }
+    .wizard-cover .top-coverge ul li a {
+        display: block;
+        width: 100%;
+    }
+    .wizard-cover .top-coverge ul li.green-part::before {
+        background: none;
+    }
+    .form-tag {
+        width: 100%;
+    }
+    .main-plan-qoute .selection-detail .compare .detail-classs {
+        padding: 6px 0px 6px 16px !important;
+        background-position: 12px 11px;
+    }
+    .home-price .credit-info {
+        min-height: inherit;
+    }
+    .home-price .credit-amount {
+        min-height: inherit;
+    }
+    .main-footer.screens-footer .col-xs-9 {
+        padding-right: 0;
+    }
+    .main-footer.screens-footer {
+        padding: 0px;
+    }
+    .main-footer.screens-footer .col-xs-3 {
+        padding-right: 0;
+    }
+    .plan-qouting .btn-part.special-enrollment {
+        padding: 0;
+    }
+    .first-name-row.fourth-house-suffix.natural>label {
+        padding: 10px 0 !important;
+    }
+    .insurance-health .first-name-row.fourth-house-suffix.natural>label {
+        padding: 0px 0px 9px 0 !important;
+    }
+    .new-one .health-insurance .age-place-size .left-age-se.right-se .check-box-part {
+        padding-top: 10px;
+    }
+    .new-one .top-coverge .health-insurance .next-open .requirements-fill ul li {
+        position: relative;
+        margin: 0 0 20px;
+    }
+    .new-one .top-coverge .health-insurance .next-open .requirements-fill ul li.dollar-input-part {
+        position: relative;
+    }
+    /*.home .right-nav{ width: 270px; }*/
+    .right-act-in {
+        padding-left: 0;
+        width: 100%;
+    }
+    .special-enroll .these-people-part .table-responsive td,
+    .special-enroll .these-people-part .table-responsive th {
+        font-size: 14px;
+        padding: 10px 5px;
+        white-space: inherit;
+    }
+    .new-one .health-insurance .seation-anyone .check-box-part {
+        top: 6px;
+    }
+    .new-one .health-insurance .left-age-se.right-se .check-box-part {
+        padding-top: 6px;
+    }
+    .new-one .top-coverge .health-insurance .enrollment li {
+        padding-right: 40px;
+    }
+    .top-coverge .health-insurance li {
+        float: left;
+        height: auto !important;
+    }
+    .new-one .health-insurance .check-box-part {
+        position: absolute;
+        right: 10px;
+        top: 13px;
+    }
+    .div-width {
+        width: 100% !important;
+    }
+    .plan-qouting .save-exit a {
+        margin-left: 10px;
+    }
+    .monthly-pay h3 {
+        margin: 0px;
+    }
+    .right-nav ul li.live-chat {
+        margin-right: 3px;
+    }
+    .home-price .credit-info {
+        width: 100%;
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .home-price .average-credit {
+        text-align: center;
+    }
+    .home-price .credit-amount {
+        width: 100%;
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .home-price .credit-amount::after {
+        display: none;
+    }
+    .home-price {
+        display: block;
+    }
+    .main-plan-coverage {
+        padding: 50px 0 20px;
+    }
+    .partner img {
+        max-width: 84px;
+    }
+    .partner>ul li {
+        padding: 10px 3%;
+    }
+    .partner {
+        margin: 20px 0;
+    }
+    .services-part p {
+        padding: 0;
+    }
+    .services-part h3 {
+        font-size: 18px;
+        padding: 20px 0 15px;
+    }
+    .right-nav ul li.need-help {
+        text-align: right;
+        float: right;
+        font-size: 17px;
+        padding: 5px 0 0 50px;
+    }
+    .right-nav {
+        float: right;
+        right: 52px;
+    }
+    .left-nav-bar .navbar-brand {
+        z-index: 99;
+    }
+    .plan-qouting .save-exit {
+        float: right;
+    }
+    .call-action-enroll .top-call {
+        float: left !important;
+        width: 100%;
+    }
+    .compare-box .main-compare {
+        text-align: center;
+    }
+    .compare-box .main-compare a.clear,
+    .compare-box .main-compare a.compare,
+    .compare-box span {
+        display: inline-block;
+        float: none;
+        margin: 0px 5px;
+        padding: 6px 10px;
+        height: auto;
+        line-height: 28px;
+    }
+    .main-plan-qoute .selection-detail .left-section {
+        width: 100%;
+    }
+    .main-plan-qoute .selection-detail .left-section img {
+        width: 25%;
+    }
+    .main-plan-qoute .selection-detail .left-section>span {
+        width: 75%;
+        font-size: 14px;
+        line-height: normal;
+    }
+    .main-plan-qoute .selection-detail .top-description .right-section label {
+        font-size: 15px;
+    }
+    .monthly-pay h1 {
+        font-size: 60px;
+        line-height: 58px;
+    }
+    .main-plan-qoute .selection-detail .description-box .monthly-pay h3 {
+        font-size: 16px;
+        text-align: left;
+        line-height: 14px;
+    }
+    .heading-part {
+        font-size: 16px;
+    }
+    .main-plan-qoute .selection-detail .detuctable span {
+        font-size: 30px;
+        line-height: 18px;
+    }
+    .single-person>p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .main-plan-qoute .selection-detail .description-box {
+        padding: 0;
+    }
+    .pagination>li>a,
+    .pagination>li>span {
+        height: 40px;
+        width: 40px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .call-section .title-main {
+        font-size: 20px;
+        padding: 10px 0px 10px 0px;
+    }
+    .main-container .call-section::before {
+        top: 18px;
+    }
+    .main-container .call-area .call-section {
+        padding-left: 16%;
+    }
+    .sign-in-screen {
+        padding: 25px 20px;
+    }
+    .new-one .inner-layout .insurance-health .next-open label b {
+        font-size: 16px;
+    }
+    .plan-qouting .right-nav .save-exit {
+        margin: 0 auto !important;
+        /*padding-top: 9px;*/
+        width: 100%;
+    }
+    .screen-one.plan-qouting .header .right-nav ul {
+        float: left;
+        margin-top: 0px;
+        /*width: 100% !important;*/
+    }
+    .plan-qouting .save-exit a {
+        display: table;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .are-you-top .right-house-part .ifo-check,
+    .are-you-top .right-house-part .ifo-check:first-child {
+        width: 100%;
+    }
+    .are-you-top .right-house-part .ifo-check {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    .back-continue input.grey {
+        margin-left: auto;
+    }
+    .back-continue input.blue {
+        margin-left: 10px;
+    }
+    .email.compare-email .modal-body {
+        padding: 20px 20px 0;
+    }
+    .top-list-view-compare .component {
+        max-width: 400px;
+    }
+    .right-compare p {
+        font-size: 22px;
+    }
+    .account-ifnfor .are-you-top .right-house-part .ifo-check,
+    .account-ifnfor .are-you-top .right-house-part .ifo-check:first-child {
+        width: 100%;
+    }
+    .blue_box_panel .bbox_content .monthly-display .montly-cost-ac .monthly_cost {
+        height: 100%;
+        left: 14px;
+        min-height: 450px;
+        padding: 164px 0 0;
+        position: static;
+        vertical-align: middle;
+        width: 100%;
+    }
+    .monthly-display {
+        display: block;
+    }
+    .screen-one.plan-qouting .header .right-nav ul {
+        margin-bottom: 0;
+    }
+    /*.header.sticky-header .navbar{padding: 0px 0 34px !important;}*/
+    .btn.btn-md {
+        padding: 10px 12px;
+    }
+    .main-plan-qoute .selection-detail .bottom-center .enroll-btn a {
+        width: 117px;
+        padding: 8px 10px;
+    }
+    .main-plan-qoute .selection-detail .compare .detail-classs {
+        padding: 6px 30px 6px 40px;
+        width: 117px;
+        float: right;
+    }
+    .plan-qouting .main-sign-data .left-nav-bar .navbar-brand {
+        left: 40%;
+        margin-top: 5px;
+    }
+    .main-sign-data .sign-layout .center-btn-house {
+        top: 8px;
+    }
+    .plan-qouting .header.sticky-header .right-nav {
+        padding-top: 12px;
+        width: 180px;
+    }
+    .plan-qouting .header .right-nav ul li.help-center {
+        float: right;
+        margin-right: 3px;
+    }
+    .special-enroll .smoker-age .left-age-se.right-se {
+        padding-bottom: 11px;
+    }
+    .left-nav-bar .navbar-collapse.right-nav.sing-dropdown.in,
+    .left-nav-bar .right-nav {
+        width: 100% !important;
+    }
+    .main-plan-qoute .selection-detail .compare .detail-classs {
+        padding: 10px 30px;
+    }
+    .sign-layout .back-continue a.grey {
+        font-size: 15px !important;
+    }
+    .sign-layout .back-continue a.grey i {
+        font-size: 24px;
+    }
+    .save-exit-part .are-you-top .right-house-part .ifo-check {
+        width: 100% !important;
+    }
+    .plan-filter-data a {
+        padding: 10px 15px;
+    }
+    .new-one .create-acc .back-continue input {
+        min-width: 170px;
+        width: auto;
+    }
+    .back-continue input.blue {
+        margin-left: 10px;
+    }
+    .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        width: 60%;
+    }
+    .new-one .health-insurance .cquestion .check-box-part {
+        position: static;
+    }
+    .third-do-not .ifo-check:first-child {
+        margin-top: 0 !important;
+    }
+    .btn-sign input[type="button"] {
+        width: 80%;
+        height: 60px;
+        margin: 0 auto;
+    }
+    .btn-sign {
+        text-align: center;
+    }
+    .enroll-equity .affodable-section .input-form input[type="button"] {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:440px) {
+    .full-household .back-continue input {
+        margin-left: auto;
+        clear: both;
+    }
+    .full-household .back-continue {
+        text-align: center
+    }
+    .full-household .back-continue input {
+        font-size: 16px;
+    }
+    .resume-outer {
+        width: 80%;
+    }
+    .status-outer {
+        width: 100%;
+    }
+    .status-data {
+        width: 100%;
+    }
+    /*.slider-price .tooltip.tooltip-main.top { left: 15px !important;}*/
+    .new-one .tabacco-user .back-continue.center-btn-house {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .new-one .tabacco-user .back-continue input {
+        clear: both;
+        text-align: center;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .health-insurance .enrollment ul {
+        margin: 20px auto;
+    }
+    .enrollment p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .my_account_container strong.semi {
+        font-size: 14px;
+    }
+    .top-coverge .health-insurance .next-open .requirements-fill ul li .right-se span {
+        margin-left: 10px;
+    }
+    .app-plan-show {
+        width: 360px;
+    }
+    div.parishes-cont.text-center {
+        width: 100%;
+    }
+    div.parishes-county p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    div.parishes-county .back-continue .new-apply-btn,
+    .parishes-county .back-continue .grey {
+        width: 100%;
+        font-size: 16px;
+    }
+    .main-plan-qoute .selection-detail .compare .detail-classs {
+        padding-top: 4px !important;
+    }
+    div.compare>a {
+        font-family: open sans;
+        font-size: 18px;
+    }
+    .market-place.wizard-cover .text-outer {
+        padding-bottom: 20px;
+    }
+    div.tabacco-user table tr th:first-child,
+    div.tabacco-user table tr td:first-child {
+        padding-left: 15px;
+    }
+    div.tabacco-user table tr th:last-child {
+        padding-left: 0;
+    }
+    div.tabacco-user table tr th {
+        font-size: 16px;
+    }
+    div.tabacco-user table tr td,
+    div.tabacco-user table .ifo-check span {
+        font-size: 16px;
+    }
+    .find-health .btn-part.tabacco-user>span {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .create-acc span {
+        bottom: 6px !important;
+        font-size: 14px !important;
+    }
+    .form-detail .form-control.input-sm,
+    .select-box .form-control {
+        padding: 7px 16px;
+    }
+    .household-size .modal-footer .modal-btn button {
+        font-size: 18px;
+    }
+    div.dollar-input-part .dollar-input {
+        line-height: normal !important;
+    }
+    div.how-many-children input {
+        line-height: normal;
+    }
+    .new-one .top-coverge .health-insurance .special-enroll.next-open .requirements-fill ul li div.left-age-se input {
+        height: 48px;
+        position: relative;
+        top: -1px;
+        border-left: 1px solid #959595;
+        border-top: 1px solid #959595;
+        border-bottom: 1px solid #959595;
+        left: -1px;
+        line-height: normal;
+    }
+    .special-enroll .smoker-age .left-age-se {
+        height: 46px;
+    }
+    .new-one .top-coverge .health-insurance .special-enroll.next-open .requirements-fill ul li div.left-age-se input:focus {
+        width: 101%;
+        border: 1px solid #006991;
+    }
+    .insurance-table table thead th {
+        white-space: inherit !important;
+        font-size: 16px;
+        vertical-align: middle;
+    }
+    .insurance-table table tbody td {
+        white-space: inherit !important;
+        font-size: 15px;
+        vertical-align: middle;
+    }
+    .insurance-table table td:first-child,
+    .insurance-table table th:first-child {
+        padding-left: 5px;
+    }
+    .insurance-table {
+        margin: 20px 0;
+    }
+    .insurance-licenses .main-heading h2 {
+        line-height: 32px;
+    }
+    .insurance-licenses {
+        margin: 22px 0 0;
+    }
+    .sepration-bg {
+        margin: 20px 0;
+    }
+    .these-people-part {
+        clear: both;
+    }
+    .insurence-activity.csr-act {
+        margin-top: 0;
+    }
+    .market-health-plan {
+        margin: 20px 0;
+    }
+    .market-health-plan .health-inner p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .no-plan-text p {
+        font-size: 14px;
+    }
+    .Guidance.confirm-submit .conf_questions .cquestion {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .Guidance.confirm-submit .conf_questions .cquestion span {
+        font-size: 14px;
+    }
+    .Guidance.confirm-submit .btn-part>span {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .confirm-submit .text-outer .form-tag {
+        font-size: 16px;
+    }
+    .confirm-submit .back-continue input.submit_changes {
+        width: 100%;
+    }
+    .confirm-submit .back-continue input.grey {
+        width: 100%;
+        max-width: inherit;
+    }
+    .confirm-submit .blue_box_panel {
+        margin-bottom: 20px;
+    }
+    body.plan-qouting .tabacco-user span {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    body .tabacco-user p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    body.plan-qouting .tabacco-user {
+        margin: 45px auto 20px;
+    }
+    div.market-btn .back-continue .market_btn {
+        font-size: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+    }
+    .market-place .btn-part.text-outer>span {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .market-place .form-tag {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    div.market-place {
+        margin: 35px 0 0;
+    }
+    .my_account_section div.borderd_list .bl_item {
+        font-size: 14px;
+        padding: 0px 0px 10px 0px;
+    }
+    .edithouse.active .edit-house-hold .hold-income.currency-do {
+        margin-top: 8px;
+    }
+    .plan-enrol-outer .plan-enrol .col-sm-12 {
+        padding: 0px 10px;
+    }
+    .borderd_list.large.table-responsive {
+        max-width: 400px;
+    }
+    div.my_account_section {
+        margin-top: 35px;
+    }
+    .enhance-logo.enhance_hover span {
+        float: left;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 3px 0;
+    }
+    .personal-plan .modal-header {
+        padding: 15px 25px 20px 25px;
+    }
+    .btn-sign input[type="submit"] {
+        font-size: 20px;
+    }
+    .enroll-equity .affodable-shop .input-form input[type="button"] {
+        font-size: 24px;
+    }
+    .change-password .msg-icon {
+        top: 18px;
+    }
+    .forget-password a {
+        font-size: 18px;
+    }
+    .text-sign {
+        font-size: 18px;
+    }
+    .icon-addon.addon-md .lock-icon {
+        top: 16px;
+    }
+    .row-sign .icon-addon input[type="text"],
+    .row-sign .icon-addon input[type="password"] {
+        font-size: 18px;
+        height: 50px;
+    }
+    .icon-addon.addon-md .msg-icon {
+        top: 18px;
+    }
+    .enroll-equity {
+        padding: 0;
+    }
+    .sigin-response .sign-in-screen {
+        display: block;
+    }
+    .save-exit-part .are-you-top .right-house-part .ifo-check span {
+        font-size: 15px;
+    }
+    .plan-qouting .save-exit-modal .modal-header h3 {
+        font-size: 28px;
+        padding: 0 20px;
+    }
+    .create-account .top-question-box .right-house-part {
+        padding-right: 0;
+    }
+    .new-one .create-acc .back-continue input {
+        width: 100%;
+    }
+    .are-you-top .ifo-check>span {
+        font-size: 16px;
+    }
+    .create-account .form-detail .form-control {
+        margin-bottom: 25px;
+    }
+    .create-account {
+        margin: 20px 0px 0px;
+    }
+    .create-account h2 {
+        font-size: 26px;
+        margin-bottom: 5px;
+        line-height: 28px;
+    }
+    .plan-enrol .price-enroll.monthly-pay {
+        width: 90px !important;
+    }
+    .main-plan-qoute .left-baar-side.active .left-side-baar {
+        padding: 0 15px;
+        width: 100%;
+    }
+    .new-one .back-continue {
+        width: 100%;
+    }
+    .new-one .back-continue input {
+        width: 100%;
+    }
+    .special-enrollment .back-continue.center-btn-house input {
+        width: 100% !important;
+    }
+    .btn-part.special-enrollment>span {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .plan-qouting div.custom-zip {
+        padding: 15px 15px 25px;
+    }
+    .plan-qouting div.custom-zip .btn-part span {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .plan-qouting .parishes-county span {
+        font-size: 26px;
+        line-height: 28px;
+        padding-bottom: 20px;
+    }
+    .special-enrollment .back-continue.center-btn-house input {
+        margin: 10px auto !important;
+    }
+    .call-area .call-section {
+        padding-left: 90px !important;
+    }
+    .left-nav-bar .navbar-brand {
+        left: -5px;
+    }
+    .right-nav ul li a {
+        font-size: 13px;
+    }
+    .call-section span {
+        font-size: 34px;
+    }
+    .call-section .title-main {
+        font-size: 20px;
+    }
+    .affodable-section h1 {
+        font-size: 28px;
+    }
+    .plans {
+        padding: 0;
+    }
+    .plans h1.page-header {
+        font-size: 26px;
+    }
+    .plans p {
+        font-size: 16px;
+    }
+    .services-part {
+        padding: 0;
+    }
+    .affodable-section h4 {
+        font-size: 22px;
+        padding: 0;
+    }
+    .right-nav ul li.need-help {
+        font-size: 16px;
+    }
+    .right-nav ul li.need-help {
+        padding: 0;
+    }
+    .plan-enrol-top .hmo p {
+        font-size: 20px;
+    }
+    .plan-enrol-top .price-enroll.monthly-pay h1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .top-call .back-enroll,
+    .top-call .enroll-in-plan {
+        height: auto !important;
+    }
+    .main-plan-coverage h2 {
+        font-size: 28px;
+    }
+    .heading-plan h3 {
+        font-size: 26px;
+    }
+    .plan-coverage-box ul li {
+        font-size: 14px;
+        line-height: 22px;
+        min-height: 45px;
+    }
+    .plan-coverage-box {
+        padding: 15px 0 35px;
+    }
+    .bottom-coverage-part .all-btn-call a {
+        font-size: 18px;
+    }
+    .bottom-coverage-part {
+        padding: 20px 0;
+    }
+    .left-baar .bootstrap-select>.dropdown-toggle {
+        white-space: inherit;
+    }
+    .main-plan-qoute .selection-detail .left-section>span {
+        padding-left: 18px;
+    }
+    .top-description {
+        padding: 15px 10px;
+    }
+    .center-content {
+        padding: 10px;
+    }
+    .monthly-pay h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .monthly-pay span {
+        font-size: 13px;
+    }
+    .main-plan-qoute .selection-detail .description-box .monthly-pay h3 {
+        font-size: 16px;
+    }
+    .heading-part {
+        font-size: 14px;
+    }
+    .main-plan-qoute .selection-detail .detuctable span {
+        font-size: 26px;
+    }
+    .description-box .enroll-btn {
+        margin: 5px 0 0;
+    }
+    .main-plan-qoute .selection-detail .left-bottom-center {
+        right: 10px;
+    }
+    .main-plan-qoute .selection-detail .bottom-center {
+        padding: 0 10px 70px 0;
+    }
+    .hold-income label {
+        font-size: 15px;
+    }
+    .edithouse.active .edit-house-hold .hold-income {
+        width: 100%;
+    }
+    .main-container .call-area .call-section {
+        padding-left: 20%;
+    }
+    .main-container .call-section::before {
+        top: 32px;
+        left: 0px;
+    }
+    .new-one .inner-layout .insurance-health .next-open label b {
+        font-size: 14px;
+    }
+    .back-continue input.blue {
+        margin-left: auto;
+    }
+    .back-continue input.grey {
+        /*display: block;*/
+        float: none;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+    .back-continue input.blue {
+        float: none;
+        margin-left: auto;
+    }
+    .email.compare-email .filed-set {
+        margin-top: 6px;
+        width: 100% !important;
+    }
+    .top-list-view-compare .component {
+        max-width: 350px;
+        padding-right: 0px;
+    }
+    .bottom-full-compare .top-list-view-compare .component {
+        padding-right: 0px;
+    }
+    .personal-plan .modal-header h4 {
+        font-size: 16px;
+    }
+    .monthly-pay .payment-dolor-hover h1 {
+        font-size: 44px;
+    }
+    .main-plan-qoute .selection-detail .center-content {
+        width: 60%;
+        padding-left: 10px;
+    }
+    .right-section {
+        right: 10px;
+    }
+    .main-plan-qoute .selection-detail .bottom-center {
+        width: 40%;
+    }
+    .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        top: 0;
+        width: 85%;
+    }
+    .home .right-nav {
+        margin: 0 auto;
+        position: static;
+        right: auto;
+        text-align: center;
+        top: auto;
+        width: 85%;
+    }
+    .right-nav ul li.live-chat {
+        padding-right: 10px;
+        padding-top: 0;
+        margin: 0;
+        float: left;
+    }
+    .right-nav ul li.help-center {
+        padding-top: 0;
+    }
+    .header.sticky-header .right-nav {
+        padding-top: 0;
+    }
+    .home .header.sticky-header a.navbar-brand {
+        padding-top: 0;
+        width: 80%;
+    }
+    .plan-qouting .header.sticky-header .right-nav {
+        width: 80%;
+        padding-top: 12px;
+        position: static;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .plan-qouting .left-nav-bar .sing-dropdown {
+        padding-left: 0 !important;
+        width: 100% !important;
+    }
+    .main-plan-qoute .selection-detail .left-section {
+        padding-left: 10px;
+    }
+    .plan_out_c .mathc-out-dat h3,
+    .plan_out_c .runner-match-bc h3 {
+        font-size: 20px;
+    }
+    .plan_out_c .best-match-bc {
+        width: 45px;
+    }
+    .plan_out_c .description-box .runner-match-bc {
+        width: 45px;
+    }
+    .plan_out_c .best-match-out {
+        margin-left: 0;
+        padding: 0 0 0 43px;
+    }
+    .find-health .special-enrollment p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .btn-part.special-enrollment>span {
+        font-size: 26px;
+    }
+    .btn-part.special-enrollment {
+        margin: 15px auto 11px;
+        padding: 0 15px;
+    }
+    .center-btn.parishes-county {
+        padding: 15px 0 11px;
+    }
+    .edithouse.active .edit-house-hold {
+        top: 55px;
+    }
+    .plan-new-cover {
+        padding-top: 165px !important;
+    }
+    .my_account_section {
+        margin-top: 80px;
+    }
+    .bannerbg,
+    .all-form-outer .inner-layout {
+        margin-top: 22px;
+    }
+    .ask-hazel-area {
+        background-position: 40% center;
+        margin-top: 120px;
+    }
+    .ask-hazel-area a {
+        margin-left: 124px;
+    }
+    .main-plan-qoute .left-baar .sort-by {
+        margin-top: 37px;
+    }
+    .plan-filter-data a {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .heading-outer,
+    .image-outer {
+        padding-top: 12px;
+    }
+    .plan-filter-data h2 {
+        font-size: 18px;
+    }
+    .image-filter {
+        background-size: 70% auto;
+    }
+    .bottom-update-btn {
+        margin-bottom: 15px !important;
+    }
+    body.home {
+        padding-top: 32px !important;
+    }
+    .header.sticky-header .left-nav-bar .navbar-brand {
+        top: -6px;
+    }
+    .confirm-submit .household-ac thead th {
+        padding: 8px 10px;
+    }
+    .sign-logo img {
+        margin-top: 5px;
+    }
+    .who-needs-insurence.who-needs-top {
+        margin-top: 45px !important;
+    }
+    .center-btn {
+        padding: 35px 0 0px;
+    }
+    .plan-qouting .personal-plan .modal-header h4 {
+        min-height: 160px;
+    }
+    .plan-qouting .personal-plan .modal-header h4>span {
+        bottom: 20px;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        padding: 0px 20px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .app-plan-show {
+        width: 340px;
+    }
+    .btn-cancel-add {
+        width: 100%;
+        position: relative;
+    }
+    .btn-cancel-add .add-btn {
+        position: absolute;
+        top: 0px;
+        left: 81px;
+    }
+    .btn-cancel-add .close-btn {
+        margin: 0 0 0 1px;
+    }
+    .borderd_list.large.table-responsive {
+        max-width: 380px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    div.cart_button .btn {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+    .app-plan-show {
+        width: 320px;
+    }
+    .borderd_list.large.table-responsive {
+        max-width: 360px;
+    }
+    .main-click-pop .btn-cancel-add {
+        width: 100%;
+    }
+    .top-overlay .pop-click-part .btn-cancel-add button.close-btn {
+        margin: 0px 0px 0px 5px;
+    }
+    .btn-sign input[type="button"] {
+        width: 100%;
+    }
+    .top-list-view-compare .component {
+        max-width: 280px;
+    }
+    .plan-qouting.new-one .header.sticky-header .right-nav {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .right-nav ul li.help-center {
+        padding-top: 0px;
+    }
+    .check-box-info2 .col-sm-3>span {
+        font-size: 16px;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+    .top-coverge .health-insurance .next-open .requirements-fill ul {
+        width: 100%;
+        margin-top: 0;
+    }
+    .top-coverge .health-insurance .next-open .requirements-fill ul li {
+        margin-bottom: 15px;
+    }
+    .new-one .inner-layout .insurance-health .next-open label b {
+        font-size: 16px;
+    }
+    .inner-layout .top-coverge .health-insurance .requirements-fill ul.right-enroll {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .plan-qouting .right-nav .save-exit {
+        margin: 0 auto;
+        /*padding-top: 10px;*/
+        text-align: center;
+        width: 100%;
+    }
+    .save-exit-part .are-you-top .right-house-part .ifo-check:first-child {
+        width: 100% !important;
+    }
+    .save-exit-part .are-you-top .right-house-part .ifo-check {
+        float: left;
+        width: 100% !important;
+    }
+    .save-exit-part .are-you-top .right-house-part .ifo-check span {
+        display: inline-block;
+        float: none;
+    }
+    .are-you-top .ifo-check>span {
+        font-size: 14px;
+        vertical-align: middle;
+    }
+    .right-house-part .ifo-check {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    .popup_btns .btn {
+        margin: 0 auto;
+    }
+    .email.link .modal-body {
+        padding: 30px 20px 15px;
+    }
+    .personal-plan .modal-header {
+        padding: 15px 20px;
+    }
+    /*.header.sticky-header .navbar{padding: 0px 0 54px !important;}
+     .home .header{padding:20px 0 54px;}*/
+    /*.home .right-nav { width: 140px;top: -11px;right:70px;}*/
+    /*.right-nav ul li.live-chat { float: right;; margin: 0 0;}*/
+    .right-nav ul li.help-center {
+        float: right;
+    }
+    .pan-coverage .heading-plan .info-part i {
+        top: 10px !important;
+    }
+    .top-coverge.find-health .health-insurance .requirements-fill ul.right-enroll {
+        padding-left: 0px !important;
+    }
+    .main-plan-qoute .selection-detail .left-section {
+        padding-left: 0;
+    }
+    .personal-plan .modal-footer .btn {
+        font-size: 16px;
+    }
+    .sign-logo {
+        position: relative;
+        right: -40px;
+        top: 19px;
+    }
+    .household-ac thead th {
+        padding: 8px !important;
+    }
+    .top-list-view-compare .component {
+        max-width: 300px;
+    }
+    .back-continue input.blue {
+        margin-left: auto;
+    }
+    .main-sign-data .sign-layout .center-btn-house {
+        float: left;
+        top: auto;
+        width: 20%;
+        position: static;
+        height: auto;
+    }
+    .sign-logo {
+        position: relative;
+        right: auto;
+        top: -8px;
+    }
+    .sigin-response .header {
+        height: 74px;
+    }
+    div.borderd_list .bl_item span.value {
+        text-align: right;
+    }
+    .plan-qouting .personal-plan .modal-header h4>span {
+        bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .app-plan-show {
+        width: 300px;
+    }
+    .special-enroll .these-people-part .table-responsive td {
+        font-size: 13px;
+    }
+    .borderd_list.large.table-responsive {
+        max-width: 340px;
+    }
+    .btn-sign input[type="button"] {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .screen-one.plan-qouting .left-nav-bar .right-nav {
+        top: 0px;
+    }
+    .plan-qouting.home .right-nav {
+        right: 70px;
+        top: -15px;
+    }
+    /*.plan-qouting .right-nav ul li.help-center{ float:right; clear:both; padding: 0; }*/
+    /*.header .left-nav-bar .navbar-brand img { width: 46px !important; margin:5px 0px 0px; }*/
+    /*.header .main-sign-data .left-nav-bar .navbar-brand img{width: 70px !important;}*/
+    /*.right-nav ul li.live-chat a::after{ left: -6px; }*/
+    .personal-plan .modal-header h4 {
+        font-size: 18px;
+    }
+    .main-plan-qoute .selection-detail .compare .detail-classs {
+        padding: 6px 10px 6px 34px;
+    }
+    .plan-qouting .header.sticky-header .sing-dropdown {
+        padding: 10px 10px 10px 83px !important;
+    }
+    .plan-qouting .header.sticky-header .right-nav {
+        padding: 10px 10px 10px 34px !important;
+    }
+    .personal-plan .modal-header h4 {
+        font-size: 16px;
+    }
+    .monthly-pay h1 {
+        font-size: 40px;
+    }
+    .all-form-outer .inner-layout {
+        padding-bottom: 16px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .main-plan-qoute .selection-detail .center-content {
+        padding-left: 10px;
+    }
+    .plan_out_c .best-match-bc {
+        width: 35px;
+    }
+    .plan_out_c .description-box .runner-match-bc {
+        width: 35px;
+    }
+    .plan_out_c .best-match-out {
+        margin-left: 0;
+        padding: 0 0 0 34px;
+    }
+    .monthly-pay .payment-dolor-hover h1 {
+        font-size: 34px;
+    }
+    .bottom-print,
+    .sticky-enroll .bottom-print {
+        float: left;
+        padding: 13px 0 0;
+    }
+    .plan-qouting .main-sign-data .left-nav-bar .navbar-brand {
+        left: 42%;
+        margin-top: 4px;
+        margin-right: 26px;
+    }
+    .sigin-response .left-nav-bar .navbar-brand img,
+    .plan-qouting .header.sticky-header .right-nav {
+        width: 90%;
+    }
+    .btn-cancel-add {
+        float: right;
+        margin: 15px 0 0;
+        width: 30%;
+    }
+    .pop-click-part .btn-cancel-add button.close-btn {
+        margin: 5px 0 0;
+    }
+    .home .header.sticky-header a.navbar-brand {
+        padding-top: 5px;
+        width: 76%;
+    }
+    .plan-filter-data a {
+        float: right;
+        font-size: 15px;
+        padding: 10px 15px
+    }
+    .plan-filter-data h2 {
+        font-size: 16px;
+    }
+    .top-list-view-compare .component {
+        max-width: 290px;
+    }
+    .plan-qouting .tabacco-user table th,
+    .plan-qouting .tabacco-user table td {
+        padding: 15px 0;
+    }
+    .tabacco-user table .ifo-check {
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width:340px) {
+    .app-plan-show {
+        width: 280px;
+    }
+    .borderd_list.large.table-responsive {
+        max-width: 320px;
+    }
+    .plan-qouting .personal-plan .modal-header h4>span {
+        padding: 0 14px;
+    }
+    .plan-qouting .personal-plan .modal-header h4 {
+        padding: 0 10px 10px 80px !important;
+    }
+    .personal-plan .modal-header h4 {
+        background-position: 10px 0;
+    }
+    .personal-plan .modal-header {
+        padding: 15px 5px;
+    }
+    .save-exit-modal .btn-sign input[type="button"] {
+        width: 100%;
+    }
+    .main-footer.screens-footer .col-xs-9 {
+        padding: 0 10px !important;
+    }
+    .main-footer.screens-footer .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main-plan-qoute .right-baar {
+        padding: 0px 10px;
+    }
+    .top-question-box .right-house-part {
+        padding-right: 0;
+    }
+    .ask-hazel-area {
+        padding: 20px 10px 20px 178px;
+    }
+    .main-plan-qoute .selection-detail .center-content {
+        padding-left: 5px;
+    }
+    .plan-filter-data h2 {
+        font-size: 15px;
+    }
+    .confirm-submit .household-ac thead th {
+        padding: 6px 4px !important;
+    }
+    .confirm-submit .household-ac tbody tr td {
+        padding: 8px 10px;
+    }
+    .btn-sign input[type="submit"] {
+        font-size: 22px;
+    }
+    .household-ac thead th {
+        padding: 8px 2px !important;
+    }
+    .plan-qouting .my_account_section .household-ac thead th:nth-child(2),
+    .plan-qouting .my_account_section .household-ac thead th:nth-child(3) {
+        width: auto !important;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .borderd_list.large.table-responsive {
+        max-width: 300px;
+    }
+}
+
+/* Safari 6.1+ (10.0 is the latest version of Safari at this time) */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .monthly-display {
+        display: block;
+    }
+    .blue_box_panel .bbox_content .montly-cost-ac .monthly_cost {
+        width: 90%;
+        position: absolute;
+        left: 14px;
+        padding: 0px;
+        vertical-align: middle;
+        height: auto;
+        min-height: 461px;
+    }
+    .montly-cost-ac .monthly_cost .inner-cost-ac {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0 auto;
+        padding: 0px 41px 0;
+    }
+}
+
+/*-----anand verificatin-pannel-------------*/
+
+@media only screen and (min-width:768px) {
+    .v-modal {
+        text-align: center;
+        padding: 0 !important;
+    }
+    .v-modal:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -4px;
+    }
+    .v-modal .modal-dialog {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+    }
+    .app-modal .modal-md.modal-dialog {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width:1239px) {
+    .mainWrapperBlock .dataWrapper .datawrapperRow .sidebarBox-Container .sidebarBox {
+        position: fixed;
+        top: 0;
+        left: -270px;
+        opacity: 0;
+        bottom: 0;
+        height: 100%;
+        overflow: auto;
+        z-index: 100;
+        float: none;
+        min-width: 270px;
+        -webkit-transition: all 600ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+        transition: all 600ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    }
+    .mainWrapperBlock .dataWrapper .datawrapperRow .sidebarBox-Container .sidebarBox.sideOpen {
+        left: 0;
+        opacity: 1;
+    }
+    .sidebarBox {
+        border-radius: 0;
+        height: 100%;
+    }
+    .mainWrapperBlock .dataWrapper .datawrapperRow .mainContent-Container {
+        min-width: 70%;
+        max-width: 70%;
+    }
+    .mainWrapperBlock .dataWrapper .sideMenuIcon {
+        display: block;
+    }
+    .advBlock {
+        min-width: 26%;
+        max-width: 26%;
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .mainWrapperBlock .dataWrapper .datawrapperRow .mainContent-Container {
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+    .c-field.c-md,
+    .c-field.c-sm,
+    .c-field.c-xmd {
+        margin-bottom: 20px;
+    }
+    .mainWrapperBlock .dataWrapper {
+        padding: 50px 0;
+    }
+    .advBlock {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .mainContent-Wrapper .v-success-section .btn-field {
+        margin-top: 50px;
+    }
+    .mainContent-Wrapper .error-section .error-case-5 .btn-field {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .l-modal .modal-body {
+        padding: 15px;
+    }
+    .l-modal .modal-body h2 {
+        margin: 0 0 20px;
+        font-size: 24px;
+    }
+    .mainContent-Wrapper .contactInfoBlock {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .mainContent-Wrapper .m-title {
+        font-size: 30px;
+    }
+    .mainContent-Wrapper .comnucationpBlock {
+        font-size: 16px;
+    }
+    .mainContent-Wrapper .coverageBlock .btn-field {
+        padding-top: 0;
+    }
+    .mainContent-Wrapper .coverageBlock .field-row h4 {
+        font-size: 20px;
+    }
+    .mainContent-Wrapper .coverageBlock .field-row {
+        margin-bottom: 20px;
+    }
+    .mainContent-Wrapper .coverageBlock .field-row .select-dropdown {
+        padding-bottom: 30px;
+    }
+    .mainContent-Wrapper .coverageBlock .field-row .select-dropdown .bootstrap-select {
+        min-width: 100%;
+    }
+    .mainContent-Wrapper .coverageBlock .field-row .select-dropdown .select-dropdown-field {
+        min-width: 100%;
+        font-size: 16px;
+    }
+    .mainContent-Wrapper .comnucationpBlock .btn-field {
+        padding-top: 0;
+    }
+    .mainContent-Wrapper .enrollmentBlock {
+        font-size: 16px;
+    }
+    .mainContent-Wrapper .error-section {
+        font-size: 16px;
+    }
+    .mainContent-Wrapper .enrollmentBlock .field-row .field-group ._optList>ul>li {
+        margin-bottom: 10px;
+    }
+    .mainContent-Wrapper .enrollmentBlock .inner-fieldRow {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .mainContent-Wrapper .enrollmentBlock .btn-field {
+        margin-top: 50px;
+    }
+    .mainContent-Wrapper .enrollmentBlock .field-row .coverageMsg:after,
+    .mainContent-Wrapper .enrollmentBlock .field-row .coverageMsg:before {
+        left: 50px !important;
+    }
+    .mainContent-Wrapper .need-indentySection h3 {
+        margin-bottom: 20px;
+    }
+    .enrollment-section {
+        padding: 50px 0;
+    }
+    .enrollment-section .openenrollmentBlock .field-group h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .enrollment-section .openenrollmentBlock .field-group {
+        margin-bottom: 30px;
+    }
+    .enrollment-section .openenrollmentBlock .special-enrollment .btn-field {
+        padding-top: 30px;
+    }
+    .exapand-ListDrop .exp-ico {
+        font-size: 25px;
+    }
+    .exapand-ListDrop .bullet-ico {
+        top: 6px;
+    }
+    .householdSection .householdBlock .household-formBlock {
+        font-size: 16px;
+    }
+    .householdSection .householdBlock .household-sizeBlock {
+        font-size: 16px;
+    }
+    .householdSection .householdBlock .household-formBlock .field-row .c-field.c-none {
+        margin-bottom: 30px;
+    }
+    .householdSection .householdBlock .household-formBlock .field-row .field-group .inner-field-row {
+        padding: 0 15px;
+    }
+
+    .householdSection .householdBlock .household-formBlock .field-row .field-group
+    {
+        margin-top:30px;
+    }
+    .householdSection .householdBlock .household-formBlock .field-row
+    {
+        padding-bottom:30px;
+        margin-bottom:30px;
+    }
+
+/*addtional-information*/
+.addtionalSection .addtionalBlock  .addtional-formBlock {
+    font-size: 16px;
+}
+
+.addtionalSection .addtionalBlock  .addtional-formBlock .field-row .c-field.c-none {
+    margin-bottom: 30px;
+}
+.addtionalSection .addtionalBlock  .addtional-formBlock .field-row .field-group .inner-field-row {
+    padding: 0 15px;
+}
+
+.addtionalSection .addtionalBlock  .addtional-formBlock .field-row .field-group
+{
+    margin-top:30px;
+}
+.addtionalSection .addtionalBlock  .addtional-formBlock .field-row
+{
+    padding-bottom:30px;
+    margin-bottom:30px;
+}
+
+.mainContent-Wrapper .error-section .btn-field span._oLink
+{
+    text-align: center;
+}
+
+}
+
+@media only screen and (max-width:574px) {
+    .popover {
+        min-width: 150px;
+        max-width: 150px;
+    }
+}

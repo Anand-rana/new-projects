@@ -1,0 +1,164 @@
+/* Component styles */
+
+.component {
+	line-height: 1.5em;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+.component .filler {
+	font-family: "Blokk", Arial, sans-serif;
+	color: #d3d3d3;
+}
+.component table {
+    border-collapse: collapse;
+    margin-bottom: 3em;
+    width: 100%;
+    background: #f7f7f7;
+}
+.component td, .component th {
+      padding: 32px 31px;
+    text-align: left;
+}
+	.component td.err {
+		background-color: #e992b9;
+		color: #fff;
+		font-size: 0.75em;
+		text-align: center;
+		line-height: 1;
+	}
+.component tbody th {
+    padding-left: 15px !important;
+    padding-right: 0;
+    max-width: 211px !important; line-height:22px;
+    width: 211px;
+    white-space: inherit;
+}
+.component thead th {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 8px;
+    text-align: center;
+    /*min-height:100px; 
+    height:100px;*/
+    vertical-align:middle;  
+    border-right:1px solid #fff;
+}
+
+.component thead.sticky-enroll th:last-child{ border-right:1px solid #026c9d; }
+
+.component thead th:nth-child(2n) .plan-compare-part {
+    border-left: 1px solid #ffffff;
+}
+
+.component thead th:nth-child(4n) .plan-compare-part{ border-left:0px;  }
+
+.component thead.sticky-enroll th:nth-child(2n) .plan-compare-part {
+    border-left: 0px solid #ffffff;
+}
+
+.plan-compare-part {
+    border-right: 1px solid #ffffff;
+    padding: 10.5px 30px;
+    height: 100%;
+      
+}
+
+th .small-text {
+  clear: both;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  padding-top: 5px;
+}
+.component th {
+    background-color: #026c9d;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+.component tbody th {
+    background-color: #e7e7e7;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.component th.part-main {
+    background: #026c9d none repeat scroll 0 0;
+}
+.component tbody tr:nth-child(2n-1) {
+    background-color: #f7f7f7;
+    transition: all .125s ease-in-out;
+}
+
+/* For appearance */
+.sticky-wrap {
+	overflow-x: auto;
+	overflow-y: hidden;
+	position: relative;
+	width: 100%; z-index:99999999;
+}
+.sticky-wrap .sticky-thead,
+.sticky-wrap .sticky-col,
+.sticky-wrap .sticky-intersect {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all .125s ease-in-out;
+	z-index: 50;
+	width: auto; /* Prevent table from stretching to full size */
+}
+	.sticky-wrap .sticky-thead {
+		box-shadow: 0 0.25em 0.1em -0.1em rgba(0,0,0,.125);
+		z-index: 100; display:none;
+		width: 100%; /* Force stretch */
+	}
+	.sticky-wrap .sticky-intersect {
+		opacity: 1;
+		z-index: 150;
+
+	}
+		.sticky-wrap .sticky-intersect th {
+			background-color: #666;
+			color: #eee; display:none;
+		}
+.sticky-wrap td,
+.sticky-wrap th {
+	box-sizing: border-box;
+}
+
+/* Not needed for sticky header/column functionality */
+.component td.user-name {
+	text-transform: capitalize;
+}
+.sticky-wrap.overflow-y {
+	overflow-y: auto;
+	max-height: 50vh;
+}
+
+/* ============= Manpreet CSS - 25-11-16 */
+
+.ask-hazel-area {cursor:pointer}
+
+.ask-hazel-area.active a:after {border-right: 17px solid #00aced;}
+
+.ask-hazel-area.active a {background: #00aced none repeat scroll 0 0; border: 3px solid #00aced; color: #fff;}
+
+.help_pick_plan.active{background: #00aced !important; border: 1px solid #00aced !important; box-shadow: 0 2px 1px #303030 !important;}
+
+.cost .enchanced_benefit > img{margin-top:6px;}
+
+/*.enchanced_benefit .hover-info {width:420px !important;}
+
+.heading-part .hover-info{width:440px !important;}*/
+
+.personal-plan .modal-header h4 {padding:13px 30px 10px 70px !important;}
+
+.detail-household.square, .detail-household.square select{border-radius:0 !important;}
+
+.privacy_policy_txt{margin:15px 0; color:#303130; font-size:9pt;}
+.privacy_policy_txt a {color:#337ab7;}
+.privacy_policy_txt a:hover{text-decoration:underline;}

@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enroll-x</title>
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/icons/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-select.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <section class="main-container">
+        <div class="mainWrapperBlock">
+            <div class="verFicaion-section">
+                <div class="headerBlock">
+                    <div class="container">
+                        <h2 class="title">Household</h2>
+                        <h3>Primary applicant</h3>
+
+                        <div class="dotList">
+                            <ul>
+                                <li><span class="active"></span></li>
+                                <li><span></span></li>
+                                <li><span></span></li>
+                                <li><span></span></li>
+                                <li><span></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dataWrapper">
+                    <div class="sideMenuIcon">
+                        <span>Menu</span>
+                    </div>
+                    <div class="container">
+                        <div class="datawrapperRow">
+                            <div class="sidebarBox-Container">
+                                <div class="sidebarBox">
+                                    <div class="navList">
+                                        <ul>
+                                            <li><span>Get Started</span>
+
+                                                <ul class="sub-menu">
+                                                    <li class="visited"><a href="#">Privacy statement</a></li>
+                                                    <li><a href="#" class="active">Communication preferences</a></li>
+                                                    <li><a href="#">Coverage information</a></li>
+                                                    <li><a href="#">Enrollment assistance</a></li>
+                                                    <li><a href="#">Identity verification</a></li>
+                                                    <li><a href="#">Verify with Experian</a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li><span>Household</span>
+
+                                                <ul class="sub-menu">
+                                                    <li><a href="#" class="active">Household size</a></li>
+                                                    <li><a href="#">Applicant</a></li>
+                                                    <li><a href="#">Spouse</a></li>
+                                                    <li><a href="#">Dependent 1</a></li>
+                                                    <li><a href="#">Dependent 2</a></li>
+                                                    <li><a href="#">Current coverage</a></li>
+                                                    <li><a href="#">American Indians / Alaska Natives</a></li>
+                                                    <li><a href="#">Citizenship & Immigration</a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li><span>Income</span>
+
+                                                <ul class="sub-menu">
+                                                    <li><a href="#" class="active">Household income</a></li>
+                                                    <li><a href="#">Current income</a></li>
+                                                    <li><a href="#">Current deductions</a></li>
+                                                    <li><a href="#">Discrepencies</a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li><span>Aditional Questions</span>
+
+                                                <ul class="sub-menu">
+                                                    <li><a href="#" class="active">APTC</a></li>
+                                                    <li><a href="#">Medicaid & CHIP</a></li>
+                                                    <li><a href="#">Special enrollment</a></li>
+                                                </ul>
+
+                                            </li>
+                                            <li><span>Review Application</span>
+
+                                                <ul class="sub-menu">
+                                                    <li><a href="#" class="active">Review & edit</a></li>
+                                                    <li><a href="#">Attestations</a></li>
+                                                    <li><a href="#">Sign & submit</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="side_contactBlock">
+                                        <img src="Images/user-contact.jpg" alt="img" />
+                                        <h3>Need some help?</h3>
+                                        <div class="txt">
+                                            <p>Give us a call and we'll help you warp up these last few steps</p>
+                                        </div>
+                                        <div class="phoneNo">
+                                            <span>1-800-622-8292</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="mainContent-Container">
+                                <div class="mainContent-Wrapper">
+
+                                    <div class="householdSection">
+                                        <h2 class="m-title">[FLNLS] <span>Main Applicant</span></h2>
+                                        <div class="householdBlock">
+
+                                            <div class="household-formBlock">
+                                                <!--field-row-->
+                                                <div class="field-row">
+                                                    <h2>Contact Information</h2>
+                                                    <div class="field-group">
+
+                                                        <h4 class="sub-heading">Are you the household contact for this
+                                                            application? <span class="info-ico hidden-xs" data-content="If you are the person who is to be contacted for information on your insurance, then please provide your contact information here and your mailing address in the Home & Mailing information section. If not, then please select a member who would be the primary contact person." data-toggle="popover"
+                                                            data-placement="bottom"><i class="icon-help-round"></i></span></h4>
+
+                                                        <div class="_optList">
+                                                            <ul>
+                                                                <li>
+                                                                    <label class="ch-radio">
+                                                                        <input type="radio" />
+                                                                        <span> Yes
+                                                                        </span>
+                                                                    </label>
+
+                                                                </li>
+                                                                <li>
+                                                                    <label class="ch-radio">
+                                                                        <input type="radio" checked />
+                                                                        <span> No
+                                                                        </span>
+                                                                    </label>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="inner-field-row padding-top-2x padding-bottom-2x">
+                                                            <h4>Who is the household contact?</h4>
+
+
+                                                            <div class="inner-radio-list">
+                                                                <ul>
+                                                                    <li>
+                                                                        <label class="ch-radio">
+                                                                            <input type="radio" />
+                                                                            <span> [FNLNS]
+                                                                            </span>
+                                                                        </label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label class="ch-radio">
+                                                                            <input type="radio" value="1" />
+                                                                            <span> [FNLNS]
+                                                                            </span>
+                                                                        </label>
+                                                                    </li>
+
+                                                                    <li>
+                                                                        <label class="ch-radio">
+                                                                            <input type="radio" value="1" />
+                                                                            <span> [FNLNS]
+                                                                            </span>
+                                                                        </label>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+
+
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                                <!--field-row-->
+
+                                                <div class="field-row">
+                                                    <h2>Identity information</h2>
+
+
+                                                    <div class="field-group">
+                                                        <div class="row gutter-10">
+                                                            <div class="col-md-6 col-sm-6">
+                                                                <div class="c-field c-md">
+                                                                    <label>First name</label>
+
+                                                                    <!-- Developers /  use error-field class for error validation-->
+                                                                    <div class="data-field">
+                                                                        <input type="text" class="c-field-control"
+                                                                            placeholder="First Name">
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6 col-sm-6">
+                                                                <div class="c-field c-md">
+                                                                    <label>Middle name <span class="help-opt">(optional)</span></label>
+                                                                    <div class="data-field">
+                                                                        <input type="text" class="c-field-control"
+                                                                            placeholder="Middle Name">
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row gutter-10">
+                                                            <div class="col-md-6 col-sm-6">
+                                                                <div class="c-field c-md">
+                                                                    <label>Last name</label>
+                                                                    <div class="data-field">
+                                                                        <input type="text" class="c-field-control"
+                                                                            placeholder="Last Name">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6 col-sm-6">
+                                                                <div class="c-field c-md">
+                                                                    <label>Suffix <span class="help-opt">(optional)</span></label>
+                                                                    <div class="select-control data-field">
+
+                                                                        <select class="selectpicker" data-style="c-field-control"
+                                                                            title="Select">
+                                                                            <option selected>Suffix</option>
+                                                                            <option>Suffix</option>
+                                                                            <option>Suffix</option>
+                                                                        </select>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row gutter-10">
+                                                            <div class="col-md-6 col-sm-6">
+                                                                <div class="c-field c-none">
+                                                                    <label>Date of birth <span class="info-ico hidden-xs" data-toggle="popover"
+                                                                        data-placement="bottom"><i class="icon-help-round"></i></span></label>
+                                                                        <div class="pop-over-wrapper hidden">
+                                                                            <p>if consumer over 65 added as applicant: 
+                                                                            </p>
+                                                                            <p>
+                
+                                                                                <strong>
+                                                                                    If [FNLNS] has Medicare, they can enroll in a Marketplace plan but aren't eligible for a premium tax credit or extra savings. [FNLNS] would have to pay full price for a Marketplace plan.
+                                                                                   </strong>
+                                                                                   <a href="#" target="_blank">[Learn more about Medicare and the Marketplace].</a>
+                                                                            </p>
+                
+                                                                        </div>    
+                                                                    <div class="data-field">
+                                                                        <input type="text" class="c-field-control"
+                                                                            placeholder="dd/mm/yy">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+
+
+                                                    </div>
+
+                                                    <div class="field-group">
+                                                        <h3 class="sub-heading error">What is your sex?</h3>
+                                                        <div class="_optList">
+                                                            <ul>
+                                                                <li>
+                                                                    <label class="ch-radio">
+                                                                        <input type="radio" name="a" />
+                                                                        <span> Male
+                                                                        </span>
+                                                                    </label>
+
+                                                                </li>
+                                                                <li>
+                                                                    <label class="ch-radio">
+                                                                        <input type="radio" name="a" />
+                                                                        <span> Female
+                                                                        </span>
+                                                                    </label>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="field-group">
+                                                        <!--use checked , .error class for change bullet-->
+                                                        <h3 class="sub-heading">What is your Social Security Number
+                                                            (SSN)? <span class="info-ico hidden-xs" data-toggle="popover"
+                                                                data-placement="bottom"><i class="icon-help-round"></i></span>
+                                                            <span class="opt-txt">(optional)</span></h3>
+
+                                                        <div class="pop-over-wrapper hidden">
+                                                            <p>Don’t enter ITINs or any other numbers here.
+                                                            </p>
+                                                            <p>
+
+                                                                SSNs won’t be used for immigration enforcement (unless
+                                                                a person gets long-term care services through
+                                                                Medicaid). Some lawfully present people may not have or
+                                                                be eligible for an SSN. They can still apply for health
+                                                                coverage without an SSN. For more information on how to
+                                                                get an SSN, visit <a href="socialsecurity.gov" target="_blank">socialsecurity.gov</a>
+
+                                                            </p>
+
+                                                            <p>If you get an error after you enter an SSN, review the
+                                                                name, date of birth, and SSN, and make changes as
+                                                                needed. If the information you entered is correct, you
+                                                                can leave it as is. But, we may ask you to confirm the
+                                                                information at the end of the application.
+                                                            </p>
+                                                        </div>
+
+
+                                                        <div class="inner-field-row margin-sm">
+                                                            <div class="_label">
+                                                                <h4>Enter your 9-digit SSN. We verify the SSN with
+                                                                    Social Security based on the consent you gave at
+                                                                    the start of the application.</h4>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="inner-field-group margin-sm">
+                                                            <div class="c-field c-md">
+                                                                <div class="data-field">
+                                                                    <input type="text" class="c-field-control"
+                                                                        placeholder="xxxx-xx-xxxx">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="field-group">
+                                                        <!--use checked , error class for change bullet-->
+                                                        <h3 class="sub-heading checked">Is [First name Last name] the
+                                                            same name
+                                                            that appears on
+                                                            your Social Security card?
+                                                            <span class="opt-txt">(optional)</span></h3>
+
+                                                        <div class="_optList">
+                                                            <ul>
+                                                                <li>
+                                                                    <label class="ch-radio">
+                                                                        <input type="radio" name="group-one" />
+                                                                        <span> Yes
+                                                                        </span>
+                                                                    </label>
+
+                                                                </li>
+                                                                <li>
+                                                                    <label class="ch-radio">
+                                                                        <input type="radio" name="group-one" checked />
+                                                                        <span> No
+                                                                        </span>
+                                                                    </label>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="inner-field-row  padding-top-2x padding-bottom-2x">
+                                                            <h4>Enter the same name as shown on your Social Security
+                                                                card. </h4>
+
+                                                            <div class="inner-field-group">
+                                                                <div class="row gutter-10">
+                                                                    <div class="col-md-6 col-sm-6">
+                                                                        <div class="c-field c-md">
+                                                                            <label>First name</label>
+
+                                                                            <!-- Developers /  use error-field class for error validation-->
+                                                                            <div class="data-field">
+                                                                                <input type="text" class="c-field-control"
+                                                                                    placeholder="First Name">
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6 col-sm-6">
+                                                                        <div class="c-field c-md">
+                                                                            <label>Middle name <span class="help-opt">(optional)</span></label>
+                                                                            <div class="data-field">
+                                                                                <input type="text" class="c-field-control"
+                                                                                    placeholder="Middle Name">
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row gutter-10">
+                                                                    <div class="col-md-6 col-sm-6">
+                                                                        <div class="c-field c-none">
+                                                                            <label>Last name</label>
+                                                                            <div class="data-field">
+                                                                                <input type="text" class="c-field-control"
+                                                                                    placeholder="Last Name">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6 col-sm-6">
+                                                                        <div class="c-field c-none">
+                                                                            <label>Suffix <span class="help-opt">(optional)</span></label>
+                                                                            <div class="select-control data-field">
+
+                                                                                <select class="selectpicker" data-style="c-field-control"
+                                                                                    title="Select">
+                                                                                    <option selected>Suffix</option>
+                                                                                    <option>Suffix</option>
+                                                                                    <option>Suffix</option>
+                                                                                </select>
+
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+
+                                                <!--field-row-->
+
+                                                <div class="field-row">
+                                                    <h2> Address information</h2>
+
+                                                    <div class="field-group">
+                                                        <h3 class="sub-heading">What’s your home address? <span class="info-ico"
+                                                                data-placement="bottom" data-toggle="popover"
+                                                                data-content="We’ll use your home address to confirm you live in the state where you’re seeking health coverage."><i
+                                                                    class="icon-help-round"></i></span></h3>
+
+                                                        <fieldset>
+                                                            <div class="c-field c-md">
+                                                                <label>Home Address Line 1</label>
+                                                                <div class="data-field">
+                                                                    <input type="text" class="c-field-control"
+                                                                        placeholder="Street address">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="c-field c-md">
+                                                                <label>Home Address
+                                                                    Line 2 <span class="help-opt">(optional)</span></label>
+                                                                <div class="data-field">
+                                                                    <input type="text" class="c-field-control"
+                                                                        placeholder="Street address">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row gutter-10">
+                                                                <div class="col-md-6 col-sm-6">
+                                                                    <div class="c-field c-md">
+                                                                        <label>City</label>
+                                                                        <div class="data-field">
+                                                                            <input type="text" class="c-field-control"
+                                                                                placeholder="City">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6 col-sm-6">
+                                                                    <div class="c-field">
+                                                                        <label>State</label>
+                                                                        <select class="selectpicker" data-style="c-field-control"
+                                                                            title="Select">
+                                                                            <option>Alabama</option>
+                                                                            <option>Alaska</option>
+                                                                            <option>Arizona</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row gutter-10">
+                                                                <div class="col-md-6 col-sm-6">
+                                                                    <div class="c-field c-md">
+                                                                        <label>Zip code</label>
+                                                                        <div class="data-field">
+                                                                            <input type="text" class="c-field-control"
+                                                                                placeholder="Zip code">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6 col-sm-6">
+                                                                    <div class="c-field c-md">
+                                                                        <label>County <span class="help-opt">(optional)</span></label>
+                                                                        <select class="selectpicker" data-style="c-field-control"
+                                                                            title="Select">
+                                                                            <option>Alabama</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-md-6 col-sm-6">
+                                                                    <label class="ch-checkbox">
+                                                                        <input type="checkbox" name="address-checkbox"
+                                                                            value="1" />
+                                                                        <span class="ch-ico">No home address</span>
+                                                                    </label>
+                                                                </div>
+
+                                                            </div>
+                                                        </fieldset>
+                                                    </div>
+
+                                                    <div class="field-group ">
+                                                        <h3 class="sub-heading">Are you living outside [state of
+                                                            application] temporarily?
+                                                        </h3>
+
+                                                        <div class="_optList">
+                                                            <ul>
+                                                                <li>
+                                                                    <label class="ch-radio">
+                                                                        <input type="radio" name="group-two" checked />
+                                                                        <span> Yes
+                                                                        </span>
+                                                                    </label>
+
+                                                                </li>
+                                                                <li>
+                                                                    <label class="ch-radio">
+                                                                        <input type="radio" name="group-two" />
+                                                                        <span> No
+                                                                        </span>
+                                                                    </label>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="inner-field-row">
+                                                            <h4>Where will you live in [state of application]? <span
+                                                                    class="opt-txt">(optional)</span>
+                                                            </h4>
+                                                            <div class="inner-field-group">
+                                                                <div class="c-field c-md">
+                                                                    <label>Home Address Line 1</label>
+                                                                    <div class="data-field">
+                                                                        <input type="text" class="c-field-control"
+                                                                            placeholder="Street address">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="c-field c-md">
+                                                                    <label>Home Address
+                                                                        Line 2 <span class="help-opt">(optional)</span></label>
+                                                                    <div class="data-field">
+                                                                        <input type="text" class="c-field-control"
+                                                                            placeholder="Street address">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row gutter-10">
+                                                                    <div class="col-md-6 col-sm-6">
+                                                                        <div class="c-field c-md">
+                                                                            <label>City</label>
+                                                                            <div class="data-field">
+                                                                                <input type="text" class="c-field-control"
+                                                                                    placeholder="City">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6 col-sm-6">
+                                                                        <div class="c-field">
+                                                                            <label>State</label>
+                                                                            <select class="selectpicker" data-style="c-field-control"
+                                                                                title="Select">
+                                                                                <option>Alabama</option>
+                                                                                <option>Alaska</option>
+                                                                                <option>Arizona</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row gutter-10">
+                                                                    <div class="col-md-6 col-sm-6">
+                                                                        <div class="c-field c-none">
+                                                                            <label>Zip code</label>
+                                                                            <div class="data-field">
+                                                                                <input type="text" class="c-field-control"
+                                                                                    placeholder="Zip code">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6 col-sm-6">
+                                                                        <div class="c-field c-none">
+                                                                            <label>County <span class="help-opt">(optional)</span></label>
+                                                                            <select class="selectpicker" data-style="c-field-control"
+                                                                                title="Select">
+                                                                                <option>Alabama</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                           
+                                                </div>
+
+                                                 <!--field-row-->
+                                                 <div class="field-row">
+                                                    <h2>Race & ethnicity
+                                                    </h2>
+                                                    <div class="field-group">
+                                                        <div class="exapand-ListDrop">
+                                                            <div class="ex-list-conainer">
+                                                                <h4>Are you of Hispanic, Latino, or Spanish origin?
+                                                                    <span class="info-ico hidden-xs" data-content="Providing this information won't impact eligibility, plan options, or costs. " data-toggle="popover"
+                                                            data-placement="bottom"><i class="icon-help-round"></i></span>
+                                                                    <span class="opt-txt">(optional)</span>
+                                                                </h4>
+
+
+
+                                                                <span class="exp-ico">
+                                                                    <i class="icon-plus"></i>
+                                                                </span>
+
+                                                                
+                                                            </div>
+                                                            <div class="exapand-data">
+
+                                                                <div class="_optList">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <label class="ch-radio">
+                                                                                <input type="radio" name="group-four"
+                                                                                    value="1" checked />
+                                                                                <span> Yes
+                                                                                </span>
+                                                                            </label>
+
+                                                                        </li>
+                                                                        <li>
+                                                                            <label class="ch-radio">
+                                                                                <input type="radio" name="group-four" />
+                                                                                <span> No
+                                                                                </span>
+                                                                            </label>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+
+                                                                <div class="inner-field-row"
+                                                                   >
+                                                                    <div class="inner-check-list">
+                                                                        <h4>What's [FNLNS] specific origin? <span class="info-ico hidden-xs"
+                                                                                data-toggle="popover" data-placement="bottom"
+                                                                                data-content="Optional. Select all that apply."><i
+                                                                                    class="icon-help-round"></i></span>
+                                                                            <span class="opt-txt">(optional)</span>
+                                                                        </h4>
+
+                                                                        <ul>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Cuban</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Mexican,
+                                                                                        Mexican
+                                                                                        American, or Chicano/a</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Puerto Rican</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Other:</span>
+                                                                                </label>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <div class="row">
+                                                                            <div class="col-md-8">
+                                                                                <div class="c-field c-none">
+                                                                                    <div class="data-field">
+                                                                                        <input type="text" class="c-field-control"
+                                                                                            placeholder="Enter your origin">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+
+
+                                                    <div class="field-group">
+                                                        <div class="exapand-ListDrop">
+                                                            <div class="ex-list-conainer">
+                                                                <h4>What's [FNLNS] race?
+                                                                    <span class="info-ico hidden-xs" data-toggle="popover"
+                                                                        data-placement="bottom" data-content="Optional. Select all that apply.
+                                                                            "><i
+                                                                            class="icon-help-round"></i></span>
+                                                                    <span class="opt-txt">(optional)</span>
+                                                                </h4>
+
+
+
+                                                                <span class="exp-ico">
+                                                                    <i class="icon-plus"></i>
+                                                                </span>
+
+                                                                
+                                                            </div>
+                                                            <div class="exapand-data">
+                                                                <div class="inner-field-row race-checkList-row">
+                                                                    <div class="inner-check-list race-checkList">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">American
+                                                                                        Indian or Alaska Native</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Asian
+                                                                                        IndianAsian Indian</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Black or
+                                                                                        African American</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Chinese</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Filipino</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Guamanian or
+                                                                                        Chamorro</span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Japanese
+                                                                                    </span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Korean
+                                                                                    </span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Native
+                                                                                        Hawaiian
+                                                                                    </span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Samoan
+                                                                                    </span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Vietnamese
+                                                                                    </span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">White
+                                                                                    </span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">An Asian race
+                                                                                        not listed above
+                                                                                    </span>
+                                                                                </label>
+                                                                            </li>
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">A Pacific
+                                                                                        Islander race not listed above
+                                                                                    </span>
+                                                                                </label>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <label class="ch-checkbox">
+                                                                                    <input type="checkbox" />
+                                                                                    <span class="ch-ico">Another race
+                                                                                        not listed above:
+                                                                                    </span>
+                                                                                </label>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <div class="row margin-bottom-4x">
+                                                                            <div class="col-md-8">
+                                                                                <div class="c-field c-none">
+                                                                                    <div class="data-field">
+                                                                                        <input type="text" class="c-field-control"
+                                                                                            placeholder="Enter your race">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="btn-field">
+                                                <div class="row gutter-10">
+                                                    <div class="col-md-6 col-sm-6">
+                                                        <button class="button margin-bottom-2x button-font-uppercase button-shadow button-block  button-font-large button-grey button-font-bold button-height-large">BACK</button>
+                                                    </div>
+                                                    <div class="col-md-6 col-sm-6">
+                                                        <button class="button margin-bottom-2x button-font-uppercase button-shadow button-block  button-font-large button-green button-font-bold button-height-large">CONTINUE</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advBlock">
+                                <div class="adv-panelBox">
+                                    <div class="adv_titleInfo">
+                                        <img src="Images/adv-1.jpg" alt="img" />
+                                        <h3>Molina Marketplace Choice <br /> Bronze Plan</h3>
+                                    </div>
+                                    <div class="adv_plandtl">
+
+                                        <div class="_planType">
+                                            <span class="_label">View Plan Details</span>
+                                            <span class="_type">Bronze</span>
+                                        </div>
+
+                                        <div class="_planDate">
+                                            <h3>Effective date: <span class="_date">01/01/2017</span>
+                                                <span class="info-ico"><i class="icon-help-round"></i></span>
+                                            </h3>
+                                        </div>
+
+                                        <div class="_priceRate">
+                                            <h4>Monthly Payment</h4>
+                                            <h3>$97</h3>
+                                            <span class="_prev">was $180</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="adv-panelBox">
+                                    <div class="adv_titleInfo">
+                                        <img src="Images/adv-2.jpg" alt="img" />
+                                        <h3>DentaQuest Choice <br /> Bronze Plan</h3>
+                                    </div>
+                                    <div class="adv_plandtl">
+
+                                        <div class="_planType">
+                                            <span class="_label">View Plan Details</span>
+                                            <span class="_type">Bronze</span>
+                                        </div>
+
+                                        <div class="_planDate">
+                                            <h3>Effective date: <span class="_date">01/01/2017</span>
+                                                <span class="info-ico"><i class="icon-help-round"></i></span>
+                                            </h3>
+                                        </div>
+
+                                        <div class="_priceRate">
+                                            <h4>Monthly Payment</h4>
+                                            <h3>$24</h3>
+                                            <span class="_prev">was $65</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="oInfoBlock">
+                                    <h3>Need more <br /> time?</h3>
+                                    <p>You can save the application at any point and return to it at a later time.</p>
+                                    <button class="button button-font-uppercase button-shadow button-min-230  button-font-small button-grey">Save
+                                        APPLICATION & EXIT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function () {
+            $('.sub-menu').hide();
+            $('.navList > ul > li > span').click(function (e) {
+                $('.sub-menu').stop().slideUp();
+                $('.navList > ul > li > span').removeClass('active');
+                $(this).addClass('active');
+                $(this).next('.sub-menu').stop().slideToggle();
+            });
+            $('.sideMenuIcon').click(function () {
+                $('.sidebarBox-Container .sidebarBox').toggleClass('sideOpen');
+                $(this).toggleClass('isActive');
+                if ($(this).hasClass("isActive")) {
+                    console.log("sdfsd");
+                    $(this).find('span').text("Close");
+                } else {
+                    $(this).find('span').text("Menu");
+                }
+            });
+
+            //input hide show 
+
+            $("input[name$='group-one']").click(function () {
+                var input = $(this).val();
+                $(".inner-fieldRow-first").addClass('hidden');
+                $("#field-group-" + input).removeClass('hidden');
+            });
+
+            $("input[name$='group-two']").click(function () {
+                var input = $(this).val();
+                $(".inner-fieldRow-second").addClass('hidden');
+                $("#inner-fieldRow-second-" + input).removeClass('hidden');
+            });
+
+
+
+            $("input[name$='group-four']").click(function () {
+                var input = $(this).val();
+                $(".inner-fieldRow-fourth").addClass('hidden');
+                $("#inner-fieldRow-fourth-" + input).removeClass('hidden');
+            });
+
+
+            $("input[name$='address-checkbox']").change(function () {
+                var input = $(this).val();
+                if (this.checked) {
+                    $("#address-field-group-" + input).removeClass('hidden');
+                } else {
+                    $("#address-field-group-" + input).addClass('hidden');
+                }
+            });
+
+
+
+            $('.exapand-data').hide();
+            $('.ex-list-conainer').click(function () {
+                $(this).next().stop().slideToggle("fast", "swing");
+                $(this).parent().toggleClass('active');
+                $(this).find('span.exp-ico').find('i').toggleClass('icon-plus');
+                $(this).find('span.exp-ico').find('i').toggleClass('icon-minus');
+            });
+        });
+
+        $(function () {
+            var clicked = false;
+            var onLeave = function () {
+                if (!clicked) {
+                    $(this).popover('hide');
+                }
+
+            };
+            var onEnter = function (event) {
+                clicked = false;
+                if (!clicked) {
+                    $(this).popover('show');
+                }
+            };
+            var onclick = function (event) {
+                $('[data-toggle="popover"]').not(this).popover('hide');
+                $(this).toggleClass('openInfo');
+                if (clicked) {
+                    $(this).popover('hide');
+                }
+                else if (!clicked) {
+                    $(this).popover('show');
+                }
+                clicked = !clicked;
+                event.stopPropagation();
+            }
+
+
+
+            $('[data-toggle="popover"]').popover({
+                content: function () {
+                    return $(this).parent().next('.pop-over-wrapper').html();
+                },
+                html: true,
+                trigger: 'manual'
+            }).on('mouseenter', onEnter)
+                .on('mouseleave', onLeave)
+                .on('click', onclick)
+                .on("shown.bs.popover", function () {
+                    //
+                    if ($(this).parent().next().hasClass("pop-over-wrapper")) {
+                        $(this).next(".popover").addClass("popover-lg pop-wrapper-content");
+                    }
+
+                });
+
+
+            $(document).click(function (event) {
+                if (event.target.className != 'icon-help-round') {
+                    $('[data-toggle="popover"]').popover('hide');
+                    $('[data-toggle="popover"]').removeClass('openInfo');
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

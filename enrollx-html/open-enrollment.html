@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enroll-x</title>
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/icons/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-select.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <section class="main-container">
+        <div class="mainWrapperBlock">
+            <div class="enrollment-section">
+                <div class="container">
+                    <div class="openenrollmentBlock">
+
+
+                        <div class="field-group">
+                            <h4>Which plan year are you enrolling for?</h4>
+                            <div class="c-field ">
+                                <div class="select-control data-field">
+                                    <select class="selectpicker" data-style="c-field-control" title="Select">
+                                        <option>Coverage year</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn-field">
+                            <div class="row gutter-10">
+                                <div class="col-md-6">
+                                    <button class="button margin-bottom-2x button-font-uppercase button-shadow button-block  button-font-large button-grey button-font-bold button-height-large">BACK</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="button margin-bottom-2x button-font-uppercase button-shadow button-block  button-font-large button-purpule button-font-bold button-height-large">CONTINUE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        $(document).ready(function () {
+            $('.sub-menu').hide();
+            $('.navList > ul > li > span').click(function (e) {
+                $('.sub-menu').stop().slideUp();
+                $('.navList > ul > li > span').removeClass('active');
+                $(this).addClass('active');
+                $(this).next('.sub-menu').stop().slideToggle();
+            });
+
+            $('.sideMenuIcon').click(function () {
+                $('.sidebarBox-Container .sidebarBox').toggleClass('sideOpen');
+                $(this).toggleClass('isActive');
+                if ($(this).hasClass("isActive")) {
+                    console.log("sdfsd");
+                    $(this).find('span').text("Close");
+                } else {
+                    $(this).find('span').text("Menu");
+                }
+            });
+
+            //input hide show
+            $("input[name$='group-one']").click(function () {
+                var input = $(this).val();
+                $(".inner-fieldRow-first").addClass('hidden');
+                $("#field-group-" + input).removeClass('hidden');
+            });
+
+            $("input[name$='group-two']").click(function () {
+                var input = $(this).val();
+                $(".inner-fieldRow-second").addClass('hidden');
+                $("#inner-fieldRow-second-" + input).removeClass('hidden');
+            });
+
+            $("input[name$='group-three']").click(function () {
+                var input = $(this).val();
+                $(".coverageMsg").addClass('hidden');
+                $("#coverageMsg-" + input).removeClass('hidden');
+            });
+
+            $("input[name$='inner-checkbox']").change(function () {
+                var input = $(this).val();
+                if (this.checked) {
+                    $("#inner-field-group-" + input).removeClass('hidden');
+                } else {
+                    $("#inner-field-group-" + input).addClass('hidden');
+                }
+            });
+        });
+        $(function () {
+            var clicked = false;
+            var onLeave = function () {
+                if (!clicked) {
+                    $(this).popover('hide');
+                }
+            };
+            var onEnter = function (event) {
+                clicked = false;
+                if (!clicked) {
+                    $(this).popover('show');
+                }
+            };
+            var onclick = function (event) {
+                $('[data-toggle="popover"]').not(this).popover('hide');
+                $(this).toggleClass('openInfo');
+                if (clicked) {
+                    $(this).popover('hide');
+                }
+                else if (!clicked) {
+                    $(this).popover('show');
+                }
+                clicked = !clicked;
+
+            }
+            $('[data-toggle="popover"]').popover({
+                content: function () {
+                    return $(this).parent().next('.pop-over-wrapper').html();
+                },
+                html: true,
+                trigger: 'manual'
+            }).on('mouseenter', onEnter)
+                .on('mouseleave', onLeave)
+                .on('click', onclick)
+                .on("shown.bs.popover", function () {
+                    $(".popover").addClass("popover-lg pop-wrapper-content");
+                });
+            $(document).click(function (event) {
+                if (event.target.className != 'icon-help-round') {
+                    $('[data-toggle="popover"]').popover('hide');
+                    $('[data-toggle="popover"]').removeClass('openInfo');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

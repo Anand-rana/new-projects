@@ -1,0 +1,1068 @@
+﻿
+.redborder {
+    border: 2px solid red !important;
+}
+
+.spanError {
+    color: red;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+}
+
+.redFontColor {
+    color: red !important;
+    font-size: 15px !important;
+}
+
+.show-span {
+    display: block !important;
+}
+
+#loading {
+    z-index: 5555;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+}
+
+#loading .svg-icon-loader {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.svg-icon-loader {
+    width: 100px;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+    text-align: center;
+}
+
+.textbox-datetime {
+    margin: 0 0px 0 7px;
+    width: 97% !important;
+}
+
+.textbox-datetime-adv {
+    margin: 0 0px 0 7px;
+    width: 96% !important;
+}
+
+.div-width {
+    width: 358px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.PadTab .alert {
+    float: left;
+    margin: 69px 0 0;
+    position: absolute;
+    width: 100%;
+}
+
+.gov-btn {
+    width: 310px !important;
+}
+
+.btn-span {
+    float: left;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.household-error-span {
+    color: red;
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.gender-background {
+    background: #007eb7 !important;
+    color: #ffffff !important;
+}
+
+.question-back {
+    background: #00aced !important;
+    color: #ffffff !important;
+}
+
+.guidance-error-span {
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+.income-p {
+    color: #303130;
+    font-size: 18px;
+}
+
+.appMbr-error-span {
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.info1 .dep_span {
+    font-size: 16px !important;
+    margin-left: 28px;
+}
+
+.new-added a {
+    position: absolute;
+    right: -12px;
+    top: -10px;
+    width: 38px !important;
+}
+
+.first-info .list-unstyled li.new-added {
+    padding: 0 0 25px;
+}
+
+.create-account span {
+    position: relative;
+    top: -22px;
+    left: 6px;
+}
+
+
+.top-btn-link .show-date .start-date {
+    border-radius: 6px 0px 0px 6px;
+    box-shadow: inset 1px 3px 4px #e6e6e6;
+    border: 1px solid #ddd;
+    height: 30px;
+    float: left;
+    border-right: 0px;
+    margin: 2px 0px 0px;
+}
+
+.top-btn-link .show-date .end-date {
+    border-radius: 0px 6px 6px 0px;
+    box-shadow: inset 1px 3px 4px #e6e6e6;
+    border: 1px solid #ddd;
+    height: 30px;
+    float: left;
+    margin: 2px 0px 0px;
+}
+
+.top-btn-link .show-date .btn {
+    float: left;
+    margin: 0px 0px 0px 5px;
+}
+
+.top-btn-link .show-date {
+    float: left;
+    width: 100%;
+}
+
+    
+/*------------- 14-oct-16 -------------- */
+
+.hero-img-area .radio-input {
+    float: left;
+    width: 30%;
+    margin: 0px 15px 15px 0px;
+    position: relative;
+}
+
+    .hero-img-area .radio-input input {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .hero-img-area .radio-input img {
+        margin: 0px;
+        border: 2px solid transparent;
+        width: 100%;
+    }
+
+    .hero-img-area .radio-input input:checked + img {
+        border: 2px solid #3bc167;
+    }
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.logo-color-pkr {
+    background-color: white;
+    border: none;
+}
+.h-confir .modal-dialog {
+position: absolute;
+left: 0px;
+right: 0px;
+top: 50%;
+margin-top: -250px;
+}
+.h-confir .modal-body .house-hold-pp .hover-info {
+width: 80px  !important;
+height: auto;
+left: 0 ;
+}
+.h-confir .modal-body .house-hold-pp .hover-info p{line-height:16px;text-align: center !important;}
+.save-exit-part .row-sign .form-group {
+margin-bottom: 15px;
+}
+.save-exit-part .row-sign .radiO-INfo {
+margin-top: 5px;
+}
+.secont-exit{margin-bottom:20px;}
+.save-exit-part .row-sign .radiO-INfo span{font-size:18px;}
+.save-exit-part .row-sign h3{padding-bottom: 20px;}
+.save-exit-modal .modal-dialog {
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0%;
+margin-top: -60px;
+}
+
+body.screen-one.new-one {
+    position:relative;
+}
+.screen-one .new-one {
+    float:left; width:100%;
+}
+.screen-one footer {
+    float:left; width:100%; clear:both; 
+}
+.sign-in a:focus{background:none !important;  color: #00aced !important; background-color: transparent !important;
+}
+
+
+.row-sign .icon-addon input[type="text"], .row-sign .icon-addon input[type="password"], .btn-sign input[type="button"] {
+    max-width:inherit; 
+}
+
+
+
+/*body.screen-one .new-one{ padding-bottom:230px !important; }*/
+
+/*.sticky-top-padding {
+    padding-top:90px !important;
+}*/
+.plan-qouting .header.sticky-header .right-nav{
+    padding-top: 15px;
+}
+
+.plan-qouting .header.sticky-header .right-nav.sing-dropdown{
+    padding-top: 3px;
+}
+
+.new-one .first-name-row .left-household .bootstrap-select.btn-group .dropdown-menu.open {
+    top: 30px;
+    padding-top: 14px;
+}
+.create-acc span{ bottom: 15px;   left: 19px;   top: inherit; position: absolute; }
+
+.comp-plan .modal-dialog {
+position: absolute;
+
+right: 0px;
+top: 50%;
+margin-top: -250px;
+}
+
+.comp-plan .modal-content {
+    border-radius: 13px;
+    width: 500px;
+}
+.input_d {
+  bottom: 10px;
+  color: #757575;
+  font-family: "Conv_Karla-Bold";
+  font-size: 20px;
+  font-weight: 600;
+  left: 14px;
+  position: absolute;
+}
+.currency-do {
+  position: relative;
+}
+.compare .first-class {
+    margin-top: 0;
+}
+
+.recipients-house-hoder .edit-house-hold {
+  background: #026c9d none repeat scroll 0 0;
+  height: auto;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 78px;
+  width: 100%;
+  z-index: 9;
+  padding-bottom:50px;
+}
+.recipients-house-hoder .edit-house-hold .back-continue {
+  clear: both;
+  display: block;
+  float: none;
+  margin: 20px auto 0;
+  width: 100%;
+  text-align: center;
+}
+
+.new-one .recipients-house-hoder .edit-house-hold .back-continue input.blue,.new-one .recipients-house-hoder .edit-house-hold .back-continue input.grey{  display: inline-block;  float: none;}
+.new-one .recipients-house-hoder .bottom-house-hold.btn-coverage{margin-top:0;}
+.sing-dropdown .sign-in .dropdown-menu {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2) !important;
+    left: -3px;
+  padding-bottom: 10px !important;
+  padding-left: 8px !important;
+  padding-top: 10px !important;
+    top: 38px;
+    width: auto;
+    border:none;
+    font-size: 16px;
+    border-radius: 10px !important;
+}
+.home .left-nav-bar .right-nav {
+  padding-top: 20px;
+  float: left;
+}
+.left-footer-plan > p,.left-footer-plan > span {
+    font-size:15px;
+}
+
+.custom-zip {
+   padding: 108px 15px;
+}
+
+.left-footer-plan b a:hover{text-decoration: underline;}
+.new-one .top-coverge .health-insurance .next-open .requirements-fill ul li .left-age-se input:focus {
+  border: 1px solid #006991;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0;
+  width: 100%;
+}
+
+/*18-10-2016 start */
+.right-act-in a span {border-bottom: 1px dashed;}
+/*.right-act-in {display: none;}
+.right-act-in a:hover .hover-info-d{display: block !important;}
+*/
+.modal-body .house-hold-pp .hover-info::after,.modal-body .house-hold-pp .hover-info::before{ left: 0; margin: 0 auto !important; right: 0; width: 0 !important;}
+ .enhanced-bene > a {color: #007eb7;position: relative;}
+.enhanced-bene > a .enhanced-bene-hover{display: none;}
+.enhanced-bene > a:hover .enhanced-bene-hover {background: #fff none repeat scroll 0 0; border: 2px solid #959595; border-radius: 50%; display: block; float: none; height: 25px; left: auto; line-height: 21px; margin: 0 auto; position: absolute; right: -15px; text-align: center; top: -13px; vertical-align: middle; width: 25px; }
+.form-detail .form-control.input-sm, .select-box .form-control{color: #000;}
+.left-footer-plan > span {display: block;padding-top:14px;}
+.new-one .find-health .insurance-health .next-open .first-name-row label,.new-one .find-health .insurance-health .next-open .right-enroll label,.new-one .find-health .insurance-health .how-many-children  label{position: relative;padding-bottom: 18px;}
+
+
+
+/*.new-one .find-health .insurance-health .next-open .first-name-row label::after,.new-one .find-health .insurance-health .next-open .right-enroll label::after,.new-one .find-health .insurance-health .how-many-children  label::after {
+  background: rgba(0, 0, 0, 0) url("../../Images/slider-hr.png") repeat-x scroll 0 0;
+  bottom: 11px;
+  content: "";
+  float: left;
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  width: 100%;
+}*/
+.smoker-age .first-name-row.fourth-house-suffix.natural > label:after{background: transparent;}
+.new-one .find-health .insurance-health .how-many-children  label::after {left: 0px;}
+.call-section{position: relative;}
+.call-section::before {
+  background: rgba(0, 0, 0, 0) url("../../Images/question-mark.jpg") no-repeat scroll 0 0 / contain ;
+  content: "";
+    height: 199px;
+    left: 0;
+    max-width: 212px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.call-area .call-section {
+  padding-left: 12%;
+}
+.call-section::before {
+  background: rgba(0, 0, 0, 0) url("../../Images/question-mark.jpg") no-repeat scroll 0 0 / contain ;
+  content: "";
+    height: 177px;
+    left: 0;
+    max-width: 212px;
+    position: absolute;
+    top: 14px;
+    width: 100%;
+}
+.call-area.new-call-area .call-section {  padding-left: 15%;}
+.call-section{position: relative;}
+
+.first-footer.contact-section span.chat-live a:hover { color: #00adee; text-decoration: underline;}
+.firm-info p a:hover{color:#00adee; }
+.new-one .find-health .insurance-health .next-open .first-name-row label b,.new-one .find-health .insurance-health .next-open .right-enroll label b,.new-one .find-health .insurance-health .how-many-children  label b {
+  /*background: rgba(0, 0, 0, 0) url("../../Images/slider-hr.png") repeat-x scroll 0 0;*/
+  border-bottom:1px dashed;
+  font-weight: normal;
+  padding-bottom: 5px;
+
+}
+.new-one .find-health .insurance-health .how-many-children  label::after {left: 0;}
+
+.smoker-age .requirements-fill label:after{background: transparent !important;border-bottom:none!important;}
+
+
+
+
+.new-one .top-coverge .health-insurance .next-open .requirements-fill ul li .left-age-se input:focus {
+    border: 1px solid #006991;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+    width: 100%;
+    border-right: none;
+    box-shadow:0 0 1px #1686ba, 1px 2px 1px #dadada inset;
+}
+.new-one .first-name-row .left-household .bootstrap-select.btn-group .dropdown-menu li a:hover {
+    background: #006991 none repeat scroll 0 0;
+    color: #fff;
+    font-family: inherit;
+}
+.new-one .first-name-row .left-household .bootstrap-select.btn-group .dropdown-menu.open {
+  border-color: #1686ba;
+}
+.new-one .first-name-row .left-household .bootstrap-select.btn-group .dropdown-menu li a:hover span {
+  color: #fff;
+}
+.left-age-se.right-se {
+  background: #bfeafa none repeat scroll 0 0;
+  border: 1px solid #007eb7;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-bottom: 5px;
+  border-left: none;
+}
+
+.health-insurance .right-se .check-box-part label::before {
+  border: 1px solid #ababab;
+  bottom: 6px;
+  box-shadow: 0 0 1px #ababab;
+}
+
+.age-place-size{border: none;}
+.new-one .top-coverge .health-insurance .next-open .requirements-fill ul li .left-age-se input {width: 100%;border: 1px solid #959595;border-top-right-radius: 0;border-bottom-right-radius: 0;border-right: none;background:#fff;}
+
+.left-age-se {
+  border-right: 1px solid #007eb7;
+
+}
+
+.top-coverge .health-insurance .next-open .requirements-fill ul li .right-se span b,.these-people-part .table-responsive td span b,.insurance-health .seation-anyone .left-lost ul li:last-child span b {
+  background: #cacaca none repeat scroll 0 0;
+  border-radius: 50px;
+  color: #fff;
+  float: right;
+  font-size: 11.55px;
+  font-weight: 600;
+  height: 15px;
+  margin-left: 5px;
+  margin-top: 7px;
+  position: relative;
+  text-align: center;
+  width: 15px;
+}
+
+.top-coverge .health-insurance .next-open .requirements-fill ul li .right-se span b.hover-info,.these-people-part .table-responsive td span .hover-info {
+  background: #ffffff none repeat scroll 0 0;
+  border: 2px solid #959595;
+  display: none;
+  position: absolute;
+  z-index: 999;
+}
+.top-coverge .health-insurance .next-open .requirements-fill ul li .right-se span:hover .hover-info,.these-people-part .table-responsive td span:hover .hover-info {
+  display: block;
+  z-index: 99999;
+}
+.these-people-part .table-responsive td span:hover .hover-info {z-index: 9999999999999;}
+.first-name-row .bootstrap-select.btn-group .dropdown-toggle .filter-option,.first-name-row .left-household .bootstrap-select.btn-group .dropdown-menu li a span {
+  color: #000;
+}
+
+.new-one .top-coverge .health-insurance .next-open .requirements-fill ul li input {color: #000;}
+.these-people-part th:nth-child(2n), .these-people-part td:nth-child(2n) {
+  text-align: left;
+}
+
+.these-people-part .table-responsive td{width: 40.33%}
+.these-people-part .table-responsive td:first-child{width: 20%;}
+.these-people-part .table-responsive td:nth-child(2n){width: 42%;}
+.enhanced-bene > a {  
+    color: #007eb7;
+    padding-bottom: 3px;
+    position: relative;}
+
+.enhanced-bene > a span{border-bottom: 1px dashed;}
+
+.fine-amount a b{
+background: #fff none repeat scroll 0 0;
+border: 2px solid #959595;
+border-radius: 50%;
+display: inline-block;
+height: 20px;
+left: auto;
+line-height: 17px;
+margin: 0 auto;
+position: relative;
+text-align: center;
+top: -2px;
+vertical-align: middle;
+width: 20px;
+font-size: 15px;}
+.enhanced-bene > a .hover-info,.fine-amount > a .hover-info {   background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #959595;
+    display: none;
+    font-weight: normal;
+    left: -153px!important;
+    max-width: 347px;
+    position: absolute;
+    width: 347px;
+    z-index: 999;
+    top:30px !important;
+
+}
+.enhanced-bene > a:hover .hover-info,.fine-amount > a:hover .hover-info {display: block;}
+
+.save-exit-part .are-you-top .right-house-part .ifo-check:first-child{width: 30%;}
+.save-exit-part .are-you-top .right-house-part .ifo-check .control{display: inline-block;}
+.save-exit-part .are-you-top .right-house-part .ifo-check span{display: inline-block;float: none;    vertical-align: middle;}
+.save-exit-part .are-you-top .right-house-part .ifo-check {float: left;width: 70%;}
+.save-exit-part .are-you-part-new {margin-bottom: 10px;
+margin-top: 20px;}
+
+/*.top-coverge .health-insurance .next-open .requirements-fill ul.right-enroll li .right-se span {border-bottom: 1px dashed #303030;}
+*/
+
+
+
+/*
+.new-one .find-health .house-hold-s .next-open label*/
+
+
+
+
+/*18-10-2016 close */
+/*19-10-2016 start */
+
+.new-one .save-exit {margin-top: 0;
+}
+.new-one .sticky-header .save-exit {
+margin-top: 0;
+}
+.top-coverge .health-insurance .requirements-fill ul.right-enroll {
+padding-left: 13px;
+padding-right: 0;
+}
+.top-coverge .health-insurance .requirements-fill ul{padding-right:0;}
+.household-size .modal-body > .house-hold-pp span b{background: #cacaca none repeat scroll 0 0;
+border-radius: 50px;
+color: #fff;
+float: none;
+display:inline-block;
+font-size: 11.55px;
+font-weight: 600;
+height: 15px;
+margin-left: 0px;
+margin-top: 6px;
+position: relative;
+text-align: center;
+width: 15px;
+
+}
+
+.insurence-activity.csr-act{margin-bottom:0;}
+
+
+
+/*20-10-2016 start */
+
+
+.save-exit-modal .modal-header {
+  background: #007eb7 none repeat scroll 0 0;
+  border-bottom: 1px solid #e5e5e5;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 556px;
+  padding: 15px ;
+  border-bottom: none;
+  position: relative;
+}
+
+.new-one .top-coverge .health-insurance .smoker-age .requirements-fill .natural {
+  max-width: 345px;
+  padding: 0 4px 0 0;
+  width: 100%;
+}
+.special-enroll.next-open {
+  
+  width: 721px;
+
+}
+.top-coverge .health-insurance .smoker-age  .requirements-fill ul.right-enroll{padding-left: 0px;}
+.save-exit-modal  .sign-in-screen {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: #f4f4f4 none repeat scroll 0 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-color: -moz-use-text-color #cccccc #cccccc;
+  border-image: none;
+  border-style: none solid solid;
+  border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  border-width: 0 1px 1px;
+  display: table;
+  max-width: 556px;
+  width: 100%;
+  margin-top: 0;
+  }
+.save-exit-modal .modal-dialog{top: 90px;}
+
+.save-exit-modal .modal-header h3{color: #fff;font-size: 36px;text-align: center;margin-bottom: 0;}
+.save-exit-modal .modal-heade .close {
+  position: absolute;
+  right: 37px;
+  top: 7px;
+}
+
+.save-exit-modal .modal-header .close {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+   opacity:1;
+   color:#fff;
+}
+.insurance-health .seation-anyone .left-lost ul li:last-child span:hover .hover-info {display: block; }
+
+.insurance-health  .who-needs-part .hover-info > p::before {display: none;}
+
+.new-one .top-coverge .health-insurance .smoker-age .requirements-fill .natural {padding: 0 0px 0 0; width: 100%; }
+.top-coverge .health-insurance .requirements-fill ul.right-enroll {
+padding-left: 13px;
+padding-right: 0;
+}
+.top-coverge .health-insurance .requirements-fill ul{padding-right:0;}
+/*20-10-2016 close */
+
+
+
+
+
+/* 20-oct-16 start */
+.hmo-hover{ position: relative; display: inline-block; }
+.hmo-hover i{   color: #aeaeae;  font-size: 16px; }
+.new_hmo2 span{ border-bottom:1px dashed #007eb7; font-family: "Conv_Karla-Bold";  font-size: 24px;  color: #007eb7; }
+.new_hmo2 .hover-info {  display:none; max-width:320px;      left: -150px; top: 30px;  }
+.new_hmo2:hover .hover-info {  display:block; }
+.hmo-hover .hover-info::before, .hmo-hover .hover-info::after{ left: 144px;   }
+.hmo-hover .hover-info p{ font-weight:normal;  color:#333; border:0px; font-family: "Open Sans", sans-serif; text-align:left; }
+.bottom-alert { display:inline-block; width:100%; color: #a94442 !important;border:1px solid #ebccd1;background: #f2dede;
+ text-align:left; padding:10px 15px; border-radius:4px; margin:15px 0px 0px; }
+.bottom-alert p{ font-family: "Open Sans", sans-serif; color: #a94442 !important; font-size: 16px !important; text-align: left !important; padding: 0px !important; }
+.new-one .top-coverge .next-open .requirements-fill .dollar-input-part > strong{ font-weight: 600; left: 17px; position: absolute;
+top:60%; font-size: 20px; }
+.new-one .insurance-health-outer .special-enroll .insurance-health .next-open .hover-info::after {
+  left: 163px !important;
+}
+.bottom-alert span{ font-family: "Open Sans", sans-serif; color: #a94442 !important; font-size: 16px !important; text-align: left !important; padding: 0px !important; }
+
+/*------------------------------------------------------------ 24-10-2016 start-------------------------------------------------------------*/
+
+
+.new-one .top-coverge .who-needs-part .left-lost ul li {
+  border: 1px solid #007eb7;
+  float: left;
+  height: 46px;
+  margin: 0 !important;
+  padding: 7px 20px;
+  width: 31%;
+}
+.new-one .top-coverge .who-needs-part .left-lost ul li:nth-child(2){ margin: 0 25px !important;}
+
+.new-one .top-coverge .who-needs-part .left-lost ul li {
+  border: 1px solid #007eb7;
+  float: left;
+  height: 46px;
+  margin: 0 !important;
+  padding: 7px 20px;
+  width: 31%;
+}
+
+.top-coverge .who-needs-part .left-lost > ul {
+  float: left;
+  margin-top: 0;
+  width: 100%;
+}
+
+.border-bot {
+  border-bottom: 1px dashed #303030;
+  float: left;
+}
+
+.new-one .top-coverge .health-insurance .next-open .house-hold-outer ul li{width: 100%;}
+.new-one .top-coverge .health-insurance .next-open .bottom-area-s{margin-bottom: 0;}
+.new-one .top-coverge .health-insurance .next-open .bottom-area-s .requirements-fill ul li {width: 48.2%;float: left;}
+.new-one .top-coverge .health-insurance .next-open .bottom-area-s .requirements-fill .natural{max-width: 100%;}
+.new-one .top-coverge .health-insurance .next-open .bottom-area-s .requirements-fill .child-input-field ul{padding-right: 0;}
+.sign-layout .back-continue a.grey i {color: #007eb7; font-size: 34px; margin-right: 10px; margin-top: -5px; vertical-align: middle; }
+.sign-layout .back-continue a.grey {color: #007eb7 ;}
+.sign-layout .back-continue a:hover i,.sign-layout .back-continue a:hover{color: #00adee;}
+.sign-in .dropdown-menu li a i{border: none; margin-left: 10px;font-size: 18px;}
+li.sign-in .caret {border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 6px dashed; margin-top: -2px;}
+.new-one .top-coverge .health-insurance .next-open .bottom-area-s .requirements-fill ul li:nth-child(even){float: right;}
+
+
+.new-one .find-health .special-enroll.next-open .hover-info::before, .new-one .find-health .special-enroll.next-open .hover-info::after{ left: 0 !important;
+    margin: 0 auto !important; right: 0 !important; width: 0 !important; }
+
+
+
+.new-one .find-health .special-enroll.next-open .hover-info {   left: -232px !important; }
+
+.save-error-field span {
+display: inline;
+margin: -10px 0px 0px 6px;
+position: absolute;
+}
+/*------------------------------------------------------------ 24-10-2016 close-------------------------------------------------------------*/
+/*------------------------------------------------------------ 25-10-2016 start-------------------------------------------------------------*/
+.parishes-county  span{   color: #303130; display: block; font-size: 32px; font-weight: 300; line-height: 36px; padding-bottom: 40px; text-align: center;margin-top: 0;}
+ .county-outer{padding-bottom: 0;}
+.new-one .top-coverge .health-insurance .next-open .bottom-area-s .requirements-fill ul{float: left;width: 100%;margin-top: 0;}
+
+.top-coverge .insurance-health .seation-anyone .left-lost li:last-child span span{border-bottom: 1px dashed;padding-bottom: 2px;}
+.top-coverge .insurance-health  .how-many-children{  margin-bottom: 22px;}
+.these-people-part .table span {cursor: pointer;}
+.center-insurance .dropup .caret{border-bottom: medium none; content: ""; }
+.center-insurance .dropdown-menu{z-index: 9;}
+
+/*------------------------------------------------------------ 25-10-2016 close-------------------------------------------------------------*/
+/*------------------------------------------------------------ 26-10-2016 start-------------------------------------------------------------*/
+
+.center-help a{color:#00adee;}
+.center-help a:hover{text-decoration: underline;}
+.first-footer.contact-section span.chat-live a{text-decoration: underline;}
+.parishes-county  p{ font-size: 25px; line-height: 30px;  text-align: center;margin-bottom: 40px;}
+.parishes-cont.text-center {margin: 0 auto; width: 60%; }
+.parishes-county .back-continue.center-btn-house {max-width: 610px;}
+.these-people-part .table-responsive td span b{margin-top: 4px;}
+/*.center-insurance .currency-do p span{font-weight: bold;}*/
+span.price-main{position: relative;}
+span.price-main:hover .hover-info {top: 77px; }
+span.price-main:hover .hover-info::before,span.price-main:hover .hover-info::after{left:-76px !important;}
+.main-bottom-p .cost { width: 28%; margin-top: 12px;}
+.cost .enchanced_benefit > img {
+  clear: both;
+  display: block;
+  margin-left: 58px;
+  margin-top: 13px;
+}
+
+.main-bottom-p .cost .enchanced_benefit:hover .hover-info {display: block;  left: 50%; margin-left: -304px; top: 26px; }
+.main-bottom-p .cost .enchanced_benefit:hover .hover-info:before,.main-bottom-p .cost .enchanced_benefit:hover .hover-info:after{left: 61.5%;}
+.pop-click-part .btn-cancel-add button.close-btn:hover{background: #f1f1f1 ;color: #000;}
+.pop-click-part .btn-cancel-add button.close-btn{background:#e3e3e3;color: #000; }
+.pop-click-part .btn-cancel-add button{box-shadow: 0 2px 1px #505050;}
+.header .navbar-inverse .navbar-nav>.open>a, .header .navbar-inverse .navbar-nav>.open>a:focus, .header .navbar-inverse .navbar-nav>.open>a:hover{background-color: transparent;color:#303130 }
+.header .navbar-inverse .navbar-collapse .sign-in .dropdown-menu{top: 38px;left: 5px;}
+/*------------------------------------------------------------ 26-10-2016 close-------------------------------------------------------------*/
+/*------------------------------------------------------------ 27-10-2016 satat-------------------------------------------------------------*/
+
+.account-ifnfor .form-row .form-control:focus,.change-password .form-row .form-control:focus{ border: 1px solid #1686ba;}
+.account-ifnfor .popup_btns a.btn.grey,.change-password .popup_btns a.btn.grey{  background: #e3e3e3 none repeat scroll 0 0; color: #000; font-size: 19px; box-shadow: 0 2px 1px #505050;border-radius: 7px; height: 52px; padding-top: 18px;text-transform: uppercase;font-family: "Karla";}
+.account-ifnfor .popup_btns a:hover.btn.grey,.change-password .popup_btns a:hover.btn.grey{background: #f1f1f1;}
+.account-ifnfor .popup_btns a.btn.blue.shadow,.change-password .popup_btns a.btn.blue.shadow{box-shadow: 0 2px 1px #505050;border-radius: 7px; height: 52px;padding-top: 18px;text-transform: uppercase; font-size: 19px;font-family: "Karla";}
+
+/*------------------------------------------------------------ 27-10-2016 close-------------------------------------------------------------*/
+
+.bottom-succes-alert {
+color: #3c763d !important;
+background-color: #dff0d8;
+border-color: #d6e9c6;
+display:inline-block; width:100%; border:1px solid #d6e9c6;background: #dff0d8;
+ text-align:left; padding:10px 15px; border-radius:4px; margin:15px 0px 0px;
+
+}
+    .bottom-succes-alert span {
+color: #3c763d !important;
+    
+    }
+
+.child-hover .spouse-text h4{ border:0px; }
+
+/* .new-one .top-coverge .health-insurance .back-continue input {min-width: 360px;} */
+
+.market-place .back-continue .market_btn{ width: auto; margin-left: 0; }
+
+
+/*------------------------------------------------------------ 03-Nov-2016 ----------*/
+
+.market-ac { float: left; width: 100%; margin: 10px 0px 30px 0px; background: #eee; padding:10px;  }
+.market-ac .bl_item{ font-weight:bold; }
+div.borderd_list .market-ac .bl_item.border-top-ac{ border-top:1px solid #007eb7;}
+div.borderd_list .market-ac .bl_item.border-top-ac { color:#00aced;}
+div.borderd_list .market-ac .bl_item{ border:0px; }
+div.borderd_list .market-ac .bl_item .value{ color:#303130; }
+div.borderd_list .market-ac .bl_item.border-top-ac .value{ color:#00aced; }
+.effctive-ac{ float: left; width: 100%; margin: 0px 0px 30px 0px; }
+div.borderd_list .effctive-ac .bl_item { font-weight:bold; color:#000; }
+div.borderd_list .effctive-ac .bl_item .value { color:#000; }
+div.borderd_list .plan-ac .bl_item .value { color:#000; font-weight:bold;  }
+.plan-ac { float: left; width: 100%; margin: 0px 0px 20px 0px; }
+
+.blue_box_panel .bbox_content .montly-cost-ac .monthly_cost{ width: 90%; position: absolute; left: 14px; 
+ padding: 0px; vertical-align: middle; height:100%;}
+.montly-cost-ac .monthly_cost .inner-cost-ac{ display:table; height:100%; width:100%; }
+.montly-cost-ac .monthly_cost .inner-cost-ac .inner-cost-2{ display:table-cell; height:100%; vertical-align:middle; }
+.bbox_right_content .list-inline.link_list li{ padding: 0 35px 0 0; }
+.bbox_right_content .list-inline.link_list li a{
+    cursor:pointer;
+}
+
+
+
+
+/*------------------------------------------------------------ 04-Nov-2016 ----------*/
+.new-apply-btn { background: #007eb7; color: #ffffff; margin-left: 25px; min-width: 200px; box-shadow: 0 2px 1px #505050;
+                 height: 53px; font-size: 20px; text-transform: uppercase; border-radius: 10px;
+float: left; line-height: 42px;
+font-family: "Conv_Karla-Bold";
+
+}
+.new-apply-btn:hover{ background: #00aced; text-decoration:none; color:#fff; }
+.left-footer-plan p a:hover{ color: #337ab7; }
+
+
+.person-me span.cover-detail{ position:relative; }
+.person-me span.cover-detail span{ display:inline; float:none; }
+.person-me span.cover-detail span.questio-m { border-bottom:1px dashed #fff;  }
+.person-me span.cover-detail span.hover-price-edit { cursor:pointer; }
+.person-me span.cover-detail span.hover-price-edit:hover .hover-info{ display:block; top:26px; left:inherit; right:-105px; }
+.person-me span.cover-detail i{ font-style:normal; position: relative;}
+.person-me span.cover-detail .hover-info:before, .person-me span.cover-detail .hover-info:after{ right:100px; left:inherit;  }
+.plan-new-quote{ background: #ffffff none repeat scroll 0 0;
+border: 1px solid #d1d3d4;
+margin-bottom: 39px;
+min-height: inherit;
+position: relative;
+float: right;
+width: 100%;
+}
+.plan-new-quote .plan-new-top{ border-bottom: 1px solid #d1d3d4;
+float: left; padding: 15px 30px; width: 100%;}
+.plan-new-quote .plan-new-top { float: left;  width: 100%; }
+.plan-new-quote .plan-new-top .co-name{ float:left; width:80%; }
+.plan-new-quote .plan-new-top .plan-type{ font-size:14px; margin:0px 0px 10px 0px; }
+.plan-new-quote .plan-new-top .issures-type{ font-size:18px; margin:0px; font-weight:400; }
+.plan-new-quote .plan-new-top .top-new-right{ float:left; width:20%; text-align:right; } 
+.plan-new-quote .plan-new-top .top-new-right .text-5{color: #007eb7; font-size: 20px; line-height: 20px; margin:0px 0px 10px 0px; font-weight: 700;}
+.plan-new-quote .plan-new-top .top-new-right .metal-name{ color: #b7b7b7; font-size: 18px; line-height: 20px; font-weight: 400; }
+.plan-new-quote .plan-new-bottom{float: left;  width: 100%; padding:15px 30px; }
+.plan-new-quote .plan-new-bottom p{ color: #444041; font-size: 15px; font-style:normal; }
+.plan-new-quote .plan-new-bottom p a{ font-weight:700; color: #007eb7; font-style:normal; }
+.plan-new-quote .plan-new-bottom p a:hover{ text-decoration:underline; }
+
+ .plan_out_c .runner-match-bc {background: #cde42d !important; left: -1px;min-height: inherit; padding: 5px 18px; position: absolute;top: 0px;width: 53px; bottom:0px; } 
+
+
+.household-ac{   width: 100%; margin: 0px 0px 0px 0px; border:0px; }
+.household-ac thead{ background: #00aced; padding:0px 50px; }
+.household-ac thead{  padding:0px 50px; }
+.household-ac thead th{ color:#fff; font-size:16px; padding:8px 20px;  }
+.household-ac thead th:last-child{ text-align:right; }
+.household-ac tbody tr{   }
+.household-ac tbody tr td{  padding:8px 20px; color: #303130; font-size:16px;  border-bottom: 1px solid #eee;}
+.household-ac tbody tr td:last-child{ text-align:right; }
+
+
+strong.semi{ position:relative; cursor:pointer; }
+strong.semi:hover .hover-info{ display:block; }
+strong.semi b{ border-bottom:1px dashed #333; }
+strong.semi .hover-info{ right:-40px !important; left:auto !important; top:26px;  }
+strong.semi i{ position: relative; top: -1px; color: #aeaeae; font-size: 14px;}
+strong.semi .hover-info:before, strong.semi .hover-info:after{ right: 35px !important; width: 0px !important; left: auto !important; }
+
+ .return-btn{ display:inline-block; float:right; }
+.return-btn a{ background: #e5291c;     text-transform: uppercase; border-radius: 7px; box-shadow: 0 2px 1px #505050; color: #ffffff; display: block;
+ float: left; font-family: open sans; font-size: 15px; font-weight: 700; height: 43px;     line-height: 45px;  margin:-8px 0 0 20px;    padding: 0 15px; text-align: center; width: auto;}
+.monthly-payment-border { border:0px !important; }
+
+/* --------------------- 21-Nov-16----------*/
+.hold-income label{float:none;}
+
+
+
+.tabacco-user p{ color: #303130; font-size: 20px;line-height: 28px;padding-bottom: 35px;text-align: center;}
+.tabacco-user{ width:600px; margin: 85px auto 30px; }
+.tabacco-user .health-insurance { margin-top:30px; float: left; width: 100%;}
+.tabacco-user table{  margin:0px; }
+.tabacco-user .table-responsive{ margin:0px 0px 20px 0px; box-shadow:1px 0px 3px rgba(0,0,0,0.1); }
+.tabacco-user table tr th:first-child{ padding-left:30px;}
+.tabacco-user table tr th:last-child{   padding-left: 85px; text-align: center; }
+.tabacco-user table tr th{ padding:20px 20px; background: #007eb7; color: #fff; font-size: 18px; font-weight: 600;}
+.tabacco-user table tr td{ padding:20px 20px; border-top: 1px solid #ddd; background: #fff; color: #333; font-size: 18px; font-weight: 600;}
+.tabacco-user table tr td:first-child{ padding-left:30px;}
+.tabacco-user table .ifo-check{ float:right; width:70px; padding:0px 0px 0px 30px; position:relative;  }
+.tabacco-user table .ifo-check label{ position:absolute; left:0px; top:0px; }
+.tabacco-user table .ifo-check span{   color: #010101; font-size: 18px;line-height:24px; font-weight: 700;display:block;vertical-align:middle;}
+.tabacco-user .special-enroll.next-open.savings{ width:100%; }
+.tabacco-user .special-enroll.next-open.savings { margin-bottom:60px;}
+.confirm-submit .blue_box_panel .bbox_content .montly-cost-ac .monthly_cost{ min-height: 460px; }
+.confirm-submit{ margin-top:30px; }
+.Guidance.confirm-submit .health-insurance{ padding-top:60px; }
+
+.app-payment .market-place .market-box .box .icon img{ width: auto; }
+.app-payment .market-btn{ float:left; width:100%; clear:both;  }
+.plan-qouting .navbar-header { padding-right: 40px;}
+
+.blue_box_panel.acc_info .life-change1 p,.blue_box_panel.acc_info .life-change2 a.btn{    margin: 0;}
+.hover-underline:hover{text-decoration:underline;}
+.firm-info span a{color:#337ab7;}
+.firm-info span a:hover{text-decoration:underline;}
+.plan-coverage-hover{cursor:inherit;}
+.update-enroll-top .main-plan-coverage{padding-top: 120px;}
+
+.sticky-enroll .hmo{max-width:40%;}
+.sticky-enroll .price-enroll.monthly-pay{max-width:25%;}
+.stickey-update .call-action-enroll{max-width:38%;float:right;width:auto;}
+.blue-baar-compare{z-index:0;}
+.component-outer .component{position:relative;z-index: 0;}
+.sticky-enroll-head{background: #026c9d none repeat scroll 0 0; display: block; left: 0; margin: 0 auto; position: fixed; right: 0; top: 70px; width: 100%;}
+.sticky-enroll-head > tr{   display: table; float: none; margin: 0 auto;  width: 1200px;}
+.component th.part-main{width: 211px !important;border-right:1px solid #fff ;}
+.component thead.sticky-enroll th:last-child {border-right: 1px solid #fff !important;}
+.plan-compare-part2 > p {font-size: 15px;}
+.sticky-enroll-head .back-to-list a{border:1px solid #fff;color:#fff;border-radius: 8px;display: inline-block;float: none;font-size: 15px;height: 31px;line-height: 15px;padding: 7px 12px;}
+/*.component thead.sticky-enroll th.part-main{padding-top:11px !important}*/
+.sticky-enroll-head .back-to-list a{ width: auto;}
+.sticky-enroll-head .back-to-list a:hover{background:#00aced;}
+.sticky-enroll-head .left-copare-top{float: none; margin: 0 auto;}
+.left-copare-top .bottom-print a.link-btn { height:23px; width:24px;}
+.left-copare-top .bottom-print a.mail-btn {height: 23px;margin-left: 15px; width: 30px;}
+.left-copare-top .bottom-print a.link-btn:hover{background-position: 0 -30px; }
+.left-copare-top .bottom-print a.mail-btn:hover{ background-position: 0 -30px; }
+.sticky-enroll-head .bottom-print{float:left;padding: 13px 0 0 55px;margin:0;}
+
+.sticky-enroll-head th{padding:10px 8px !important;width:auto!important}
+.riight-side .new-iNFO{ top: 102px;display:block;}
+.main-container .compare-main-outer { margin-bottom: 45px;}
+.component-outer .new-iNFO{z-index:0!important}
+.component-third tbody.new-iNFO td{width:339px;}
+.component-third thead th { width: 339px !important;}
+
+.component-second tbody.new-iNFO td{width:509px;}
+.component-second thead th { width: 509px !important;}
+.component-second th.part-main {width: 214px !important;}
+
+
+li.sign-in.dropdown .caret{margin-right:2px;}
+.hide-media-big .language-part { margin-right: 25px;  margin-top: 6px;}
+.plan-qouting .confirm-submit .full-household{ margin: 0 auto;  max-width: 1170px;}
+.app-payment .market-btn {
+    margin-top: 15px;
+    margin-bottom: 38px;
+}
+.app-payment .market-btn .green{ margin-left: 25px} 
+.app-payment .wizard-cover .text-outer{padding-bottom:0;}
+.third-do-not .ifo-check:first-child {margin-top: 15px; width: auto !important;}
+
+.component-third th.part-main { width: 218px !important;}
+.component-outer .component  td, .component-outer .component  th {padding: 32px 15px; text-align: left;}
+.component-outer .component tbody th{max-width: 210px !important;padding:32px 2px 32px 32px;}
+.component-outer .plan-compare-part2 > p{text-align:center;}
+.right-nav ul li a.english-language{text-decoration:underline;}
+
+.payment-status-hover{ display:inline; }
+.payment-status-hover:hover .hover-info { display: block; left: 50%; margin-left: -240px; right: auto; top: 26px;}
+.payment-status-hover .blue-text{border-bottom:1px dashed #006b9c}
+.payment-status-hover i{color: #aeaeae;position:relative;}
+.payment-status-hover .hover-info::after, .payment-status-hover .hover-info::before{ left: 0; margin: 0px auto !important; 
+ width: 0px !important; right: 0px !important;}
+
+
+
+.update-eligiblity .btn.blue.shadow{margin:10px 0;}
+.confirm-submit .blue_box_panel .bbox_content .montly-cost-ac .monthly_cost { min-height: 461px ;}
+.health-insurance .check-box-part label.red-box::before { border: 2px solid red; }
+.pagination.pagination-lg.pager {margin-bottom: 20px;}
+.no-border{     border: 0px !important; }
+
+
+.plan-inner-data table { float: left; width: 100%; }
+.plan-inner-data table td{ float:left; width:50%; }
+
+
+.tabacco-user table tr th:last-child{ text-align:right; padding-right: 30px;}
+
+.btn.grey.shadow{ font-weight: 700;}
+.btn.grey.shadow:hover{ background: #f1f1f1 none repeat scroll 0 0; }
+
+footer{ clear:both; }
+
+.screen-three-wizard .Guidance-info .table-responsive{ overflow-x: visible; }
+
+.inner-cost-2 .img-area{ width:100%; height:160px;   position: absolute;
+    top: 0px; left: 0px;  background: #fff; text-align:center; }
+.inner-cost-2 .img-area img{ max-width:100%; position:absolute; top:0px; bottom:0px; margin:auto; left: 0px; right:0px; }
+
+.back-continue.center-btn-house.th_btn{ width: 100%; max-width: 100%; text-align: center;  }
+.back-continue.center-btn-house.th_btn input{ margin:0px 15px; padding:0px 15px; float: none; }
+.back-continue.center-btn-house.th_btn .dental-btn{ margin:0px 15px; padding:0px 15px; float: none; background: #e3e3e3 none repeat scroll 0 0;     color: #000000;
+    box-shadow: 0 2px 1px #505050;    min-width: 200px;
+    height: 53px;
+    font-size: 20px;
+    text-transform: uppercase;     border-radius: 10px;    font-family: "Conv_Karla-Bold";     line-height: 53px;
+    display: inline-block; }
+.back-continue.center-btn-house.th_btn .dental-btn:hover, .back-continue.center-btn-house.th_btn .dental-btn:focus{
+        background: #f1f1f1 none repeat scroll 0 0;
+}
+.rotation-90-degree {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotation-180-degree {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
