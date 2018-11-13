@@ -1,0 +1,62 @@
+.callForwardingContainer {
+    max-width: 580px;
+    .callForwardingBlock {
+        background-color: $white;
+        border-radius: 5px;
+        box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+        -webkit-box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+        @include padding(30);
+        .activatedNumber {
+            h4 {
+                @include fontsize(16);
+                font-weight: 700;
+            }
+            ._number {
+                @include fontsize(20);
+                font-weight: 700;
+                margin-top: 25px;
+                padding-bottom: 25px;
+                border-bottom: 1px solid #e5e9eb;
+                i {
+                    color: $theme;
+                    margin-right: 10px;
+                }
+            }
+            .btn-field {
+                margin-top: 25px;
+            }
+        }
+        .editNumber {
+            h4 {
+                @include fontsize(16);
+                font-weight: 700;
+            }
+            ._number {
+                .form-control {
+                    border: 2px solid #d7dbe7;
+                    border-radius: 3px;
+                    height: 50px;
+                    margin-top: 25px;
+
+                    &:focus 
+                    {
+                        box-shadow:none;
+                        -webkit-box-shadow:none;
+                        border-color:$theme;
+                    }
+                }
+            }
+            .btn-field {
+                margin-top: 20px;
+            }
+        }
+    }
+    .footerBlock {
+        margin-top: 30px;
+        p {
+            @include fontsize(13);
+            color: #a2acb1;
+            font-weight: 600;
+        }
+    }
+}

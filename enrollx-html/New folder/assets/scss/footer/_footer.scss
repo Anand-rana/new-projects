@@ -1,0 +1,14 @@
+footer
+{
+    .footerBlock
+    {
+        @include padding(30 0); 
+        p 
+        {
+            @include fontsize(13);
+            color:#a2acb1;
+            font-weight:600;
+        }
+    }
+
+}

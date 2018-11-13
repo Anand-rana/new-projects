@@ -1,0 +1,111 @@
+.dashboard-section {
+    .dashboardBlock {
+        .calls-gview {
+            ._gviewBox {
+                border-radius: 5px;
+                @include background-image(linear-gradient(56deg, rgb(6, 115, 207) 0%, rgb(77, 182, 255) 100%));
+                @include padding(25);
+                box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+                -webkit-box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+                @include margin-bottom(30);
+                color: $white;
+                nav {
+                    &>ul {
+                        &>li {
+                            display: inline-block;
+                            @include padding(0 10);
+                            &>span {
+                                @include fontsize(14);
+                                font-weight: 600;
+                                cursor: pointer;
+                                @include padding-bottom(10);
+                                display: block;
+                                -webkit-transform: perspective(1px) translateZ(0);
+                                transform: perspective(1px) translateZ(0);
+                                position: relative;
+                                @include opacity(0.7);
+                                &:before {
+                                    content: "";
+                                    position: absolute;
+                                    z-index: -1;
+                                    right: 0;
+                                    width: 0;
+                                    bottom: -2px;
+                                    background: $white;
+                                    @include radius(2px);
+                                    height: 2px;
+                                    -webkit-transition-property: width;
+                                    transition-property: width;
+                                    -webkit-transition-duration: 0.2s;
+                                    transition-duration: 0.2s;
+                                    -webkit-transition-timing-function: ease-out;
+                                    transition-timing-function: ease-out;
+                                    @include opacity(1);
+                                }
+                                &:hover:before,
+                                &:focus:before,
+                                &:active:before {
+                                    right: auto;
+                                    left: 0;
+                                    @include opacity(1);
+                                    width: 100%;
+                                }
+                                &:hover,
+                                &:focus {
+                                    color: $white;
+                                    @include opacity(1);
+                                }
+                                &.active {
+                                    color: $white;
+                                    @include opacity(1);
+                                    &:before {
+                                        right: auto;
+                                        left: 0;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            &:first-child {
+                                @include padding-left(0);
+                            }
+                            &:last-child {
+                                @include padding-right(0);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .activeCall-Block {
+            border-radius: 5px;
+            background-color: $white;
+            box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+            -webkit-box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+            @include padding(40 20 20);
+            h2 {
+                @include fontsize(16);
+                font-weight: 700;
+            }
+            .no-records {
+                text-align: center;
+                @include margin-top(20);
+                span.ico {
+                    width: 97px;
+                    height: 97px;
+                    border-radius: 50%;
+                    background-color: #e8f4fd;
+                    text-align: center;
+                    line-height: 100px;
+                    color: $theme;
+                    display: block;
+                    @include fontsize(30);
+                    margin: 0 auto 15px;
+                }
+                p {
+                    @include fontsize(16);
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

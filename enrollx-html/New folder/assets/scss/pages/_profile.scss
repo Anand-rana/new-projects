@@ -1,0 +1,49 @@
+.profile-section {
+    .profileBlock {
+        max-width: 400px;
+        margin: 40px auto 0;
+        .userInfo {
+            @include padding-bottom(24);
+            border-bottom: 1px solid #e1e6e9;
+            ._name {
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 90px;
+                display: block;
+                background-color: #c6cdd1;
+                @include fontsize(18);
+                font-weight: 700;
+                color: $white;
+            }
+            .media-body {
+                h4 {
+                    @include fontsize(18);
+                    font-weight: 700;
+                    margin-bottom: 4px;
+                }
+                a {
+                    color: #9596a5;
+                    @include fontsize(14);
+                    font-weight: 400;
+                    text-decoration: none;
+                }
+            }
+        }
+        ._profileUpdateForm {
+            @include margin-top(25);
+            .__footer {
+                margin-top: 40px;
+                text-align: right;
+                p {
+                    margin-top: 5px;
+
+                    color: #a2acb1;
+                    font-weight: 600;
+                    @include fontsize(13);
+                }
+            }
+        }
+    }
+}

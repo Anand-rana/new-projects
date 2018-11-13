@@ -1,0 +1,112 @@
+.spBlock {
+    .userRecordsList {
+        border-radius: 5px;
+        background-color: $white;
+        box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+        -webkit-box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+        .table {
+            tr {
+                &:first-child {
+                    td {
+                        border-top: 0
+                    }
+                }
+            }
+            td {
+                @include padding(15 20);
+                color: #333f52;
+                @include fontsize(14);
+                font-weight: 600;
+                vertical-align: middle;
+                position: relative;
+                ._usrName {
+                    span {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        text-align: center;
+                        @include fontsize(13);
+                        font-weight: 700;
+                        line-height: 40px;
+                        background-color: #bdcad0;
+                        color: $white;
+                        display: block;
+                    }
+                    h4 {
+                        @include fontsize(14);
+                        margin-bottom: 0;
+                        font-weight: 700;
+                    }
+                }
+                a {
+                    text-decoration: none;
+                }
+                &:after {
+                    @include pos(ab, 50% 0 null null);
+                    @include translateY(-50%);
+                    content: "";
+                    width: 1px;
+                    height: 18px;
+                    background-color: #d6d9dc;
+                }
+                &:first-child {
+                    &::after {
+                        display: none;
+                    }
+                }
+                &:last-child {
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+            ._online {
+                position: relative;
+                @include padding-left(15);
+                &::before {
+                    @include pos(ab, 50% null null 0);
+                    @include translateY(-50%);
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    background-color: #09c199;
+                    border-radius: 50%;
+                }
+            }
+            .dropdown-menu {
+                border: 0;
+                border-radius: 3px;
+                box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+                -webkit-box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+                min-width:170px;
+                .dropdown-item {
+                    @include padding(10 15);
+                    span.ico {
+                        @include margin-right(8);
+                        color: #8b939f;
+                        @include fontsize(16);
+                    }
+                    &:hover,
+                    &:focus {
+                        background-color: $theme;
+                        color: $white;
+                        span.ico {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+        .adminuserList {
+            table {
+                td {
+                    ._usrName {
+                        span {
+                            background-color: #f7971c;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

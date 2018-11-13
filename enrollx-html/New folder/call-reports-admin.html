@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Next Phone</title>
+    <meta charset="utf-8">
+    <!--base(href="/")-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minmum-scale=1, maximum-scale=1">
+
+    <link href="node_modules/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" />
+    <!-- StyleSheet-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!--<![endif]-->
+    <script>
+            $(document).ready(function () {
+    
+                $('#menu-icon').click(function () {
+                    $('.nav-container').toggleClass('sideOpen');
+                    $(this).toggleClass('is-active');
+                });
+    
+            });
+        </script>
+</head>
+
+<body>
+    <div class="header-section">
+        <div class="container-fluid">
+            <div class="headerBlock">
+                <div class="logoContainer">
+                    <a href="#" class="logo">
+                        <img src="images/logo.png" class="img-fluid" alt="img" />
+                    </a>
+                </div>
+
+                <div class="nav-container">
+                    <div class="nav-section">
+                        <nav>
+                            <ul>
+                               
+                                <li>
+                                    <a href="call-reports-admin.html" class="active">
+                                        <span class="ico"><i class="icon-report"></i></span> Reports
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="sub-user.html" >
+                                        <span class="ico"><i class="icon-users"></i></span> Sub Users
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="admin-user-list.html">
+                                        <span class="ico"><i class="icon-admin"></i></span> Admins
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                
+                    <div class="usr-opt-section">
+                        <div class="account-dropdown">
+                            <select class="selectpicker" data-style="account-dropdown-menu">
+                                <optgroup label="Switch Account">
+                                    <option>+1 509-307-2592</option>
+                                    <option>+1 901-701-5963</option>
+                                    <option>+1 917-430-6796</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div class="usr-drop-down">
+                            <div class="media" data-toggle="dropdown">
+                                <div class="mr-3">
+                                    <div class="_usrlabel">
+                                        <span>ML</span>
+                                    </div>
+                                </div>
+                                <div class="media-body align-self-center">
+                                    <span>Matthew Lippl</span>
+                                    <span class="caret-ico"><i class="icon-caret-down"></i></span>
+                                </div>
+                            </div>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <ul>
+                                    <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
+                                    <li><a class="dropdown-item" data-toggle="modal" data-target="#changeModal" href="javascript:void;">Change
+                                            Password</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="index.html">
+                                            <i class="icon-logout"></i> Log out</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="hamburgerContainer d-lg-none">
+                            <div class="hamburger hamburger--spin  menu-icon" id="menu-icon">
+                                <div class="hamburger-box">
+                                    <div class="hamburger-inner"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="mainContentBlock">
+            <div class="container">
+
+
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <h2 class="page-title">Call Reports</h2>
+                    </div>
+                    <div class="col-md-8">
+
+                        <div class="call-userFilter">
+                            <form class="form-inline">
+                                <label class="mb-2 mr-sm-2"> Select User</label>
+
+                                <div class="select-dorpdown">
+                                    <select class="selectpicker" data-style="form-control">
+                                        <option>All Users</option>
+                                        <option>User1</option>
+                                        <option>User2</option>
+                                    </select>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="call-reports-section">
+                    <div class="callreportsBlock">
+                        <div class="incoming-callBlock">
+                            <nav>
+                                <ul>
+                                    <li><a href="#" class="active">Incoming Calls</a></li>
+                                    <li><a href="#">Outbound Calls</a></li>
+                                </ul>
+                            </nav>
+
+                            <div class="callFilterBlock">
+                                <div class="row align-items-center no-gutters">
+                                    <div class="col-md-12 col-lg-8">
+                                        <form class="form-inline">
+                                            <div class="form-group  mb-2">
+                                                <input type="text" class="form-control" placeholder="Start Date">
+                                            </div>
+                                            <div class="form-group  mb-2">
+                                                <input type="text" class="form-control" placeholder="End Date">
+                                            </div>
+                                            <div class="form-group  mb-2">
+                                                <input type="text" class="form-control" placeholder="Caller ID">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-12 col-lg-4">
+                                        <div class="text-md-right">
+                                            <button class="button button-round button-width-medium button-light-dark">
+                                                <i class="icon-download-button ibv margin-right-1x"></i>
+                                                <span class="ibv">Export List</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="callRecordsBlock">
+                                <div class="row no-gutters">
+                                    <div class="col-md">
+                                        <div class="rinforBox">
+                                            <h3>128</h3>
+                                            <p>Total Incoming Calls</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="rinforBox">
+                                            <h3>15 <span>hrs</span> 30 <span>min</span> 45 <span>Sec</span> </h3>
+                                            <p>Total Calls Duration</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="rinforBox">
+                                            <h3>3 <span>min</span> 45 <span>Sec</span> </h3>
+                                            <p>Avg. Calls Duration</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="callrecordsList">
+                                    <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <th>Call To</th>
+                                        <th>Date</th>
+                                        <th>Start Time</th>
+                                        <th>End Time</th>
+                                        <th>Call Duration</th>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>+1 715-443-8490</td>
+                                            <td>Jun 15, 2018</td>
+                                            <td>2:58:06 PM</td>
+                                            <td>2:58:37 PM</td>
+                                            <td>00:00:31</td>
+                                        </tr>
+                                        <tr>
+                                            <td>+1 715-443-8490</td>
+                                            <td>Jun 15, 2018</td>
+                                            <td>2:58:06 PM</td>
+                                            <td>2:58:37 PM</td>
+                                            <td>00:00:31</td>
+                                        </tr>
+                                        <tr>
+                                            <td>+1 715-443-8490</td>
+                                            <td>Jun 15, 2018</td>
+                                            <td>2:58:06 PM</td>
+                                            <td>2:58:37 PM</td>
+                                            <td>00:00:31</td>
+                                        </tr>
+                                        <tr>
+                                            <td>+1 715-443-8490</td>
+                                            <td>Jun 15, 2018</td>
+                                            <td>2:58:06 PM</td>
+                                            <td>2:58:37 PM</td>
+                                            <td>00:00:31</td>
+                                        </tr>
+                                        <tr>
+                                            <td>+1 715-443-8490</td>
+                                            <td>Jun 15, 2018</td>
+                                            <td>2:58:06 PM</td>
+                                            <td>2:58:37 PM</td>
+                                            <td>00:00:31</td>
+                                        </tr>
+                                        <tr>
+                                            <td>+1 715-443-8490</td>
+                                            <td>Jun 15, 2018</td>
+                                            <td>2:58:06 PM</td>
+                                            <td>2:58:37 PM</td>
+                                            <td>00:00:31</td>
+                                        </tr>
+                                        <tr>
+                                            <td>+1 715-443-8490</td>
+                                            <td>Jun 15, 2018</td>
+                                            <td>2:58:06 PM</td>
+                                            <td>2:58:37 PM</td>
+                                            <td>00:00:31</td>
+                                        </tr>
+                                        <tr>
+                                            <td>+1 715-443-8490</td>
+                                            <td>Jun 15, 2018</td>
+                                            <td>2:58:06 PM</td>
+                                            <td>2:58:37 PM</td>
+                                            <td>00:00:31</td>
+                                        </tr>
+                                        <tr>
+                                            <td>+1 715-443-8490</td>
+                                            <td>Jun 15, 2018</td>
+                                            <td>2:58:06 PM</td>
+                                            <td>2:58:37 PM</td>
+                                            <td>00:00:31</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerBlock">
+            <div class="container">
+                <div class="text-right">
+                    <p>Powered by</p>
+                    <img src="images/footer-logo.png" alt="img" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="modal customModal fade" id="changeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <h3>Change Password</h3>
+                    <div class="close-btn" data-dismiss="modal">
+                        <span>
+                            <i class="icon-close"></i>
+                        </span>
+                    </div>
+
+                    <div class="inviteForm">
+
+
+                        <div class="form-group">
+                            <label>Old Password</label>
+                            <input type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>New Password</label>
+                            <input type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Confirm Password</label>
+                            <input type="text" class="form-control" />
+                        </div>
+
+                        <div class="btn-field padding-top-2x">
+                            <button class="button button-hover button-uppercase button-shadow button-o-top button-block button-height-xlarge button-rounded "><span>Change</span></button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

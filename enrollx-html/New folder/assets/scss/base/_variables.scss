@@ -1,0 +1,28 @@
+// THEME AND COLOR
+$black         : #000000 !default;
+$white         : #ffffff !default;
+$theme         : #1990ea !default;
+$font-color    : #333f52 !default;
+$grery-color   : #959daa !default;
+
+$font          : "InterUi" !default;
+$imgpath       : "../images/" !default;
+$font-path     : "../fonts" !default;
+$icon-font-path: "../fonts/icons" !default;
+$url           : $imgpath !default;
+$fa-font-path  : "../node_modules/font-awesome/fonts" !default; // FONTS and TEXT STYLE
+$fontnormal    : 14px !default;
+$fontsmall     : 12px !default;
+$lineheight    : 1.5 !default;
+$fontawesome   : FontAwesome !default;
+$spacing       : 5px !default; // Display
+$in            : inline !default;
+$ib            : inline-block !default;
+$b             : block !default;
+$t             : table !default;
+$cell          : table-cell !default;
+$n             : none !default; //TRANSITION EFFECT
+$trasition_all : all 300ms ease-in-out !default; // Margin
+$a             : auto !default;
+$auto          : auto auto !default;
+$za            : 0 auto !default;

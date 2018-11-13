@@ -1,0 +1,53 @@
+.loginSection {
+    @include display-flex;
+    @include align-items(center);
+    @include experimental-value(min-height, calc(100vh));
+    .loginBlock {
+        max-width: 430px;
+        width: 100%;
+        margin: 0 auto;
+        @include padding(0 10);
+        text-align: center;
+        .logoBlock {
+            @include padding-bottom(30);
+            border-bottom: 1px solid #e3e8ea;
+            &>a {
+                display: inline-block;
+            }
+        }
+        .loginFrom {
+            .field-group {
+                margin-top: 40px;
+                .forgot_link {
+                    text-align: left;
+                    &>a {
+                        text-decoration: none;
+                        @include fontsize(13);
+                        color: $grery-color;
+                        display: inline-block;
+                        @include padding-bottom(3);
+                        border-bottom: 1px solid transparent;
+                        &:hover,
+                        &:focus {
+                            color: $theme;
+                            border-color: $theme;
+                        }
+                    }
+                }
+                .btn-field {
+                    @include margin-top(30);
+                }
+            }
+            .__footer {
+                margin-top: 40px;
+                p {
+                    margin-top: 5px;
+                    text-transform: uppercase;
+                    color: #a2acb1;
+                    font-weight: 600;
+                    @include fontsize(13);
+                }
+            }
+        }
+    }
+}

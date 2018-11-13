@@ -1,0 +1,339 @@
+.header-section {
+    background-color: $white;
+    box-shadow: 0px 1px 8px 0px rgba(25, 35, 60, 0.18);
+    -webkit-box-shadow: 0px 1px 8px 0px rgba(25, 35, 60, 0.18);
+    .headerBlock {
+        position: relative;
+        display: table;
+        width: 100%;
+        .logoContainer {
+            width: 150px;
+            @include pos(ab, null null null 0);
+            @include media("<=990px") {
+                @include pos(rel, 0 0 0 0);
+                float: left;
+            }
+            @include media("<=576px") {
+                float: none;
+                margin: 10px auto;
+            }
+        }
+    }
+    .logo {
+        display: block;
+        width: 150px;
+        @include padding(15 20 15 0);
+        border-right: 1px solid #ebedf4;
+        img {
+            max-width: 100%;
+        }
+        @include media("<=767px") {
+            border: 0;
+            margin: 0 auto;
+        }
+        @include media("<=576px") {
+            float: none;
+            margin: 10px auto;
+        }
+    }
+    .nav-container {
+        padding: 0 360px 0 150px;
+        @include media("<=990px") {
+            padding: 0;
+        }
+        @include media("<=990px") {
+            @include pos(fix, 0 null 0 -250px);
+            -webkit-transition: all 600ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+            transition: all 600ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+            @include opacity(0);
+            width: 250px;
+            background-color: $theme;
+            z-index: 10;
+            &.sideOpen {
+                left: 0;
+                @include opacity(1);
+            }
+        }
+        .nav-section {
+            width: 875px;
+            margin: 0 auto;
+            padding: 0 15px;
+            @include media("<=1400px") {
+                width: auto;
+            }
+            nav {
+                ul {
+                    li {
+                        display: inline-block;
+                        @include padding(17 20);
+                        &>a {
+                            font-weight: 700;
+                            text-decoration: none;
+                            @include fontsize(14);
+                            color: #333f52;
+                            display: block;
+                            -webkit-transform: perspective(1px) translateZ(0);
+                            transform: perspective(1px) translateZ(0);
+                            position: relative;
+                            @include media("<=990px") {
+                                color: $white;
+                            }
+                            &:before {
+                                content: "";
+                                position: absolute;
+                                z-index: -1;
+                                right: 0;
+                                width: 0;
+                                bottom: -18px;
+                                background: $theme;
+                                @include radius(2px);
+                                height: 2px;
+                                -webkit-transition-property: width;
+                                transition-property: width;
+                                -webkit-transition-duration: 0.2s;
+                                transition-duration: 0.2s;
+                                -webkit-transition-timing-function: ease-out;
+                                transition-timing-function: ease-out;
+                                @include media("<=990px") {
+                                    background-color: $white;
+                                }
+                            }
+                            &:hover:before,
+                            &:focus:before,
+                            &:active:before {
+                                right: auto;
+                                left: 0;
+                                width: 100%;
+                            }
+                            &:hover,
+                            &:focus {
+                                color: $theme;
+                                span.ico {
+                                    color: $theme;
+                                    @include media("<=990px") {
+                                        color: $white;
+                                    }
+                                }
+                                @include media("<=990px") {
+                                    color: $white;
+                                }
+                            }
+                            &.active {
+                                color: $theme;
+                                @include media("<=990px") {
+                                    color: $white;
+                                }
+                                &:before {
+                                    right: auto;
+                                    left: 0;
+                                    width: 100%;
+                                }
+                                span.ico {
+                                    color: $theme;
+                                    @include media("<=990px") {
+                                        color: $white;
+                                    }
+                                }
+                            }
+                            span.ico {
+                                @include fontsize(18);
+                                color: #8b939f;
+                                display: inline-block;
+                                vertical-align: top;
+                                @include margin-right(5);
+                                @include media("<=990px") {
+                                    color: $white;
+                                }
+                            }
+                        }
+                        &:first-child {
+                            @include media(">=991px") {
+                                padding-left: 0;
+                            }
+                        }
+                        &:last-child {
+                            @include media(">=991px") {
+                                padding-right: 0;
+                            }
+                        }
+                        @include media("<=990px") {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .usr-opt-section {
+        @include pos(ab, 10px 0 null null);
+        @include media("<=990px") {
+            @include pos(rel, 0 0 0 0);
+            float: right;
+            margin-top: 10px;
+        }
+        @include media("<=767px") {
+            text-align: center;
+        }
+        @include media("<=576px") {
+            float: none;
+            margin: 10px auto;
+        }
+        .account-dropdown {
+            display: inline-block;
+            padding-right: 10px;
+            position: relative;
+            @include media("<=767px") {
+                padding: 0;
+                margin-bottom: 10px;
+            }
+
+            &::after {
+                @include pos(ab, -15px -5px -15px null);
+                content: "";
+                width: 1px;
+                background-color: #ebedf4;
+                @include media("<=767px") {
+                    display: none;
+                }
+            }
+            .bootstrap-select {
+                width: 180px;
+            }
+            .dropdown-menu {
+                border-radius: 5px;
+                box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+                -webkit-box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+                border: 0;
+                min-width: 230px;
+                padding-bottom: 0;
+                margin-top: 20px;
+                li {
+                    &.active {
+                        background-color: transparent;
+                        color: $font-color;
+                        position: relative;
+                        &:after {
+                            font-family: 'icomoon' !important;
+                            content: "\e90c";
+                            @include pos(ab, 50% null 0 10px);
+                            @include fontsize(20);
+                            @include translateY(-50%);
+                            border: 0;
+                            background: none;
+                            color: $theme;
+                        }
+                    }
+                    &:first-child {
+                        .dropdown-item {
+                            border-top: 0;
+                        }
+                    }
+                    &.dropdown-header {
+                        @include padding(15 20);
+                        font-weight: 600;
+                        color: #8b939f;
+                    }
+                }
+                .dropdown-item {
+                    @include padding(15 20 15 40);
+                    border-top: 1px solid #e8edf0;
+                    font-weight: 600;
+                    &.active {
+                        background-color: transparent;
+                        color: $font-color;
+                    }
+                }
+                .inner {
+                    margin-top: 0;
+                }
+            }
+            .account-dropdown-menu {
+                background-color: #333f52;
+                border-radius: 30px;
+                @include padding(10 20);
+                outline: none !important;
+                color: $white;
+                font-weight: 700;
+                max-width: 180px;
+                &:hover {
+                    background-color: darken(#333f52, 10%);
+                }
+            }
+        }
+        .usr-drop-down {
+            display: inline-block;
+            padding-left: 10px;
+            cursor: pointer;
+            @include media("<=767px") {
+                padding-left: 0;
+            }
+            .dropdown-menu {
+                border-radius: 5px;
+                box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+                -webkit-box-shadow: 0px 3px 7px 0px rgba(59, 65, 94, 0.14), 0px 3px 6px 0px rgba(0, 0, 0, 0.07);
+                border: 0;
+                min-width: 200px;
+                padding-bottom: 0;
+                margin-top: 20px;
+                .inner {
+                    margin-top: 0;
+                }
+                &>ul {
+                    &>li {
+                        &>a {
+                            @include padding(10 20);
+                            text-decoration: none;
+                            font-weight: 600;
+                        }
+                        &:last-child {
+                            margin-top: 10px;
+                            &>a {
+                                border-top: 1px solid #e8edf0;
+                                @include padding(15 20);
+                                &>i {
+                                    color: #8b939f;
+                                    @include margin-right(10);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .mr-3 {
+                margin-right: 5px !important;
+            }
+            ._usrlabel {
+                span {
+                    width: 40px;
+                    height: 40px;
+                    display: block;
+                    border-radius: 50%;
+                    background-color: #f7971c;
+                    color: $white;
+                    font-weight: 700;
+                    text-align: center;
+                    line-height: 40px;
+                    @include fontsize(13);
+                }
+            }
+            .media-body {
+                font-weight: 600;
+                span.caret-ico {
+                    font-size: 10px;
+                    color: #585d81;
+                    @include margin-left(4);
+                }
+            }
+        }
+        .hamburgerContainer {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+            margin-top: 5px;
+            @include media("<=576px") {
+                margin: 0;
+                @include pos(ab, -50px 0 null null);
+            }
+        }
+    }
+}
